@@ -83,8 +83,8 @@
                    
                     <li><a href="index.php"><i class="ti ti-home"></i><span>Dashboard</span></a></li>
                     <li><a href="my-tickets.php"><i class="ti ti-ticket"></i><span>My tickets</span></a></li>
-                    <li><a href="my-reports.php"><i class="ti ti-chart-dots-2"></i><span>My Reports</span></a></li>
-                    <li><a href="ticket-details.php"><i class="ti ti-chart-dots-2"></i><span>Ticket details</span></a></li>
+                    <li><a href="my-reports.php"><i class="ti ti-report"></i><span>My Reports</span></a></li>
+                    <li><a href="ticket-details.php"><i class="ti ti-article"></i><span>Ticket details</span></a></li>
                     
                    <!--  <li><a href="quick-statics.php"><i class="ti ti-chart-dots-2"></i><span>Quick statics</span></a></li>
                     <li><a href="ticket-details.php"><i class="ti ti-list"></i><span>Tickets details</span></a></li> -->

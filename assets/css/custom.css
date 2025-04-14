@@ -302,6 +302,15 @@ counter-reset: item;
     background-color: #f46925;
     color: #FFF;
 }
+
+.avatar i.fa.fa-thumbs-up {
+    font-size: 34px;
+}
+
+.reportBox{
+    min-height: ;
+}
+
 .avatar-upload {
     position: relative;
     max-width: 205px;
@@ -510,7 +519,7 @@ counter-reset: item;
 
 /* New Css Start */
 
-@media(max-width:1400px){
+@media(max-width:1399.98px){
 
     .profile-banner-txt .profile-banner-img {
         width: 200px;
@@ -531,10 +540,22 @@ counter-reset: item;
         left: 50px;
         display: flex
     }
+
+    .card.flex-fill {
+        min-height: 136px;
+    }
+    
+    .card {
+        margin-bottom: 18px;
+    }
+
+    .reportBox {
+        min-height: 154px !important;
+    }
     
 }
   
-@media(max-width:1199px){
+@media(max-width:1199.98px){
     .post-stik{
         position: relative;
         top: 0;
@@ -548,9 +569,22 @@ counter-reset: item;
         left: 20px;
        
     }
+
+    .card.flex-fill {
+        margin-bottom: 10px;
+    }
+    
+    .card {
+        margin-bottom: 14px !important;
+    }
+
+    .reportBox {
+        min-height: 150px !important;
+    }
+
 }
   
-@media(max-width:991px){
+@media(max-width:991.98px){
     .mb-20{
         margin-bottom: 1rem;
     }
@@ -560,6 +594,36 @@ counter-reset: item;
         left: 20px;
         display: inline-table;
         align-items: center;
+    }    
+
+    .reportBox {
+        min-height: auto !important;
     }
-    
+}
+
+@media(max-width:767.98px){
+
+    .card.flex-fill {
+        min-height: auto;
+    }
+
+}
+
+
+@media(max-width:575.98px){
+    .card .card-body {
+        padding: 10px !important;
+    }
+}
+
+
+
+@media(max-width:480px){
+    .card .card-body {
+        padding: 10px !important;
+    }
+
+    .avatar i.fa.fa-thumbs-up {
+        font-size: 24px;
+    }
 }

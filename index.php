@@ -541,7 +541,6 @@
 						</div>
 				</div>
 
-
 				<div class="row mb-4">
 					<div class="col-xl-12 col-md-12">
 						<div class="card flex-fill overflow-hidden">
@@ -586,8 +585,8 @@
 													</div>
 												</div>
 											</div>
-											<div class="col-lg-12 col-md-6 mb-3">
-												<div class="card b-0 shadow-none m-0">
+											<div class="col-lg-12 col-md-6">
+												<div class="card b-0 shadow-none">
 													<div class="card-body p-3">
 														<div class="fw-500">
 															<p class="text-mute mt-0 mb-2"><i
@@ -599,7 +598,7 @@
 												</div>
 											</div>
 											<div class="col-lg-12 col-md-6">
-												<div class="card b-0 shadow-none m-0">
+												<div class="card b-0 shadow-none">
 													<div class="card-body p-3">
 														<div class="fw-500">
 															<p class="text-mute mt-0 mb-2"><i
@@ -826,7 +825,6 @@
 					</div>
 				</div>
 
-
 				<div class="row">
 					<div class="col-xl-6">
 						<div class="card b-1 overflow-hidden">
@@ -845,10 +843,10 @@
 									</div>
 									<div class="col-6 bb-1 ">
 										<div class="card shadow-none ps-10">
-										<div class="d-flex align-items-center justify-content-between px-4 py-3">
+										<div class="d-flex align-items-center justify-content-between px-md-4 px-2 py-md-3 py-2">
 											
 											<div class="avatar  me-15 w-25 h-100  text-center align-content-center me-10">
-												<i class="fs-34 fa fa-thumbs-up text-success"></i>
+												<i class="fa fa-thumbs-up text-success"></i>
 											</div>
 												<div>
 													<p class="text-mute m-0">Positive</p>
@@ -864,10 +862,10 @@
 									</div>
 									<div class="col-6 be-1 ">
 										<div class="card shadow-none pe-10 mt-20">
-										<div class="d-flex align-items-center justify-content-between px-4 py-3">
+										<div class="d-flex align-items-center justify-content-between px-md-4 px-2 py-md-3 py-2">
 											
 											<div class="avatar  me-15 w-25 h-100  text-center align-content-center me-10">
-												<i class="fs-34 fa fa-thumbs-up text-warning"></i>
+												<i class="fa fa-thumbs-up text-warning"></i>
 											</div>
 											<div>
 												<p class="text-mute m-0">Neutral</p>
@@ -883,10 +881,10 @@
 									</div>
 									<div class="col-6">
 										<div class="card shadow-none ps-10 mt-20">
-										<div class="d-flex align-items-center justify-content-between px-4 py-3">
+										<div class="d-flex align-items-center justify-content-between px-md-4 px-2 py-md-3 py-2">
 											
 											<div class="avatar  me-15 w-25 h-100  text-center align-content-center me-10">
-												<i class="fs-34 fa fa-thumbs-up text-danger"></i>
+												<i class="fa fa-thumbs-up text-danger"></i>
 											</div>
 												<div>
 													<p class="text-mute m-0">Negative</p>
@@ -991,14 +989,8 @@
                         </div>
                     </div>
                 </div>
-
-			
+		
 				</div>
-
-				
-
-
-
 
 				<!-- /Page Wrapper -->
 

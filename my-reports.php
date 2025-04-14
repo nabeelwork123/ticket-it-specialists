@@ -76,7 +76,7 @@
 			
 				<div class="row g-1">
 					<div class="col-xl-2 col-md-3">
-						<div class="card flex-fill">
+						<div class="card flex-fill reportBox">
 							<div class="card-body">
 							<h3 class="mb-1 fs-24">47 <span class="fs-12 fw-medium text-danger"><i class="fa-solid fa-caret-up me-1"></i>+5.3%</span></h3>
 								<span class="fs-14 fw-medium text-body">Tickets Resolved</span>
@@ -86,7 +86,7 @@
 					</div>
 
 					<div class="col-xl-2 col-md-3">
-						<div class="card flex-fill">
+						<div class="card flex-fill reportBox">
 							<div class="card-body">
 							<h3 class="mb-1 fs-24">69<span class="fs-12 fw-medium text-danger"><i class="fa-solid fa-caret-up me-1"></i>+5.3%</span></h3>
 								<span class="fs-14 fw-medium text-body">Tickets Assigned</span>
@@ -98,7 +98,7 @@
 					
 
 					<div class="col-xl-2 col-md-3">
-						<div class="card flex-fill">
+						<div class="card flex-fill reportBox">
 							<div class="card-body">
 							<h3 class="mb-1 fs-24">07<span class="fs-12 fw-medium text-danger"><i class="fa-solid fa-caret-up me-1"></i>+5.3%</span></h3>
 								<span class="fs-14 fw-medium text-body"> Missed deadlines</span>
@@ -108,7 +108,7 @@
 					</div>
 
 					<div class="col-xl-2 col-md-3">
-						<div class="card flex-fill">
+						<div class="card flex-fill reportBox">
 							<div class="card-body">
 							<h3 class="mb-1 fs-24">02:30<span class="fs-12 fw-medium text-danger"><i class="fa-solid fa-caret-up me-1"></i>+5.3%</span></h3>
 								<span class="fs-14 fw-medium text-body">Avg. Resolution Time</span>
@@ -118,7 +118,7 @@
 					</div>
 
 					<div class="col-xl-2 col-md-3">
-						<div class="card flex-fill">
+						<div class="card flex-fill reportBox">
 							<div class="card-body">
 							<h3 class="mb-1 fs-24">4.5<span class="fs-12 fw-medium text-danger"><i class="fa-solid fa-caret-up me-1"></i>+5.3%</span></h3>
 								<span class="fs-14 fw-medium text-body">User Rating Avg.</span>
@@ -128,7 +128,7 @@
 					</div>
 
 					<div class="col-xl-2 col-md-3">
-						<div class="card flex-fill">
+						<div class="card flex-fill reportBox">
 							<div class="card-body">
 							<h3 class="mb-1 fs-24">13<span class="fs-12 fw-medium text-danger"><i class="fa-solid fa-caret-up me-1"></i>+5.3%</span></h3>
 								<span class="fs-14 fw-medium text-body">Reopened Tickets</span>
@@ -319,26 +319,26 @@
 					</div> -->
 
 					<div class="col-xl-6">
-						<div class="card b-1 overflow-hidden">
+					<div class="card b-1 overflow-hidden">
 							<div class="card-header no-border">
 								<h5 class="">Employees satisfaction on tickets</h5>
 							</div>
 							<div class="card-body">
 								<div class="row">
-									<div class="col-12 be-1 bb-1 ">
+									<div class="col-6 be-1 bb-1 ">
 										<div class="card border border-0 shadow-none ps-10 px-2 py-2">
 											<div>
-												<p class="text-mute m-0 mb-3">Tickets opened</p>
+												<p class="text-mute m-0 mb-3">Tickets picked</p>
 												<h3 class="mb-0 fw-500 l-h-50">180 tickets</h3>
 											</div>
 										</div>
 									</div>
 									<div class="col-6 bb-1 ">
 										<div class="card shadow-none ps-10">
-										<div class="d-flex align-items-center justify-content-between px-4 py-3">
+										<div class="d-flex align-items-center justify-content-between px-md-4 px-2 py-md-3 py-2">
 											
 											<div class="avatar  me-15 w-25 h-100  text-center align-content-center me-10">
-												<i class="fs-34 fa fa-thumbs-up text-success"></i>
+												<i class="fa fa-thumbs-up text-success"></i>
 											</div>
 												<div>
 													<p class="text-mute m-0">Positive</p>
@@ -354,10 +354,10 @@
 									</div>
 									<div class="col-6 be-1 ">
 										<div class="card shadow-none pe-10 mt-20">
-										<div class="d-flex align-items-center justify-content-between px-4 py-3">
+										<div class="d-flex align-items-center justify-content-between px-md-4 px-2 py-md-3 py-2">
 											
 											<div class="avatar  me-15 w-25 h-100  text-center align-content-center me-10">
-												<i class="fs-34 fa fa-thumbs-up text-warning"></i>
+												<i class="fa fa-thumbs-up text-warning"></i>
 											</div>
 											<div>
 												<p class="text-mute m-0">Neutral</p>
@@ -373,10 +373,10 @@
 									</div>
 									<div class="col-6">
 										<div class="card shadow-none ps-10 mt-20">
-										<div class="d-flex align-items-center justify-content-between px-4 py-3">
+										<div class="d-flex align-items-center justify-content-between px-md-4 px-2 py-md-3 py-2">
 											
 											<div class="avatar  me-15 w-25 h-100  text-center align-content-center me-10">
-												<i class="fs-34 fa fa-thumbs-up text-danger"></i>
+												<i class="fa fa-thumbs-up text-danger"></i>
 											</div>
 												<div>
 													<p class="text-mute m-0">Negative</p>
@@ -393,7 +393,6 @@
 								</div>
 							</div>
 						</div>
-					</div>
 
                 </div>
 

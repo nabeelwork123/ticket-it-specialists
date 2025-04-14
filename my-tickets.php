@@ -86,7 +86,7 @@
 								</div>
 								<div class="d-flex justify-content-end me-2">
 
-								<a href="javascript:;" data-bs-toggle="offcanvas"  data-bs-target="#offcanvas1" class="btn btn-primary btn-sm me-4 h-25">Filters</a>
+								<a href="javascript:;" data-bs-toggle="offcanvas"  data-bs-target="#offcanvas1" class="btn btn-primary btn-sm me-sm-4 me-2 h-25">Filters</a>
 
 								 <!-- <select class="form-select me-2 py-0 mb-2 " id="offcanvasSelect">
 												<option value="" selected>Filter by </option>
