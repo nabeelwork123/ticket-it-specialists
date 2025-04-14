@@ -407,41 +407,78 @@
 	// 		top: 0
 	// 	},
 	// });
-    var chart = c3.generate({
-        bindto: '#chart-bar',
-        data: {
-          columns: [
-            ['data1', 11, 8, 15, 18, 19, 17, 10, 14, 13, 16, 20, 22], // example values
-            ['data2', 7, 7, 5, 7, 9, 12, 8, 9, 11, 13, 17, 19]         // example values
-          ],
-          type: 'bar',
-          colors: {
-            data1: '#664dc9',
-            data2: '#44c4fa'
-          },
-          names: {
-            'data1': 'Tickets created: 32',
-            'data2': 'Tickets solved: 45'
-          }
-        },
-        axis: {
-          x: {
-            type: 'category',
-            categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
-          },
-        },
-        bar: {
-          width: 16
-        },
-        legend: {
-          show: false
-        },
-        padding: {
-          bottom: 0,
-          top: 0
-        }
-      });
-      
+    // var chart = c3.generate({
+    //     bindto: '#chart-bar',
+    //     data: {
+    //       columns: [
+    //         ['data1', 11, 8, 15, 18, 19, 17, 10, 14, 13, 16, 20, 22], // example values
+    //         ['data2', 7, 7, 5, 7, 9, 12, 8, 9, 11, 13, 17, 19]         // example values
+    //       ],
+    //       type: 'bar',
+    //       colors: {
+    //         data1: '#664dc9',
+    //         data2: '#44c4fa'
+    //       },
+    //       names: {
+    //         'data1': 'Tickets created: 32',
+    //         'data2': 'Tickets solved: 45'
+    //       }
+    //     },
+    //     axis: {
+    //       x: {
+    //         type: 'category',
+    //         categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+    //       },
+    //     },
+    //     bar: {
+    //       width: 16
+    //     },
+    //     legend: {
+    //       show: false
+    //     },
+    //     padding: {
+    //       bottom: 0,
+    //       top: 0
+    //     }
+    //   });
+	var chart = c3.generate({
+		bindto: '#chart-bar',
+		data: {
+		  columns: [
+			['data1', 11, 8, 15, 18, 19, 17, 10, 14, 13, 16, 20, 22], // Tickets created
+			['data2', 7, 7, 5, 7, 9, 12, 8, 9, 11, 13, 17, 19],       // Tickets solved
+			['data3', 5, 6, 9, 10, 11, 8, 7, 10, 9, 12, 14, 15]       // New ticket comparison (example values)
+		  ],
+		  type: 'bar',
+		  colors: {
+			data1: '#664dc9',
+			data2: '#44c4fa',
+			data3: '#f4d03f' // Yellow bar
+		  },
+		  names: {
+			'data1': 'Tickets created: 32',
+			'data2': 'Tickets solved: 45',
+			'data3': 'New Tickets Comparison'
+		  }
+		},
+		axis: {
+		  x: {
+			type: 'category',
+			categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+		  }
+		},
+		bar: {
+		  width: 16
+		},
+		legend: {
+		  show: false
+		},
+		padding: {
+		  bottom: 0,
+		  top: 0
+		}
+	  });
+	  
 
  /*chart-bar*/
 	var chart = c3.generate({

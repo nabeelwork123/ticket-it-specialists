@@ -614,7 +614,7 @@
                     
 								</div>
 
-								<div class="mb-3">
+								<!-- <div class="mb-3">
 									<label class="form-label mb-1">Companies</label>
 									<input type="text" class="form-control" placeholder="">
 								</div>
@@ -622,7 +622,7 @@
 								<div class="mb-3">
 									<label class="form-label mb-1">Tags</label>
 									<input type="text" class="form-control" placeholder="">
-								</div>
+								</div> -->
 
 								<div class="d-flex justify-content-start">
 									<button type="button" class="btn btn-primary btn-md fs-12 text-uppercase" data-bs-dismiss="offcanvas">Apply filters</button>
