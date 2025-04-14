@@ -38,6 +38,12 @@
 <script src="assets/js/daterangepicker.js" type="text/javascript"></script>
 
 
+<!-- Chart JS -->
+<script src="assets/js/chart.min.js" type="text/javascript"></script>
+<script src="assets/js/chart-data2.js" type="text/javascript"></script>
+<!-- <script src="assets/js/piechart.min.js" type="text/javascript"></script>
+<script src="assets/js/pie-chart-data.js" type="text/javascript"></script> -->
+
 <!-- Fullcalendar JS -->
 <script src="assets/js/index.global.min.js" type="text/javascript"></script>
 <script src="assets/js/calendar-data.js" type="text/javascript"></script>
@@ -64,9 +70,7 @@
 <script src="assets/js/c3.min.js" type="text/javascript"></script>
 <script src="assets/js/c3chart-data.js" type="text/javascript"></script>
 
-<!-- Chart JS -->
-<script src="assets/js/chart.min.js" type="text/javascript"></script>
-<script src="assets/js/chart-data2.js" type="text/javascript"></script>
+
 
 <!-- Slimscroll JS -->
 <script src="assets/js/jquery.slimscroll.min.js" type="text/javascript"></script>

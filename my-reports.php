@@ -236,7 +236,7 @@
                         <h5 class="">Ticket by first reply time</h5>
                     </div>
                     <div class="card-body">
-					<div id="chart-pie"></div>
+					<div id="chart-pie" class="h-200"></div>
                     </div>
                 </div>
             </div>
