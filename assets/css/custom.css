@@ -516,7 +516,30 @@ counter-reset: item;
 .offcanvas-custom {
     width: 800px !important; /* or any size you want */
   }
-
+  .input-icon-end input{
+    font-size:10px;
+  }
+.date-range::placeholder{
+    font-size:12px;
+}
+.rangg::placeholder{
+    font-size:12px!important;
+}
+.rangg input[name="daterange"]{
+    font-size:12px!important;
+}
+.form-control::placeholder{
+    font-size:12px;
+}
+.form-select::placeholder{
+    font-size:12px!important;
+}
+.offcanvas select::placeholder{
+    font-size:12px!important;
+}
+.form-select {
+    font-size:12px!important;
+}
 /* New Css Start */
 
 @media(max-width:1399.98px){

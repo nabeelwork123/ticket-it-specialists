@@ -78,19 +78,19 @@
 					<div class="col-xl-2 col-md-3">
 						<div class="card flex-fill">
 							<div class="card-body">
-							<h3 class="mb-1 fs-24">26 <span class="fs-12 fw-medium text-danger"><i class="fa-solid fa-caret-up me-1"></i>+5.3%</span></h3>
-								<span class="fs-14 fw-medium text-body">New Tickets (today)</span>
-								<p class="fs-12 mb-0">from yesterday </p>
+							<h3 class="mb-1 fs-24">26 </h3>
+								<span class="fs-14 fw-medium text-body">New Tickets </span>
+								<p class="fs-12 mb-0">&nbsp; </p>
 							</div>
 						</div>
 					</div>
 
 					<div class="col-xl-2 col-md-3">
 						<div class="card flex-fill">
-							<div class="card-body">
-							<h3 class="mb-1 fs-24">13<span class="fs-12 fw-medium text-danger"><i class="fa-solid fa-caret-up me-1"></i>+5.3%</span></h3>
+							<div class="card-body h-100">
+							<h3 class="mb-1 fs-24">13</h3>
 								<span class="fs-14 fw-medium text-body">Tickets In Progress</span>
-								<p class="fs-12 mb-0">from yesterday </p>
+								<p class="fs-12 mb-0">&nbsp; </p>
 							</div>
 						</div>
 					</div>
@@ -98,9 +98,9 @@
 					<div class="col-xl-2 col-md-3">
 						<div class="card flex-fill">
 							<div class="card-body">
-							<h3 class="mb-1 fs-24">09<span class="fs-12 fw-medium text-danger"><i class="fa-solid fa-caret-up me-1"></i>+5.3%</span></h3>
-								<span class="fs-14 fw-medium text-body">Resolved Today</span>
-								<p class="fs-12 mb-0">from yesterday </p>
+							<h3 class="mb-1 fs-24">09</h3>
+								<span class="fs-14 fw-medium text-body">Resolved Tickets</span>
+									<p class="fs-12 mb-0">&nbsp; </p>
 							</div>
 						</div>
 					</div>
@@ -108,9 +108,24 @@
 					<div class="col-xl-2 col-md-3">
 						<div class="card flex-fill">
 							<div class="card-body">
-							<h3 class="mb-1 fs-24">17<span class="fs-12 fw-medium text-danger"><i class="fa-solid fa-caret-up me-1"></i>+5.3%</span></h3>
+							<h3 class="mb-1 fs-24">17</h3>
 								<span class="fs-14 fw-medium text-body">Overdue Tickets</span>
-								<p class="fs-12 mb-0">from yesterday </p>
+								<p class="fs-12 mb-0">&nbsp; </p>
+								<!-- <p class="fs-12 mb-0">&nbsp; </p> -->
+								<!-- <div class="d-flex justify-content-between mb-0">
+									<div class="shadow-none px-2 py-1 mb-0 bg-light-subtle rounded">
+									<span class="fs-12 fw-medium text-body">24 Hrs</span>
+									<p class="fs-10  mb-0">7 tickets </p>
+									</div>
+									<div class="shadow-none px-2  py-1 mb-0 bg-light-subtle rounded">
+									<span class="fs-12 fw-medium text-body">48 Hrs</span>
+									<p class="fs-10  mb-0">10 tickets </p>
+									</div>
+									<div class="shadow-none px-2 py-1 mb-0 bg-light-subtle rounded">
+									<span class="fs-12 fw-medium text-body">72 Hrs</span>
+									<p class="fs-10  mb-0">15 tickets </p>
+									</div>
+								</div> -->
 							</div>
 						</div>
 					</div>
@@ -118,9 +133,10 @@
 					<div class="col-xl-2 col-md-3">
 						<div class="card flex-fill">
 							<div class="card-body">
-							<h3 class="mb-1 fs-24">3:67<span class="fs-12 fw-medium text-danger"><i class="fa-solid fa-caret-up me-1"></i>+5.3%</span></h3>
+							<h3 class="mb-1 fs-24">3.67<span class="fs-12 fw-medium text-danger"><i class="fa-solid fa-caret-up me-1"></i>+5.3%</span></h3>
 								<span class="fs-14 fw-medium text-body">Avg. 1st Response Time</span>
-								<p class="fs-12  mb-0">from yesterday </p>
+								<p class="fs-12  mb-0">from last month </p>
+								<!-- <p class="fs-12 mb-0">&nbsp; </p> -->
 							</div>
 						</div>
 					</div>
@@ -130,7 +146,8 @@
 							<div class="card-body">
 							<h3 class="mb-1 fs-24">3.67<span class="fs-12 fw-medium text-danger"><i class="fa-solid fa-caret-up me-1"></i>+5.3%</span></h3>
 								<span class="fs-14 fw-medium text-body">Avg. Resolve Time</span>
-								<p class="fs-12  mb-0">from yesterday </p>
+								<p class="fs-12  mb-0">from last month </p>
+								<!-- <p class="fs-12 mb-0">&nbsp; </p> -->
 							</div>
 						</div>
 					</div>
@@ -146,9 +163,10 @@
 										<!-- <p class="text-body fs-12">List of ticket open by Customers</p> -->
 									</div>
 									<div class="d-flex justify-content-end me-2">
-										<a href="#" class="btn btn-primary btn-sm h-25 me-3">Search by filters</a>
+										<a href="javascript:;" data-bs-toggle="offcanvas"  data-bs-target="#offcanvas1"class="btn btn-primary btn-sm h-25 me-0">Search by filters</a>
 									
-									<div class="dropdown mb-2">
+									
+									<div class="dropdown mb-2 d-none">
 										<a href="javascript:void(0);"
 											class="btn btn-white border btn-sm d-inline-flex align-items-center"
 											data-bs-toggle="dropdown">
@@ -177,16 +195,16 @@
 										<thead class="thead-light">
 											<tr>
 
-												<th>Ticket ID</th>
-												<th>Employee Name</th>
-												<th>Subject</th>
-												<th>Category</th>
-												<th>Status</th>
-												<th>Priority</th>
-												<th>Ticket Date</th>
-												<th>Due Date</th>
-												<th>Location</th>
-												<th>Action</th>
+												<th scope="col">Ticket ID</th>
+												<th scope="col">Employee Name</th>
+												<th scope="col">Ticket Detail</th>
+												<th scope="col">Category</th>
+												<th scope="col">Status</th>
+												<th scope="col">Priority</th>
+												<!-- <th scope="col">Ticket Date</th>
+												<th scope="col">Due Date</th> -->
+												<th scope="col">Location</th>
+												<th scope="col">Action</th>
 											</tr>
 										</thead>
 										<tbody>
@@ -194,16 +212,16 @@
 												<td>
 												09834
 												</td>
-												<td>
+												<td class="">
 													<div class="d-flex align-items-center">
 														<a href="assets/img/users/user-32.webp" data-fancycard="gallery"
 															data-caption="" class="avatar avatar-lg">
 															<img src="assets/img/users/user-32.webp" class="img-fluid rounded-circle" alt="img">
 														</a>
 														<div class="ms-2">
-															<p class="text-dark mb-0">James MIller </p>
-															<span class="fs-12 d-block mb-0">International Sales </span>
-															<span class="fs-12 d-block mb-0">Vice President</span>
+															<p class="text-dark mb-0 fs-12">James MIller </p>
+															<span class="fs-12 d-block mb-0 fs-12">International Sales </span>
+															<span class="fs-12 d-block mb-0 fs-12" >Vice President</span>
 
 														</div>
 													</div>
@@ -211,15 +229,28 @@
 												</td>
 
 												<td>
-													<p class="fs-14 mb-0">Unable to Connect to Office Wi-Fi</p>
+													<p class="fs-12 text-dark mb-1">Unable to Connect to Office Wi-Fi</p>
+													<div class="row">
+														<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Created on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
+														</div>
+														<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Due on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
+
+														</div>
+													</div>
 												</td>
 												<td>
-												 <p class="fs-14 mb-0 text-dark fw-600">Hardware</p>
-												 <p class="fs-14 mb-0">Mouse</p>
+												 <p class="fs-12 mb-0 text-dark fw-600">Hardware</p>
+												 <p class="fs-12 mb-0">Mouse</p>
 												
 												</td>
 												<td>
-													<p class="fs-13 d-inline-flex align-items-center mb-1">
+													<p class="fs-12 d-inline-flex align-items-center mb-1">
 														<i class="ti ti-circle-filled fs-10 me-1 text-danger"></i>Due today
 													</p>
 												</td>
@@ -227,16 +258,13 @@
 													<span class="badge bg-soft-primary">Low</span>
 												</td>
 
+											
 												<td>
-													<p class="fs-14  mb-0">12 Sept 2025</p>
-												</td>
+												<p class="d-block fs-12 mb-0">1st Floor</p>
+												<p class="d-block fs-12 ">Seat no 22</p>
+												</td>	
 												<td>
-													<p class="fs-14 text-danger mb-0">12 Sept 2025</p>
-												</td>
-												<td><p>1st Floor
-												Seat no 22</p></td>	
-												<td>
-													<a href="#" class="btn btn-secondary py-1">Pick ticket</a>
+													<a href="#" class="btn btn-secondary py-1 btn-sm">Pick</a>
 												</td>
 											</tr>
 											<tr>
@@ -250,8 +278,8 @@
 															<img src="assets/img/users/user-33.webp" class="img-fluid rounded-circle" alt="img">
 														</a>
 														<div class="ms-2">
-															<p class="text-dark mb-0">Henry Full </p>
-															<span class="fs-12 d-block mb-0">Aministration</span>
+															<p class="text-dark fs-12 mb-0">Henry Full </p>
+															<span class="fs-12  d-block mb-0">Aministration</span>
 															<span class="fs-12 d-block mb-0">Manager</span>
 
 														</div>
@@ -260,15 +288,28 @@
 												</td>
 
 												<td>
-													<p class="fs-14 mb-0">Frequent Wi-Fi Disconnection</p>
+													<p class="fs-12 text-dark mb-1">Frequent Wi-Fi Disconnection</p>
+													<div class="row">
+														<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Created on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
+														</div>
+														<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Due on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
+
+														</div>
+													</div></td>
 												</td>
 												<td>
-												 <p class="fs-14 mb-0 text-dark fw-600">Hardware</p>
-												 <p class="fs-14 mb-0">Mouse</p>
+												 <p class="fs-12 mb-0 text-dark fw-600">Hardware</p>
+												 <p class="fs-12 mb-0">Mouse</p>
 												
 												</td>
 												<td>
-													<p class="fs-13 d-inline-flex align-items-center mb-1">
+													<p class="fs-12 d-inline-flex align-items-center mb-1">
 														<i class="ti ti-circle-filled fs-10 me-1 text-danger"></i>Due today
 													</p>
 												</td>
@@ -276,16 +317,13 @@
 													<span class="badge bg-soft-warning">low</span>
 												</td>
 
+											
 												<td>
-													<p class="fs-14  mb-0">11 Sept 2025</p>
-												</td>
+												<p class="d-block fs-12 mb-0">1st Floor</p>
+												<p class="d-block fs-12 ">Seat no 20</p>
+												</td>	
 												<td>
-													<p class="fs-14 text-danger mb-0">12 Sept 2025</p>
-												</td>
-												<td><p>1st Floor
-												Seat no 20</p></td>	
-												<td>
-													<a href="#" class="btn btn-secondary py-1">Pick ticket</a>
+													<a href="#" class="btn btn-secondary py-1 btn-sm">Pick</a>
 												</td>
 											</tr>
 											<tr>
@@ -299,7 +337,7 @@
 															<img src="assets/img/users/user-34.webp" class="img-fluid rounded-circle" alt="img">
 														</a>
 														<div class="ms-2">
-															<p class="text-dark mb-0">Dickson Joe</p>
+															<p class="text-dark fs-12 mb-0">Dickson Joe</p>
 															<span class="fs-12 d-block mb-0">Brand</span>
 															<span class="fs-12 d-block mb-0">Content writer</span>
 
@@ -309,11 +347,24 @@
 												</td>
 
 												<td>
-													<p class="fs-14 mb-0">LAN Cable Not Detecting Network</p>
+													<p class="fs-12 text-dark mb-1">LAN Cable Not Detecting Network</p>
+													<div class="row">
+														<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Created on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
+														</div>
+														<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Due on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
+
+														</div>
+													</div></td>
 												</td>
 												<td>
-												 <p class="fs-14 mb-0 text-dark fw-600">Hardware</p>
-												 <p class="fs-14 mb-0">Mouse</p>
+												 <p class="fs-12 mb-0 text-dark fw-600">Hardware</p>
+												 <p class="fs-12 mb-0">Mouse</p>
 												
 												</td>
 												<td>
@@ -325,16 +376,13 @@
 													<span class="badge bg-soft-danger">high</span>
 												</td>
 
+												
 												<td>
-													<p class="fs-14  mb-0">11 Sept 2025</p>
-												</td>
+												<p class="d-block fs-12 mb-0">1st Floor</p>
+												<p class="d-block fs-12 ">Seat no 19</p>
+												</td>	
 												<td>
-													<p class="fs-14mb-0">12 Sept 2025</p>
-												</td>
-												<td><p>1st Floor
-												Seat no 19</p></td>	
-												<td>
-													<a href="#" class="btn btn-secondary py-1">Pick ticket</a>
+													<a href="#" class="btn btn-secondary btn-sm py-1">Pick</a>
 												</td>
 											</tr>
 											<tr>
@@ -348,7 +396,7 @@
 															<img src="assets/img/users/user-35.webp" class="img-fluid rounded-circle" alt="img">
 														</a>
 														<div class="ms-2">
-															<p class="text-dark mb-0">Sarah Thompson</p>
+															<p class="text-dark fs-12 mb-0">Sarah Thompson</p>
 															<span class="fs-12 d-block mb-0">Human Resources</span>
 															<span class="fs-12 d-block mb-0">HR Manager</span>
 
@@ -358,11 +406,24 @@
 												</td>
 
 												<td>
-													<p class="fs-14 mb-0">IP Conflict Error</p>
+													<p class="fs-12 text-dark mb-1">IP Conflict Error</p>
+													<div class="row">
+														<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Created on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
+														</div>
+														<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Due on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
+
+														</div>
+													</div>
 												</td>
 												<td>
-												 <p class="fs-14 mb-0 text-dark fw-600">Hardware</p>
-												 <p class="fs-14 mb-0">Mouse</p>
+												 <p class="fs-12 mb-0 text-dark fw-600">Hardware</p>
+												 <p class="fs-12 mb-0">Mouse</p>
 												
 												</td>
 												<td>
@@ -374,16 +435,13 @@
 													<span class="badge bg-soft-danger">high</span>
 												</td>
 
+												
 												<td>
-													<p class="fs-14  mb-0">10 Sept 2025</p>
-												</td>
+												<p class="d-block fs-12 mb-0">1st Floor</p>
+												<p class="d-block fs-12 ">Seat no 22</p>
+												</td>	
 												<td>
-													<p class="fs-14mb-0">12 Sept 2025</p>
-												</td>
-												<td><p>1st Floor
-												Seat no 22</p></td>	
-												<td>
-													<a href="#" class="btn btn-secondary py-1">Pick ticket</a>
+												<a href="#" class="btn btn-secondary btn-sm py-1">Pick</a>
 												</td>
 											</tr>
 											<tr>
@@ -397,7 +455,7 @@
 															<img src="assets/img/users/user-36.webp" class="img-fluid rounded-circle" alt="img">
 														</a>
 														<div class="ms-2">
-															<p class="text-dark mb-0">Emily Rodriguez</p>
+															<p class="text-dark fs-12 mb-0">Emily Rodriguez</p>
 															<span class="fs-12 d-block mb-0">Finance</span>
 															<span class="fs-12 d-block mb-0">Finance Analyst</span>
 
@@ -407,11 +465,24 @@
 												</td>
 
 												<td>
-													<p class="fs-14 mb-0">Network Printer Not Found</p>
+													<p class="fs-12 text-dark mb-1">Network Printer Not Found</p>
+													<div class="row">
+														<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Created on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
+														</div>
+														<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Due on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
+
+														</div>
+													</div></td>
 												</td>
 												<td>
-												 <p class="fs-14 mb-0 text-dark fw-600">Hardware</p>
-												 <p class="fs-14 mb-0">Mouse</p>
+												 <p class="fs-12 mb-0 text-dark fw-600">Hardware</p>
+												 <p class="fs-12 mb-0">Mouse</p>
 												
 												</td>
 												<td>
@@ -423,16 +494,13 @@
 													<span class="badge bg-soft-danger">high</span>
 												</td>
 
+												
 												<td>
-													<p class="fs-14  mb-0">10 Sept 2025</p>
-												</td>
+												<p class="d-block fs-12 mb-0">1st Floor</p>
+												<p class="d-block fs-12 ">Seat no 02</p>
+												</td>	
 												<td>
-													<p class="fs-14mb-0">13 Sept 2025</p>
-												</td>
-												<td><p>1st Floor
-												Seat no 02</p></td>	
-												<td>
-													<a href="#" class="btn btn-secondary py-1">Pick ticket</a>
+												<a href="#" class="btn btn-secondary btn-sm py-1">Pick</a>
 												</td>
 											</tr>
 											<tr>
@@ -446,7 +514,7 @@
 															<img src="assets/img/users/user-18.jpg" class="img-fluid rounded-circle" alt="img">
 														</a>
 														<div class="ms-2">
-															<p class="text-dark mb-0">Sophia Patel </p>
+															<p class="text-dark fs-12 mb-0">Sophia Patel </p>
 															<span class="fs-12 d-block mb-0">Human Resources</span>
 															<span class="fs-12 d-block mb-0">Talent Acquisition Specialist</span>
 
@@ -456,15 +524,28 @@
 												</td>
 
 												<td>
-													<p class="fs-14 mb-0">Access Denied to Shared Network Drive</p>
+													<p class="fs-12 text-dark mb-1">Access Denied to Shared Network Drive</p>
+													<div class="row">
+														<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Created on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
+														</div>
+														<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Due on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
+
+														</div>
+													</div></td>
 												</td>
 												<td>
-												 <p class="fs-14 mb-0 text-dark fw-600">Hardware</p>
-												 <p class="fs-14 mb-0">Mouse</p>
+												 <p class="fs-12 mb-0 text-dark fw-600">Hardware</p>
+												 <p class="fs-12 mb-0">Mouse</p>
 												
 												</td>
 												<td>
-													<p class="fs-13 d-inline-flex align-items-center mb-1">
+													<p class="fs-12 d-inline-flex align-items-center mb-1">
 														<i class="ti ti-circle-filled fs-10 me-1 text-warning"></i>On going
 													</p>
 												</td>
@@ -472,16 +553,13 @@
 													<span class="badge bg-soft-success">medium</span>
 												</td>
 
+												
 												<td>
-													<p class="fs-14  mb-0">07 Sept 2025</p>
-												</td>
+												<p class="d-block fs-12 mb-0">1st Floor</p>
+												<p class="d-block fs-12 ">Seat no 06</p>
+												</td>	
 												<td>
-													<p class="fs-14mb-0">07 Sept 2025</p>
-												</td>
-												<td><p>1st Floor
-												Seat no 19</p></td>	
-												<td>
-													<a href="#" class="btn btn-secondary py-1">Pick ticket</a>
+												<a href="#" class="btn btn-secondary btn-sm py-1">Pick</a>
 												</td>
 											</tr>
 											<tr>
@@ -495,7 +573,7 @@
 															<img src="assets/img/users/user-38.webp" class="img-fluid rounded-circle" alt="img">
 														</a>
 														<div class="ms-2">
-															<p class="text-dark mb-0">Isabella Morris</p>
+															<p class="text-dark fs-12 mb-0">Isabella Morris</p>
 															<span class="fs-12 d-block mb-0">Operations</span>
 															<span class="fs-12 d-block mb-0">Project Coordinator</span>
 
@@ -505,11 +583,24 @@
 												</td>
 
 												<td>
-													<p class="fs-14 mb-0">Unable to Ping Server</p>
+													<p class="fs-12 text-dark mb-1">Unable to Ping Server</p>
+													<div class="row">
+														<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Created on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
+														</div>
+														<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Due on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
+
+														</div>
+													</div>
 												</td>
 												<td>
-												 <p class="fs-14 mb-0 text-dark fw-600">Hardware</p>
-												 <p class="fs-14 mb-0">Mouse</p>
+												 <p class="fs-12 mb-0 text-dark fw-600">Hardware</p>
+												 <p class="fs-12 mb-0">Mouse</p>
 												
 												</td>
 												<td>
@@ -521,16 +612,13 @@
 													<span class="badge bg-soft-danger">high</span>
 												</td>
 
+												
 												<td>
-													<p class="fs-14  mb-0">09 Sept 2025</p>
-												</td>
+												<p class="d-block fs-12 mb-0">1st Floor</p>
+												<p class="d-block fs-12 ">Seat no 06</p>
+												</td>	
 												<td>
-													<p class="fs-14mb-0">13 Sept 2025</p>
-												</td>
-												<td><p>1st Floor
-												Seat no 06</p></td>	
-												<td>
-													<a href="#" class="btn btn-secondary py-1">Pick ticket</a>
+												<a href="#" class="btn btn-secondary btn-sm py-1">Pick</a>
 												</td>
 											</tr>
 											
@@ -546,25 +634,34 @@
 						<div class="card flex-fill overflow-hidden">
 							<div class="card-header">
 								<div class="d-flex align-items-center justify-content-between flex-wrap">
-									<h5 class="">Average tickets created</h5>
-									<div class="dropdown mb-2">
+									<h5 class="">Average tickets summary</h5>
+									<div class="input-icon-end position-relative">
+                            <input type="text" class="form-control date-range bookingrange" placeholder="dd/mm/yyyy - dd/mm/yyyy" id="dateRangePicker">
+                            <span class="input-icon-addon">
+                                <i class="ti ti-chevron-down"></i>
+                            </span>
+                        </div>
+									<div class="dropdown mb-2 d-none">
 										<a href="javascript:void(0);"
 											class="btn btn-white border btn-sm d-inline-flex align-items-center"
 											data-bs-toggle="dropdown">
-											<i class="ti ti-calendar me-1"></i>Last 01 Years
+											<i class="ti ti-calendar me-1"></i>Current year
 										</a>
 										<ul class="dropdown-menu  dropdown-menu-end p-3">
 											<li>
-												<a href="javascript:void(0);" class="dropdown-item rounded-1">This
-													Month</a>
+												<a href="javascript:void(0);" class="dropdown-item rounded-1">Last Year</a>
 											</li>
 											<li>
+												<a href="javascript:void(0);" class="dropdown-item rounded-1 ">Last Year</a>
+											</li>
+											
+											<!-- <li>
 												<a href="javascript:void(0);" class="dropdown-item rounded-1">This
 													Week</a>
 											</li>
 											<li>
 												<a href="javascript:void(0);" class="dropdown-item rounded-1">Today</a>
-											</li>
+											</li> -->
 										</ul>
 									</div>
 								</div>
@@ -573,20 +670,20 @@
 							<div class="row">
 									<div class="col-lg-3 ps-0 align-self-start">
 									<div class="row">
-											<div class="col-lg-12 col-md-6">
-												<div class="card b-0 shadow-none">
+											<div class="col-lg-12 col-md-6 mb-3">
+												<div class="card b-0 shadow-none m-0">
 													<div class="card-body p-3">
 														<div class="fw-500">
 															<p class="text-mute mt-0 mb-2"><i
 																	class="fa fa-fw fa-square fs-12"
-																	style="color: #C2A1FC;"></i> Avg. Tickets Picked </p>
+																	style="color: #664dc9;"></i> Avg. Tickets Picked </p>
 															<h2 class="fw-500 m-0">1,525</h2>
 														</div>
 													</div>
 												</div>
 											</div>
-											<div class="col-lg-12 col-md-6">
-												<div class="card b-0 shadow-none">
+											<div class="col-lg-12 col-md-6 mb-3">
+												<div class="card b-0 shadow-none m-0">
 													<div class="card-body p-3">
 														<div class="fw-500">
 															<p class="text-mute mt-0 mb-2"><i
@@ -598,12 +695,11 @@
 												</div>
 											</div>
 											<div class="col-lg-12 col-md-6">
-												<div class="card b-0 shadow-none">
+												<div class="card b-0 shadow-none m-0">
 													<div class="card-body p-3">
 														<div class="fw-500">
-															<p class="text-mute mt-0 mb-2"><i
-																	class="fa fa-fw fa-square fs-12"
-																	style="color:rgb(248, 0, 0);"></i> Avg Tickets Reopened </p>
+															<p class="text-mute mt-0 mb-2">
+																<i class="fa fa-fw fa-square fs-12" style="color:#f4d03f;"></i> Avg. Tickets Reopened </p>
 															<h2 class="fw-500 m-0">200</h2>
 														</div>
 													</div>
@@ -829,7 +925,7 @@
 					<div class="col-xl-6">
 						<div class="card b-1 overflow-hidden">
 							<div class="card-header no-border">
-								<h5 class="">Employees satisfaction on tickets</h5>
+								<h5 class="">Current month's ticket satisfaction</h5>
 							</div>
 							<div class="card-body">
 								<div class="row">
@@ -924,7 +1020,7 @@
 						<div class="card-body schedule-timeline">
                                 <div class="d-flex align-items-start">
                                     <div class="d-flex align-items-center active-time">
-                                        <span>10:10 <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+                                        <span>10:10 <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
                                         <span><i class="ti ti-point-filled text-primary fs-20"></i></span>
                                     </div>
                                     <div class="flex-fill ps-3 pb-4 timeline-flow">
@@ -936,7 +1032,7 @@
                                 </div>
                                 <div class="d-flex align-items-start">
                                     <div class="d-flex align-items-center active-time">
-                                        <span>08:40 <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+                                        <span>08:40 <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
                                         <span><i class="ti ti-point-filled text-secondary fs-20"></i></span>
                                     </div>
                                     <div class="flex-fill ps-3 pb-4 timeline-flow">
@@ -948,7 +1044,7 @@
                                 </div>
                                 <div class="d-flex align-items-start">
                                     <div class="d-flex align-items-center active-time">
-                                        <span>07:10 <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+                                        <span>07:10 <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
                                         <span><i class="ti ti-point-filled text-danger fs-20"></i></span>
                                     </div>
                                     <div class="flex-fill ps-3 pb-4 timeline-flow">
@@ -993,6 +1089,127 @@
 				</div>
 
 				<!-- /Page Wrapper -->
+
+
+			<!-- Offcanvas 1 -->
+		<div class="offcanvas  offcanvas-end" tabindex="-1" id="offcanvas1" aria-labelledby="label1">
+					<!-- <div class="offcanvas-header">
+						<h5 class="offcanvas-title" id="label1">Offcanvas 1</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+					</div> -->
+					<div class="offcanvas-body">
+						<div class="">
+							<div class="card-header">
+								<div class="d-flex align-items-center justify-content-between mb-3">
+									<span class="fs-20 fw-bold text-dark">Search by</span>
+									<!-- <a href="#" class="fs-18 text-success">Clear</a> -->
+								</div>
+							</div>
+							<div class="card-body">
+							<div class="mb-3">
+									<label class="form-label  mb-1"></label>
+									<input type="text" class="form-control" placeholder="Ticket ID">
+								</div>
+								<!-- <div class="mb-3 d-none">
+									<label class="form-label  mb-1">Ticket ID</label>
+									<p class="text-dark">128B</p>
+									
+								</div> -->
+								<div class="mb-3">
+									<label class="form-label  mb-1"></label>
+									<input type="text" class="form-control" placeholder="Employee name ">
+									<!-- <select class="form-select">
+										<option></option>
+										<option></option>
+										<option></option>
+										<option></option>
+									</select> -->
+								</div>
+								<div class="mb-3">
+									<label class="form-label  mb-1"></label>
+									<input type="text" class="form-control" placeholder="Subject">
+									<!-- <select class="form-select">
+										<option></option>
+										<option></option>
+										<option></option>
+										<option></option>
+									</select> -->
+								</div>
+								<div class="mb-3">
+									<label class="form-label  mb-1"></label>
+									<input type="text" class="form-control" placeholder="Floor Number ">
+									<!-- <select class="form-select">
+										<option></option>
+										<option></option>
+										<option></option>
+										<option></option>
+									</select> -->
+								</div>
+								<div class="mb-3">
+									<label class="form-label  mb-1"></label>
+									<select class="form-select" placeholder="">
+										<option selected>Status</option>
+										<option>Open</option>
+										<option>Close</option>
+										
+									</select>
+								</div>
+								<div class="mb-3">
+									<label class="form-label  mb-1"></label>
+									<select class="form-select" placeholder="">
+										<option selected>Priority</option>
+										<option>High</option>
+										<option>Medium</option>
+										<option>Low</option>
+									</select>
+								</div>
+								<div class="mb-3">
+									<label class="form-label mb-1"> </label>
+									<select class="form-select" placeholder="">
+										<option selected>Category</option>
+										<option>Hardware</option>
+										<option>Software</option>
+									</select>
+								</div>
+								<div class="mb-3">
+									<label class="form-label  mb-1"> </label>
+									<select class="form-select" placeholder="">
+										<option selected>Sub category</option>
+										<option>Mouse</option>
+										<option>Keyboard</option>
+										<option>Figma</option>
+									</select>
+								</div>
+								<div class="mb-3 rangg">
+									<label class="form-label  mb-1">Created on </label>
+									<input type="text" name="daterange" class="form-control" value="01/01/2018 - 01/15/2018" />
+								</div>
+
+								<div class="mb-3 rangg">
+									<label class="form-label  mb-1">Due on</label>
+									<input type="text" name="daterange" class="form-control" value="01/01/2018 - 01/15/2018" />
+								 
+								</div>
+
+								<!-- <div class="mb-3">
+									<label class="form-label mb-1">Companies</label>
+									<input type="text" class="form-control" placeholder="">
+								</div>
+
+								<div class="mb-3">
+									<label class="form-label mb-1">Tags</label>
+									<input type="text" class="form-control" placeholder="">
+								</div> -->
+
+								<div class="d-flex justify-content-start">
+									<button type="button" class="btn btn-primary btn-md fs-12 text-uppercase" data-bs-dismiss="offcanvas">Apply filters</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Offcanvas 1 -->
+
 
 
 				<?php include 'includes/footer.php'; ?>

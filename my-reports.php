@@ -173,14 +173,14 @@
 							<div class="card-body">
 								<div class="row">
 									<div class="col-lg-3 ps-0 align-self-start">
-										<div class="row">
-											<div class="col-lg-12 col-md-6">
-												<div class="card b-0 shadow-none">
+									<div class="row">
+											<div class="col-lg-12 col-md-6 mb-3">
+												<div class="card b-0 shadow-none m-0">
 													<div class="card-body p-3">
 														<div class="fw-500">
 															<p class="text-mute mt-0 mb-2"><i
 																	class="fa fa-fw fa-square fs-12"
-																	style="color: #C2A1FC;"></i> Avg. Tickets Picked </p>
+																	style="color: #664dc9;"></i> Avg. Tickets Picked </p>
 															<h2 class="fw-500 m-0">1,525</h2>
 														</div>
 													</div>
@@ -202,9 +202,8 @@
 												<div class="card b-0 shadow-none m-0">
 													<div class="card-body p-3">
 														<div class="fw-500">
-															<p class="text-mute mt-0 mb-2"><i
-																	class="fa fa-fw fa-square fs-12"
-																	style="color:rgb(248, 0, 0);"></i> Avg Tickets Reopened </p>
+															<p class="text-mute mt-0 mb-2">
+																<i class="fa fa-fw fa-square fs-12" style="color:#f4d03f;"></i> Avg Tickets Reopened </p>
 															<h2 class="fw-500 m-0">200</h2>
 														</div>
 													</div>

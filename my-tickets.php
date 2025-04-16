@@ -41,7 +41,7 @@
 								<li class="breadcrumb-item">
 									Dashboard
 								</li>
-								<li class="breadcrumb-item active" aria-current="page">Your assigned tickets</li>
+								<li class="breadcrumb-item active" aria-current="page">My tickets</li>
 							</ol>
 						</nav>
 					</div>
@@ -121,393 +121,440 @@
 						</div>
 						<div class="card-body p-0">
 							<div class="table-responsive table-responsive-lg">
-								<table class="table ">
-									<thead class="thead-light">
-										<tr>
+							<div class="table-responsive table-responsive-lg">
+									<table class="table ">
+										<thead class="thead-light">
+											<tr>
 
-											<th>Ticket ID</th>
-											<th>Employee Name</th>
-											<th>Subject</th>
-											<th>Category</th>
-											<th>Status</th>
-											<th>Priority</th>
-											<th>Ticket Date</th>
-											<th>Due Date</th>
-											<th>Location</th>
-											<th>Action</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>
+												<th scope="col">Ticket ID</th>
+												<th scope="col">Employee Name</th>
+												<th scope="col">Ticket Detail</th>
+												<th scope="col">Category</th>
+												<th scope="col">Status</th>
+												<th scope="col">Priority</th>
+												<!-- <th scope="col">Ticket Date</th>
+												<th scope="col">Due Date</th> -->
+												<th scope="col">Location</th>
+												<th scope="col">Action</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>
 												09834
-											</td>
-											<td>
-												<div class="d-flex align-items-center">
-													<a href="assets/img/users/user-32.webp" data-fancycard="gallery"
-														data-caption="" class="avatar avatar-lg">
-														<img src="assets/img/users/user-32.webp"
-															class="img-fluid rounded-circle" alt="img">
-													</a>
-													<div class="ms-2">
-														<p class="text-dark mb-0 fs-16">James MIller </p>
-														<span class="fs-12 d-block mb-0">International Sales </span>
-														<span class="fs-12 d-block mb-0">Vice President</span>
+												</td>
+												<td class="">
+													<div class="d-flex align-items-center">
+														<a href="assets/img/users/user-32.webp" data-fancycard="gallery"
+															data-caption="" class="avatar avatar-lg">
+															<img src="assets/img/users/user-32.webp" class="img-fluid rounded-circle" alt="img">
+														</a>
+														<div class="ms-2">
+															<p class="text-dark mb-0 fs-12">James MIller </p>
+															<span class="fs-12 d-block mb-0 fs-12">International Sales </span>
+															<span class="fs-12 d-block mb-0 fs-12" >Vice President</span>
 
+														</div>
 													</div>
-												</div>
 
-											</td>
+												</td>
 
-											<td>
-												<p class="fs-14 mb-0">Unable to Connect to Office Wi-Fi</p>
-											</td>
-											<td>
-												<p class="fs-14 mb-0 text-dark fw-600">Hardware</p>
-												<p class="fs-14 mb-0">Mouse</p>
+												<td>
+													<p class="fs-12 text-dark mb-1">Unable to Connect to Office Wi-Fi</p>
+													<div class="row">
+														<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Created on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
+														</div>
+														<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Due on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
 
-											</td>
-											<td>
-												<p class="fs-13 d-inline-flex align-items-center mb-1">
-													<i class="ti ti-circle-filled fs-10 me-1 text-danger"></i>Due today
-												</p>
-											</td>
-											<td>
-												<span class="badge bg-soft-primary">Low</span>
-											</td>
+														</div>
+													</div>
+												</td>
+												<td>
+												 <p class="fs-12 mb-0 text-dark fw-600">Hardware</p>
+												 <p class="fs-12 mb-0">Mouse</p>
+												
+												</td>
+												<td>
+													<p class="fs-12 d-inline-flex align-items-center mb-1">
+														<i class="ti ti-circle-filled fs-10 me-1 text-danger"></i>Due today
+													</p>
+												</td>
+												<td>
+													<span class="badge bg-soft-primary">Low</span>
+												</td>
 
-											<td>
-												<p class="fs-14  mb-0">12 Sept 2025</p>
-											</td>
-											<td>
-												<p class="fs-14 text-danger mb-0">12 Sept 2025</p>
-											</td>
-											<td>
-												<p>1st Floor
-													Seat no 22</p>
-											</td>
-											<td>
-												<a href="#" class="btn btn-secondary py-1">Pick ticket</a>
-											</td>
-										</tr>
-										<tr>
-											<td>
+											
+												<td>
+												<p class="d-block fs-12 mb-0">1st Floor</p>
+												<p class="d-block fs-12 ">Seat no 22</p>
+												</td>	
+												<td>
+													<a href="#" class="btn btn-secondary py-1 btn-sm">Pick</a>
+												</td>
+											</tr>
+											<tr>
+												<td>
 												09836
-											</td>
-											<td>
-												<div class="d-flex align-items-center">
-													<a href="assets/img/users/user-32.webp" data-fancycard="gallery"
-														data-caption="" class="avatar avatar-lg">
-														<img src="assets/img/users/user-33.webp"
-															class="img-fluid rounded-circle" alt="img">
-													</a>
-													<div class="ms-2">
-														<p class="text-dark mb-0 fs-16">Henry Full </p>
-														<span class="fs-12 d-block mb-0">Aministration</span>
-														<span class="fs-12 d-block mb-0">Manager</span>
+												</td>
+												<td>
+													<div class="d-flex align-items-center">
+														<a href="assets/img/users/user-32.webp" data-fancycard="gallery"
+															data-caption="" class="avatar avatar-lg">
+															<img src="assets/img/users/user-33.webp" class="img-fluid rounded-circle" alt="img">
+														</a>
+														<div class="ms-2">
+															<p class="text-dark fs-12 mb-0">Henry Full </p>
+															<span class="fs-12  d-block mb-0">Aministration</span>
+															<span class="fs-12 d-block mb-0">Manager</span>
 
+														</div>
 													</div>
-												</div>
 
-											</td>
+												</td>
 
-											<td>
-												<p class="fs-14 mb-0">Frequent Wi-Fi Disconnection</p>
-											</td>
-											<td>
-												<p class="fs-14 mb-0 text-dark fw-600">Hardware</p>
-												<p class="fs-14 mb-0">Mouse</p>
+												<td>
+													<p class="fs-12 text-dark mb-1">Frequent Wi-Fi Disconnection</p>
+													<div class="row">
+														<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Created on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
+														</div>
+														<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Due on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
 
-											</td>
-											<td>
-												<p class="fs-13 d-inline-flex align-items-center mb-1">
-													<i class="ti ti-circle-filled fs-10 me-1 text-danger"></i>Due today
-												</p>
-											</td>
-											<td>
-												<span class="badge bg-soft-warning">low</span>
-											</td>
+														</div>
+													</div></td>
+												</td>
+												<td>
+												 <p class="fs-12 mb-0 text-dark fw-600">Hardware</p>
+												 <p class="fs-12 mb-0">Mouse</p>
+												
+												</td>
+												<td>
+													<p class="fs-12 d-inline-flex align-items-center mb-1">
+														<i class="ti ti-circle-filled fs-10 me-1 text-danger"></i>Due today
+													</p>
+												</td>
+												<td>
+													<span class="badge bg-soft-warning">low</span>
+												</td>
 
-											<td>
-												<p class="fs-14  mb-0">11 Sept 2025</p>
-											</td>
-											<td>
-												<p class="fs-14 text-danger mb-0">12 Sept 2025</p>
-											</td>
-											<td>
-												<p>1st Floor
-													Seat no 20</p>
-											</td>
-											<td>
-												<a href="#" class="btn btn-secondary py-1">Pick ticket</a>
-											</td>
-										</tr>
-										<tr>
-											<td>
+											
+												<td>
+												<p class="d-block fs-12 mb-0">1st Floor</p>
+												<p class="d-block fs-12 ">Seat no 20</p>
+												</td>	
+												<td>
+													<a href="#" class="btn btn-secondary py-1 btn-sm">Pick</a>
+												</td>
+											</tr>
+											<tr>
+												<td>
 												09836
-											</td>
-											<td>
-												<div class="d-flex align-items-center">
-													<a href="assets/img/users/user-32.webp" data-fancycard="gallery"
-														data-caption="" class="avatar avatar-lg">
-														<img src="assets/img/users/user-34.webp"
-															class="img-fluid rounded-circle" alt="img">
-													</a>
-													<div class="ms-2">
-														<p class="text-dark mb-0 fs-16">Dickson Joe</p>
-														<span class="fs-12 d-block mb-0">Brand</span>
-														<span class="fs-12 d-block mb-0">Content writer</span>
+												</td>
+												<td>
+													<div class="d-flex align-items-center">
+														<a href="assets/img/users/user-32.webp" data-fancycard="gallery"
+															data-caption="" class="avatar avatar-lg">
+															<img src="assets/img/users/user-34.webp" class="img-fluid rounded-circle" alt="img">
+														</a>
+														<div class="ms-2">
+															<p class="text-dark fs-12 mb-0">Dickson Joe</p>
+															<span class="fs-12 d-block mb-0">Brand</span>
+															<span class="fs-12 d-block mb-0">Content writer</span>
 
+														</div>
 													</div>
-												</div>
 
-											</td>
+												</td>
 
-											<td>
-												<p class="fs-14 mb-0">LAN Cable Not Detecting Network</p>
-											</td>
-											<td>
-												<p class="fs-14 mb-0 text-dark fw-600">Hardware</p>
-												<p class="fs-14 mb-0">Mouse</p>
+												<td>
+													<p class="fs-12 text-dark mb-1">LAN Cable Not Detecting Network</p>
+													<div class="row">
+														<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Created on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
+														</div>
+														<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Due on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
 
-											</td>
-											<td>
-												<p class="fs-13 d-inline-flex align-items-center mb-1">
-													<i class="ti ti-circle-filled fs-10 me-1 text-secondary"></i>Not
-													picked
-												</p>
-											</td>
-											<td>
-												<span class="badge bg-soft-danger">high</span>
-											</td>
+														</div>
+													</div></td>
+												</td>
+												<td>
+												 <p class="fs-12 mb-0 text-dark fw-600">Hardware</p>
+												 <p class="fs-12 mb-0">Mouse</p>
+												
+												</td>
+												<td>
+													<p class="fs-13 d-inline-flex align-items-center mb-1">
+														<i class="ti ti-circle-filled fs-10 me-1 text-secondary"></i>Not picked
+													</p>
+												</td>
+												<td>
+													<span class="badge bg-soft-danger">high</span>
+												</td>
 
-											<td>
-												<p class="fs-14  mb-0">11 Sept 2025</p>
-											</td>
-											<td>
-												<p class="fs-14mb-0">12 Sept 2025</p>
-											</td>
-											<td>
-												<p>1st Floor
-													Seat no 19</p>
-											</td>
-											<td>
-												<a href="#" class="btn btn-secondary py-1">Pick ticket</a>
-											</td>
-										</tr>
-										<tr>
-											<td>
+												
+												<td>
+												<p class="d-block fs-12 mb-0">1st Floor</p>
+												<p class="d-block fs-12 ">Seat no 19</p>
+												</td>	
+												<td>
+													<a href="#" class="btn btn-secondary btn-sm py-1">Pick</a>
+												</td>
+											</tr>
+											<tr>
+												<td>
 												09837
-											</td>
-											<td>
-												<div class="d-flex align-items-center">
-													<a href="assets/img/users/user-32.webp" data-fancycard="gallery"
-														data-caption="" class="avatar avatar-lg">
-														<img src="assets/img/users/user-35.webp"
-															class="img-fluid rounded-circle" alt="img">
-													</a>
-													<div class="ms-2">
-														<p class="text-dark mb-0 fs-16">Sarah Thompson</p>
-														<span class="fs-12 d-block mb-0">Human Resources</span>
-														<span class="fs-12 d-block mb-0">HR Manager</span>
+												</td>
+												<td>
+													<div class="d-flex align-items-center">
+														<a href="assets/img/users/user-32.webp" data-fancycard="gallery"
+															data-caption="" class="avatar avatar-lg">
+															<img src="assets/img/users/user-35.webp" class="img-fluid rounded-circle" alt="img">
+														</a>
+														<div class="ms-2">
+															<p class="text-dark fs-12 mb-0">Sarah Thompson</p>
+															<span class="fs-12 d-block mb-0">Human Resources</span>
+															<span class="fs-12 d-block mb-0">HR Manager</span>
 
+														</div>
 													</div>
-												</div>
 
-											</td>
+												</td>
 
-											<td>
-												<p class="fs-14 mb-0">IP Conflict Error</p>
-											</td>
-											<td>
-												<p class="fs-14 mb-0 text-dark fw-600">Hardware</p>
-												<p class="fs-14 mb-0">Mouse</p>
+												<td>
+													<p class="fs-12 text-dark mb-1">IP Conflict Error</p>
+													<div class="row">
+														<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Created on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
+														</div>
+														<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Due on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
 
-											</td>
-											<td>
-												<p class="fs-13 d-inline-flex align-items-center mb-1">
-													<i class="ti ti-circle-filled fs-10 me-1 text-secondary"></i>Not
-													picked
-												</p>
-											</td>
-											<td>
-												<span class="badge bg-soft-danger">high</span>
-											</td>
+														</div>
+													</div>
+												</td>
+												<td>
+												 <p class="fs-12 mb-0 text-dark fw-600">Hardware</p>
+												 <p class="fs-12 mb-0">Mouse</p>
+												
+												</td>
+												<td>
+													<p class="fs-13 d-inline-flex align-items-center mb-1">
+														<i class="ti ti-circle-filled fs-10 me-1 text-secondary"></i>Not picked
+													</p>
+												</td>
+												<td>
+													<span class="badge bg-soft-danger">high</span>
+												</td>
 
-											<td>
-												<p class="fs-14  mb-0">10 Sept 2025</p>
-											</td>
-											<td>
-												<p class="fs-14mb-0">12 Sept 2025</p>
-											</td>
-											<td>
-												<p>1st Floor
-													Seat no 22</p>
-											</td>
-											<td>
-												<a href="#" class="btn btn-secondary py-1">Pick ticket</a>
-											</td>
-										</tr>
-										<tr>
-											<td>
+												
+												<td>
+												<p class="d-block fs-12 mb-0">1st Floor</p>
+												<p class="d-block fs-12 ">Seat no 22</p>
+												</td>	
+												<td>
+												<a href="#" class="btn btn-secondary btn-sm py-1">Pick</a>
+												</td>
+											</tr>
+											<tr>
+												<td>
 												09838
-											</td>
-											<td>
-												<div class="d-flex align-items-center">
-													<a href="assets/img/users/user-32.webp" data-fancycard="gallery"
-														data-caption="" class="avatar avatar-lg">
-														<img src="assets/img/users/user-36.webp"
-															class="img-fluid rounded-circle" alt="img">
-													</a>
-													<div class="ms-2">
-														<p class="text-dark mb-0 fs-16">Emily Rodriguez</p>
-														<span class="fs-12 d-block mb-0">Finance</span>
-														<span class="fs-12 d-block mb-0">Finance Analyst</span>
+												</td>
+												<td>
+													<div class="d-flex align-items-center">
+														<a href="assets/img/users/user-32.webp" data-fancycard="gallery"
+															data-caption="" class="avatar avatar-lg">
+															<img src="assets/img/users/user-36.webp" class="img-fluid rounded-circle" alt="img">
+														</a>
+														<div class="ms-2">
+															<p class="text-dark fs-12 mb-0">Emily Rodriguez</p>
+															<span class="fs-12 d-block mb-0">Finance</span>
+															<span class="fs-12 d-block mb-0">Finance Analyst</span>
 
+														</div>
 													</div>
-												</div>
 
-											</td>
+												</td>
 
-											<td>
-												<p class="fs-14 mb-0">Network Printer Not Found</p>
-											</td>
-											<td>
-												<p class="fs-14 mb-0 text-dark fw-600">Hardware</p>
-												<p class="fs-14 mb-0">Mouse</p>
+												<td>
+													<p class="fs-12 text-dark mb-1">Network Printer Not Found</p>
+													<div class="row">
+														<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Created on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
+														</div>
+														<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Due on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
 
-											</td>
-											<td>
-												<p class="fs-13 d-inline-flex align-items-center mb-1">
-													<i class="ti ti-circle-filled fs-10 me-1 text-warning"></i>On going
-												</p>
-											</td>
-											<td>
-												<span class="badge bg-soft-danger">high</span>
-											</td>
+														</div>
+													</div></td>
+												</td>
+												<td>
+												 <p class="fs-12 mb-0 text-dark fw-600">Hardware</p>
+												 <p class="fs-12 mb-0">Mouse</p>
+												
+												</td>
+												<td>
+													<p class="fs-13 d-inline-flex align-items-center mb-1">
+														<i class="ti ti-circle-filled fs-10 me-1 text-warning"></i>On going
+													</p>
+												</td>
+												<td>
+													<span class="badge bg-soft-danger">high</span>
+												</td>
 
-											<td>
-												<p class="fs-14  mb-0">10 Sept 2025</p>
-											</td>
-											<td>
-												<p class="fs-14mb-0">13 Sept 2025</p>
-											</td>
-											<td>
-												<p>1st Floor
-													Seat no 02</p>
-											</td>
-											<td>
-												<a href="#" class="btn btn-secondary py-1">Pick ticket</a>
-											</td>
-										</tr>
-										<tr>
-											<td>
+												
+												<td>
+												<p class="d-block fs-12 mb-0">1st Floor</p>
+												<p class="d-block fs-12 ">Seat no 02</p>
+												</td>	
+												<td>
+												<a href="#" class="btn btn-secondary btn-sm py-1">Pick</a>
+												</td>
+											</tr>
+											<tr>
+												<td>
 												09838
-											</td>
-											<td>
-												<div class="d-flex align-items-center">
-													<a href="assets/img/users/user-28.webp" data-fancycard="gallery"
-														data-caption="" class="avatar avatar-lg">
-														<img src="assets/img/users/user-18.jpg"
-															class="img-fluid rounded-circle" alt="img">
-													</a>
-													<div class="ms-2">
-														<p class="text-dark mb-0 fs-16">Sophia Patel </p>
-														<span class="fs-12 d-block mb-0">Human Resources</span>
-														<span class="fs-12 d-block mb-0">Talent Acquisition
-															Specialist</span>
+												</td>
+												<td>
+													<div class="d-flex align-items-center">
+														<a href="assets/img/users/user-28.webp" data-fancycard="gallery"
+															data-caption="" class="avatar avatar-lg">
+															<img src="assets/img/users/user-18.jpg" class="img-fluid rounded-circle" alt="img">
+														</a>
+														<div class="ms-2">
+															<p class="text-dark fs-12 mb-0">Sophia Patel </p>
+															<span class="fs-12 d-block mb-0">Human Resources</span>
+															<span class="fs-12 d-block mb-0">Talent Acquisition Specialist</span>
 
+														</div>
 													</div>
-												</div>
 
-											</td>
+												</td>
 
-											<td>
-												<p class="fs-14 mb-0">Access Denied to Shared Network Drive</p>
-											</td>
-											<td>
-												<p class="fs-14 mb-0 text-dark fw-600">Hardware</p>
-												<p class="fs-14 mb-0">Mouse</p>
+												<td>
+													<p class="fs-12 text-dark mb-1">Access Denied to Shared Network Drive</p>
+													<div class="row">
+														<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Created on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
+														</div>
+														<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Due on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
 
-											</td>
-											<td>
-												<p class="fs-13 d-inline-flex align-items-center mb-1">
-													<i class="ti ti-circle-filled fs-10 me-1 text-warning"></i>On going
-												</p>
-											</td>
-											<td>
-												<span class="badge bg-soft-success">medium</span>
-											</td>
+														</div>
+													</div></td>
+												</td>
+												<td>
+												 <p class="fs-12 mb-0 text-dark fw-600">Hardware</p>
+												 <p class="fs-12 mb-0">Mouse</p>
+												
+												</td>
+												<td>
+													<p class="fs-12 d-inline-flex align-items-center mb-1">
+														<i class="ti ti-circle-filled fs-10 me-1 text-warning"></i>On going
+													</p>
+												</td>
+												<td>
+													<span class="badge bg-soft-success">medium</span>
+												</td>
 
-											<td>
-												<p class="fs-14  mb-0">07 Sept 2025</p>
-											</td>
-											<td>
-												<p class="fs-14mb-0">07 Sept 2025</p>
-											</td>
-											<td>
-												<p>1st Floor
-													Seat no 19</p>
-											</td>
-											<td>
-												<a href="#" class="btn btn-secondary py-1">Pick ticket</a>
-											</td>
-										</tr>
-										<tr>
-											<td>
+												
+												<td>
+												<p class="d-block fs-12 mb-0">1st Floor</p>
+												<p class="d-block fs-12 ">Seat no 06</p>
+												</td>	
+												<td>
+												<a href="#" class="btn btn-secondary btn-sm py-1">Pick</a>
+												</td>
+											</tr>
+											<tr>
+												<td>
 												09838
-											</td>
-											<td>
-												<div class="d-flex align-items-center">
-													<a href="assets/img/users/user-32.webp" data-fancycard="gallery"
-														data-caption="" class="avatar avatar-lg">
-														<img src="assets/img/users/user-38.webp"
-															class="img-fluid rounded-circle" alt="img">
-													</a>
-													<div class="ms-2">
-														<p class="text-dark mb-0 fs-16">Isabella Morris</p>
-														<span class="fs-12 d-block mb-0">Operations</span>
-														<span class="fs-12 d-block mb-0">Project Coordinator</span>
+												</td>
+												<td>
+													<div class="d-flex align-items-center">
+														<a href="assets/img/users/user-32.webp" data-fancycard="gallery"
+															data-caption="" class="avatar avatar-lg">
+															<img src="assets/img/users/user-38.webp" class="img-fluid rounded-circle" alt="img">
+														</a>
+														<div class="ms-2">
+															<p class="text-dark fs-12 mb-0">Isabella Morris</p>
+															<span class="fs-12 d-block mb-0">Operations</span>
+															<span class="fs-12 d-block mb-0">Project Coordinator</span>
 
+														</div>
 													</div>
-												</div>
 
-											</td>
+												</td>
 
-											<td>
-												<p class="fs-14 mb-0">Unable to Ping Server</p>
-											</td>
-											<td>
-												<p class="fs-14 mb-0 text-dark fw-600">Hardware</p>
-												<p class="fs-14 mb-0">Mouse</p>
+												<td>
+													<p class="fs-12 text-dark mb-1">Unable to Ping Server</p>
+													<div class="row">
+														<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Created on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
+														</div>
+														<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Due on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
 
-											</td>
-											<td>
-												<p class="fs-13 d-inline-flex align-items-center mb-1">
-													<i class="ti ti-circle-filled fs-10 me-1 text-success"></i>Resolved
-												</p>
-											</td>
-											<td>
-												<span class="badge bg-soft-danger">high</span>
-											</td>
+														</div>
+													</div>
+												</td>
+												<td>
+												 <p class="fs-12 mb-0 text-dark fw-600">Hardware</p>
+												 <p class="fs-12 mb-0">Mouse</p>
+												
+												</td>
+												<td>
+													<p class="fs-13 d-inline-flex align-items-center mb-1">
+														<i class="ti ti-circle-filled fs-10 me-1 text-success"></i>Resolved
+													</p>
+												</td>
+												<td>
+													<span class="badge bg-soft-danger">high</span>
+												</td>
 
-											<td>
-												<p class="fs-14  mb-0">09 Sept 2025</p>
-											</td>
-											<td>
-												<p class="fs-14mb-0">13 Sept 2025</p>
-											</td>
-											<td>
-												<p>1st Floor
-													Seat no 06</p>
-											</td>
-											<td>
-												<a href="#" class="btn btn-secondary py-1">Pick ticket</a>
-											</td>
-										</tr>
-
-									</tbody>
-								</table>
+												
+												<td>
+												<p class="d-block fs-12 mb-0">1st Floor</p>
+												<p class="d-block fs-12 ">Seat no 06</p>
+												</td>	
+												<td>
+												<a href="#" class="btn btn-secondary btn-sm py-1">Pick</a>
+												</td>
+											</tr>
+											
+										</tbody>
+									</table>
 							</div>
 						</div>
 					</div>
@@ -532,18 +579,23 @@
 						<div class="">
 							<div class="card-header">
 								<div class="d-flex align-items-center justify-content-between mb-3">
-									<span class="fs-20 fw-bold text-dark">Filters</span>
-									<a href="#" class="fs-18 text-success">Clear</a>
+									<span class="fs-20 fw-bold text-dark">Search by</span>
+									<!-- <a href="#" class="fs-18 text-success">Clear</a> -->
 								</div>
 							</div>
 							<div class="card-body">
 							<div class="mb-3">
-									<label class="form-label  mb-1">Ticket ID</label>
-									<input type="text" class="form-control">
+									<label class="form-label  mb-1"></label>
+									<input type="text" class="form-control" placeholder="Ticket ID">
 								</div>
-								<div class="mb-3">
+								<!-- <div class="mb-3 d-none">
 									<label class="form-label  mb-1">Ticket ID</label>
-									<input type="text" class="form-control">
+									<p class="text-dark">128B</p>
+									
+								</div> -->
+								<div class="mb-3">
+									<label class="form-label  mb-1"></label>
+									<input type="text" class="form-control" placeholder="Employee name ">
 									<!-- <select class="form-select">
 										<option></option>
 										<option></option>
@@ -552,8 +604,8 @@
 									</select> -->
 								</div>
 								<div class="mb-3">
-									<label class="form-label  mb-1">Employee name </label>
-									<input type="text" class="form-control">
+									<label class="form-label  mb-1"></label>
+									<input type="text" class="form-control" placeholder="Subject">
 									<!-- <select class="form-select">
 										<option></option>
 										<option></option>
@@ -562,56 +614,60 @@
 									</select> -->
 								</div>
 								<div class="mb-3">
-									<label class="form-label  mb-1">Status</label>
-									<select class="form-select">
+									<label class="form-label  mb-1"></label>
+									<input type="text" class="form-control" placeholder="Floor Number ">
+									<!-- <select class="form-select">
 										<option></option>
 										<option></option>
 										<option></option>
 										<option></option>
+									</select> -->
+								</div>
+								<div class="mb-3">
+									<label class="form-label  mb-1"></label>
+									<select class="form-select" placeholder="">
+										<option selected>Status</option>
+										<option>Open</option>
+										<option>Close</option>
+										
 									</select>
 								</div>
 								<div class="mb-3">
-									<label class="form-label  mb-1">Priority</label>
-									<select class="form-select">
-										<option></option>
-										<option></option>
-										<option></option>
-										<option></option>
+									<label class="form-label  mb-1"></label>
+									<select class="form-select" placeholder="">
+										<option selected>Priority</option>
+										<option>High</option>
+										<option>Medium</option>
+										<option>Low</option>
 									</select>
 								</div>
 								<div class="mb-3">
-									<label class="form-label mb-1">Category </label>
-									<select class="form-select">
-										<option></option>
-										<option></option>
-										<option></option>
-										<option></option>
+									<label class="form-label mb-1"> </label>
+									<select class="form-select" placeholder="">
+										<option selected>Category</option>
+										<option>Hardware</option>
+										<option>Software</option>
+										
 									</select>
 								</div>
 								<div class="mb-3">
-									<label class="form-label  mb-1">Sub category </label>
-									<select class="form-select">
-										<option></option>
-										<option></option>
-										<option></option>
-										<option></option>
+									<label class="form-label  mb-1"> </label>
+									<select class="form-select" placeholder="">
+										<option selected>Sub category</option>
+										<option>Mouse</option>
+										<option>Keyboard</option>
+										<option>Figma</option>
 									</select>
 								</div>
-								<div class="mb-3">
+								<div class="mb-3 rangg">
 									<label class="form-label  mb-1">Created on </label>
-									<input type="date" class="form-control">
+									<input type="text" name="daterange" class="form-control" value="01/01/2018 - 01/15/2018" />
 								</div>
 
-								<div class="mb-3">
+								<div class="mb-3 rangg">
 									<label class="form-label  mb-1">Due on</label>
-												
-									<div class="input-icon-end position-relative">
-										<input type="text" class="form-control date-range bookingrange" placeholder="dd/mm/yyyy - dd/mm/yyyy" id="dateRangePicker">
-										<span class="input-icon-addon">
-											<i class="ti ti-chevron-down"></i>
-										</span>
-									</div>
-                    
+									<input type="text" name="daterange" class="form-control" value="01/01/2018 - 01/15/2018" />
+								 
 								</div>
 
 								<!-- <div class="mb-3">
@@ -634,31 +690,7 @@
 				<!-- Offcanvas 1 -->
 
 
-				<!-- Offcanvas 2 -->
-				<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas2" aria-labelledby="label2">
-					<div class="offcanvas-header">
-						<!-- <h5 class="offcanvas-title" id="label2">Offcanvas 2</h5> -->
-						<button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
-					</div>
-					<div class="offcanvas-body">
-						Content for Offcanvas 2
-					</div>
-				</div>
-				<!-- Offcanvas 2 -->
-
-				<!-- Offcanvas 3 -->
-				<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas3" aria-labelledby="label3">
-					<div class="offcanvas-header">
-						<!-- <h5 class="offcanvas-title" id="label3">Offcanvas 3</h5> -->
-						<button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
-					</div>
-					<div class="offcanvas-body">
-						Content for Offcanvas 3
-					</div>
-				</div>
-
-				<!-- Offcanvas 3 -->
-
+				
 
 
 			<!-- /Page Wrapper -->
@@ -681,8 +713,17 @@
 			}
 		});
 
-
+	
 	</script>
+<script>
+$(function() {
+  $('input[name="daterange"]').daterangepicker({
+    opens: 'left'
+  }, function(start, end, label) {
+    console.log("A new date selection was made: " + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD'));
+  });
+});
+</script>
 
 <!-- <script>
   document.querySelectorAll('.dropdown-menu .dropdown-item').forEach(item => {

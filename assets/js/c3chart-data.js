@@ -452,13 +452,13 @@
 		  type: 'bar',
 		  colors: {
 			data1: '#664dc9',
-			data2: '#44c4fa',
+			data2: '#f26522',
 			data3: '#f4d03f' // Yellow bar
 		  },
 		  names: {
-			'data1': 'Tickets created: 32',
-			'data2': 'Tickets solved: 45',
-			'data3': 'New Tickets Comparison'
+			'data1': 'Tickets picked',
+			'data2': 'Tickets solved',
+			'data3': 'Tickets Reopened'
 		  }
 		},
 		axis: {
