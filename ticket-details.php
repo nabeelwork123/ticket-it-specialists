@@ -165,16 +165,16 @@
                         <div class="card-body">
                        
                                     <div class="mb-3">
-                                        <div class="d-flex align-items-center justify-content-between flex-wrap mb-sm-3 mb-2">
+                                        <div class="d-flex align-items-start justify-content-between flex-wrap mb-sm-3 mb-2">
                                             <div class="d-flex align-items-center">
                                                 <span class="avatar avatar-md avatar-rounded me-2 flex-shrink-0"><img src="assets/img/users/user-01.webp" alt="Img"></span>
                                             <div>
-                                            <span class=""><span class="text-primary">John Smith,</span>  AVP, International Sales <br>2nd floor. Seat no 14.  </span>
+                                            <span class="fs-12"><span class="text-primary">John Smith,</span>  AVP, International Sales <br>2nd floor. Seat no 14.  </span>
                                                 <!-- <h6 class="mb-1">Marilyn Siegle</h6> -->
                                                
                                             </div>
                                             </div>
-                                            <p class="d-flex justify-content-end text-end mt-sm-0 mt-2"><i class="ti ti-calendar-bolt me-1"></i>12 Apr 2025</p>
+                                            <p class="d-flex align-items-start fs-12 justify-content-end text-end mt-sm-0 mt-2"><i class="ti ti-calendar-bolt me-1"></i>12th Apr 2025<br>09:00 AM</p>
                                         </div>
                                         <div>
                                             <div class="mb-sm-0 mb-0">
@@ -197,16 +197,16 @@
                         <div class="card-body">
                         <div>
                                     <div class="border-bottom mb-3">
-                                        <div class="d-flex align-items-center justify-content-between flex-wrap mb-sm-3 mb-2">
+                                        <div class="d-flex align-items-start justify-content-between flex-wrap mb-sm-3 mb-2">
                                             <div class="d-flex align-items-center">
                                                 <span class="avatar avatar-md avatar-rounded me-2 flex-shrink-0"><img src="assets/img/users/user-01.webp" alt="Img"></span>
                                             <div>
-                                            <span class=""><span class="text-primary">John Smith,</span>  AVP, International Sales <br>2nd floor. Seat no 14.  </span>
+                                            <span class="fs-12"><span class="text-primary">John Smith,</span>  AVP, International Sales <br>2nd floor. Seat no 14.  </span>
                                                 <!-- <h6 class="mb-1">Marilyn Siegle</h6> -->
                                                
                                             </div>
                                             </div>
-                                            <p class="d-flex align-items-center justify-content-end text-end mt-sm-0 mt-2"><i class="ti ti-calendar-bolt me-1"></i>13 Apr 2025</p>
+                                            <p class="d-flex align-items-start fs-12 justify-content-end text-end mt-sm-0 mt-2"><i class="ti ti-calendar-bolt me-1"></i>13th Apr 2025<br>11:35 PM </p>
                                         </div>
                                         <div>
                                             <div class="mb-sm-3 mb-1">
@@ -220,16 +220,16 @@
                                     </div>
                                 </div>
                                 <div class="border-bottom mb-3 ">
-                                        <div class="d-flex align-items-center justify-content-between flex-wrap mb-sm-3 mb-2">
+                                        <div class="d-flex align-items-start justify-content-between flex-wrap mb-sm-3 mb-2">
                                             <div class="d-flex align-items-center">
                                             <span class="avatar avatar-md avatar-rounded me-2 flex-shrink-0"><img src="assets/img/users/user-09.webp" alt="Img"></span>
                                             <div>
-                                            <span class=""><span class="text-primary">James Hendriques,</span>  AVP, International Sales <br>2nd floor. Seat no 14.  </span>
+                                            <span class="fs-12"><span class="text-primary">James Hendriques,</span>  AVP, International Sales <br>2nd floor. Seat no 14.  </span>
                                                 <!-- <h6 class="mb-1">Marilyn Siegle</h6> -->
                                                
                                             </div>
                                             </div>
-                                            <p class="d-flex align-items-center justify-content-end text-end mt-sm-0 mt-2"><i class="ti ti-calendar-bolt me-1"></i>14 Apr 2025</p>
+                                            <p class="d-flex align-items-start justify-content-end fs-12 text-end mt-sm-0 mt-2"><i class="ti ti-calendar-bolt me-1"></i>14th Apr 2025<br>12:00 PM</p>
                                         </div>
                                         <div>
                                             <div class="mb-sm-3 mb-0">
@@ -247,12 +247,13 @@
                                             <div class="d-flex align-items-center">
                                             <span class="avatar avatar-md avatar-rounded me-2 flex-shrink-0"><img src="assets/img/users/user-01.webp" alt="Img"></span>
                                             <div>
-                                            <span class=""><span class="text-primary">John Smith,</span>  AVP, International Sales <br>2nd floor. Seat no 14.  </span>
+                                            <span class="fs-12"><span class="text-primary">John Smith,</span>  AVP, International Sales <br>2nd floor. Seat no 14.  </span>
                                                 <!-- <h6 class="mb-1">Marilyn Siegle</h6> -->
                                                
                                             </div>
                                             </div>
-                                            <p class="d-flex  align-items-center justify-content-end text-end mt-sm-0 mt-2"><i class="ti ti-calendar-bolt me-1"></i>18 Apr 2025</p>
+                                            <p class="d-flex fs-12 align-items-start justify-content-end text-end mt-sm-0 mt-2"><i class="ti ti-calendar-bolt me-1"></i>18th Apr 2025<br>10:00 AM </p>
+                                            
                                         </div>
                                         <div>
                                             <div class="mb-sm-3 mb-1">
@@ -294,13 +295,13 @@
                             <div class="col-lg-l2">
                             <div class="border-bottom px-sm-4 px-1 py-2">
                                 <span class="fs-12">Ticket ID</span>
-                                <p class="text-dark">#TKT-1948</p>
+                                <p class="text-dark fs-12">#TKT-1948</p>
                             </div>
                             </div>
                             <div class="col-lg-12">
                             <div class="border-bottom px-sm-4 px-1 py-2">
                                 <span class="fs-12">Status</span>
-                                    <select class="form-select form-control px-1">
+                                    <select class="form-select form-control px-1 fs-12">
                                    
                                         <option selected>Open</option>
                                         <option>close</option>
@@ -311,21 +312,21 @@
                             <div class="col-lg-12">
                             <div class="border-bottom px-sm-4 px-1 py-2 mb-2">
                                 <span class="fs-12">Priority </span>
-                                <p class="text-dark">Low</p>
+                                <p class="text-dark fs-12">Low</p>
                             </div>
                             </div>
                             <div class="col-lg-12">
                             <div class="border-bottom px-sm-4 px-1 py-2">
                                 <span class="fs-12">Created on</span>
-                                <p class="text-dark mb-0">12 Apr 2025</p>
-                                <p class="text-dark mb-0">10:00 AM</p>
+                                <p class="text-dark mb-0 fs-12">12 Apr 2025</p>
+                                <p class="text-dark mb-0 fs-12">10:00 AM</p>
                             </div>
                             </div>
                             <div class="col-lg-12">
                             <div class="border-bottom px-sm-4 px-1 py-2 mb-2">
                                 <span class="fs-12">Due date</span>
-                                <p class="text-dark mb-0">15 Apr 2025</p>
-                                <p class="text-dark mb-0">10:00 AM</p>
+                                <p class="text-dark mb-0 fs-12">15 Apr 2025</p>
+                                <p class="text-dark mb-0 fs-12">10:00 AM</p>
                             </div>
                             </div>
                             <div class="col-lg-12">
@@ -358,19 +359,19 @@
                             <div class="col-lg-12">
                             <div class="border-bottom px-sm-4 px-1 py-2">
                                 <span class="fs-12">Category</span>
-                                <p class="text-dark"> Software </p>
+                                <p class="text-dark fs-12"> Software </p>
                             </div>
                             </div>
                             <div class="col-lg-12">
                             <div class="border-bottom px-sm-4 px-1 py-2">
                                 <span class="fs-12">Sub category</span>
-                                <p class="text-dark"> Software update</p>
+                                <p class="text-dark fs-12"> Software update</p>
                             </div>
                             </div>
                             <div class="col-lg-12">
                             <div class="px-sm-4 px-1 py-2">
                                 <span class="fs-12">Last Updated / Closed On</span>
-                                <p class="text-dark">25 May 2024</p>
+                                <p class="text-dark fs-12">25 May 2024</p>
                             </div>
                             </div>
 

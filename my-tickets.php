@@ -569,8 +569,9 @@
 
 
 
-		<!-- Offcanvas 1 -->
-		<div class="offcanvas  offcanvas-end" tabindex="-1" id="offcanvas1" aria-labelledby="label1">
+	
+			<!-- Offcanvas 1 -->
+			<div class="offcanvas  offcanvas-end" tabindex="-1" id="offcanvas1" aria-labelledby="label1">
 					<!-- <div class="offcanvas-header">
 						<h5 class="offcanvas-title" id="label1">Offcanvas 1</h5>
 						<button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
@@ -578,13 +579,13 @@
 					<div class="offcanvas-body">
 						<div class="">
 							<div class="card-header">
-								<div class="d-flex align-items-center justify-content-between mb-3">
-									<span class="fs-20 fw-bold text-dark">Search by</span>
+								<div class="d-flex align-items-center justify-content-between mb-0">
+									<span class="fs-20 fw-bold text-dark">Search by:</span>
 									<!-- <a href="#" class="fs-18 text-success">Clear</a> -->
 								</div>
 							</div>
 							<div class="card-body">
-							<div class="mb-3">
+							<div class="mb-0">
 									<label class="form-label  mb-1"></label>
 									<input type="text" class="form-control" placeholder="Ticket ID">
 								</div>
@@ -593,7 +594,7 @@
 									<p class="text-dark">128B</p>
 									
 								</div> -->
-								<div class="mb-3">
+								<div class="mb-0">
 									<label class="form-label  mb-1"></label>
 									<input type="text" class="form-control" placeholder="Employee name ">
 									<!-- <select class="form-select">
@@ -603,7 +604,7 @@
 										<option></option>
 									</select> -->
 								</div>
-								<div class="mb-3">
+								<div class="mb-0">
 									<label class="form-label  mb-1"></label>
 									<input type="text" class="form-control" placeholder="Subject">
 									<!-- <select class="form-select">
@@ -613,7 +614,7 @@
 										<option></option>
 									</select> -->
 								</div>
-								<div class="mb-3">
+								<div class="mb-0">
 									<label class="form-label  mb-1"></label>
 									<input type="text" class="form-control" placeholder="Floor Number ">
 									<!-- <select class="form-select">
@@ -623,7 +624,7 @@
 										<option></option>
 									</select> -->
 								</div>
-								<div class="mb-3">
+								<div class="mb-0">
 									<label class="form-label  mb-1"></label>
 									<select class="form-select" placeholder="">
 										<option selected>Status</option>
@@ -632,7 +633,7 @@
 										
 									</select>
 								</div>
-								<div class="mb-3">
+								<div class="mb-0">
 									<label class="form-label  mb-1"></label>
 									<select class="form-select" placeholder="">
 										<option selected>Priority</option>
@@ -641,16 +642,15 @@
 										<option>Low</option>
 									</select>
 								</div>
-								<div class="mb-3">
+								<div class="mb-0">
 									<label class="form-label mb-1"> </label>
 									<select class="form-select" placeholder="">
 										<option selected>Category</option>
 										<option>Hardware</option>
 										<option>Software</option>
-										
 									</select>
 								</div>
-								<div class="mb-3">
+								<div class="mb-2">
 									<label class="form-label  mb-1"> </label>
 									<select class="form-select" placeholder="">
 										<option selected>Sub category</option>
@@ -659,12 +659,12 @@
 										<option>Figma</option>
 									</select>
 								</div>
-								<div class="mb-3 rangg">
+								<div class="mb-2 rangg">
 									<label class="form-label  mb-1">Created on </label>
 									<input type="text" name="daterange" class="form-control" value="01/01/2018 - 01/15/2018" />
 								</div>
 
-								<div class="mb-3 rangg">
+								<div class="mb-4 rangg">
 									<label class="form-label  mb-1">Due on</label>
 									<input type="text" name="daterange" class="form-control" value="01/01/2018 - 01/15/2018" />
 								 
@@ -680,7 +680,7 @@
 									<input type="text" class="form-control" placeholder="">
 								</div> -->
 
-								<div class="d-flex justify-content-start">
+								<div class="d-flex justify-content-start mt-2">
 									<button type="button" class="btn btn-primary btn-md fs-12 text-uppercase" data-bs-dismiss="offcanvas">Apply filters</button>
 								</div>
 							</div>

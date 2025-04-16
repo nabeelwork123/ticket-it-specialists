@@ -1100,13 +1100,13 @@
 					<div class="offcanvas-body">
 						<div class="">
 							<div class="card-header">
-								<div class="d-flex align-items-center justify-content-between mb-3">
-									<span class="fs-20 fw-bold text-dark">Search by</span>
+								<div class="d-flex align-items-center justify-content-between mb-0">
+									<span class="fs-20 fw-bold text-dark">Search by:</span>
 									<!-- <a href="#" class="fs-18 text-success">Clear</a> -->
 								</div>
 							</div>
 							<div class="card-body">
-							<div class="mb-3">
+							<div class="mb-0">
 									<label class="form-label  mb-1"></label>
 									<input type="text" class="form-control" placeholder="Ticket ID">
 								</div>
@@ -1115,7 +1115,7 @@
 									<p class="text-dark">128B</p>
 									
 								</div> -->
-								<div class="mb-3">
+								<div class="mb-0">
 									<label class="form-label  mb-1"></label>
 									<input type="text" class="form-control" placeholder="Employee name ">
 									<!-- <select class="form-select">
@@ -1125,7 +1125,7 @@
 										<option></option>
 									</select> -->
 								</div>
-								<div class="mb-3">
+								<div class="mb-0">
 									<label class="form-label  mb-1"></label>
 									<input type="text" class="form-control" placeholder="Subject">
 									<!-- <select class="form-select">
@@ -1135,7 +1135,7 @@
 										<option></option>
 									</select> -->
 								</div>
-								<div class="mb-3">
+								<div class="mb-0">
 									<label class="form-label  mb-1"></label>
 									<input type="text" class="form-control" placeholder="Floor Number ">
 									<!-- <select class="form-select">
@@ -1145,7 +1145,7 @@
 										<option></option>
 									</select> -->
 								</div>
-								<div class="mb-3">
+								<div class="mb-0">
 									<label class="form-label  mb-1"></label>
 									<select class="form-select" placeholder="">
 										<option selected>Status</option>
@@ -1154,7 +1154,7 @@
 										
 									</select>
 								</div>
-								<div class="mb-3">
+								<div class="mb-0">
 									<label class="form-label  mb-1"></label>
 									<select class="form-select" placeholder="">
 										<option selected>Priority</option>
@@ -1163,7 +1163,7 @@
 										<option>Low</option>
 									</select>
 								</div>
-								<div class="mb-3">
+								<div class="mb-0">
 									<label class="form-label mb-1"> </label>
 									<select class="form-select" placeholder="">
 										<option selected>Category</option>
@@ -1171,7 +1171,7 @@
 										<option>Software</option>
 									</select>
 								</div>
-								<div class="mb-3">
+								<div class="mb-2">
 									<label class="form-label  mb-1"> </label>
 									<select class="form-select" placeholder="">
 										<option selected>Sub category</option>
@@ -1180,12 +1180,12 @@
 										<option>Figma</option>
 									</select>
 								</div>
-								<div class="mb-3 rangg">
+								<div class="mb-2 rangg">
 									<label class="form-label  mb-1">Created on </label>
 									<input type="text" name="daterange" class="form-control" value="01/01/2018 - 01/15/2018" />
 								</div>
 
-								<div class="mb-3 rangg">
+								<div class="mb-4 rangg">
 									<label class="form-label  mb-1">Due on</label>
 									<input type="text" name="daterange" class="form-control" value="01/01/2018 - 01/15/2018" />
 								 
@@ -1201,7 +1201,7 @@
 									<input type="text" class="form-control" placeholder="">
 								</div> -->
 
-								<div class="d-flex justify-content-start">
+								<div class="d-flex justify-content-start mt-2">
 									<button type="button" class="btn btn-primary btn-md fs-12 text-uppercase" data-bs-dismiss="offcanvas">Apply filters</button>
 								</div>
 							</div>
@@ -1219,6 +1219,15 @@
 			
 
 			<?php include 'includes/script.php'; ?>
+			<script>
+$(function() {
+  $('input[name="daterange"]').daterangepicker({
+    opens: 'left'
+  }, function(start, end, label) {
+    console.log("A new date selection was made: " + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD'));
+  });
+});
+</script>
 
 </body>
 
