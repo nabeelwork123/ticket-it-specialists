@@ -544,7 +544,7 @@ counter-reset: item;
 .ov-box{
     background-color: #F4F9FF;
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     padding: 20px 15px;
     margin-top: 10px;
     min-height: 138px;
