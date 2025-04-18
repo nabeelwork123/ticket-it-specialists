@@ -74,137 +74,83 @@
 				<!-- /Breadcrumb -->
 
 			
-				<div class="row">
-					<div class="col-xl-9 col-lg-9 col-md-12 col-12">
-
-						<div class="row">
-
-						<div class="col-xl-4 col-md-4">
+				<div class="row g-1">
+					<div class="col-xl-2 col-md-3">
 						<div class="card flex-fill">
 							<div class="card-body">
-								<div class="d-flex align-items-center justify-content-between">
-									<div class="w-75">
-									<h3 class="mb-1 fs-24">26 </h3>
-								<span class="fs-14 fw-medium ">New Tickets </span>
-								
-									</div>
-									<div class="w-25 text-end">
-										<img src="assets/img/icons/new-ticket.png" class="img-fluid">
-									</div>
-								</div>
-							
+							<h3 class="mb-1 fs-24">26 </h3>
+								<span class="fs-14 fw-medium text-body">New Tickets </span>
+								<p class="fs-12 mb-0">&nbsp; </p>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-xl-4 col-md-4">
+					<div class="col-xl-2 col-md-3">
 						<div class="card flex-fill">
-							<div class="card-body ">
-							<div class="d-flex align-items-center justify-content-between">
-							<div class="w-75">
+							<div class="card-body h-100">
 							<h3 class="mb-1 fs-24">13</h3>
-								<span class="fs-14 ">Tickets In Progress</span>
-								</div>
-									<div class="w-25 text-end">
-										<img src="assets/img/icons/ti-progress.png" class="img-fluid">
-									</div>
-							</div>
+								<span class="fs-14 fw-medium text-body">Tickets In Progress</span>
+								<p class="fs-12 mb-0">&nbsp; </p>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-xl-4 col-md-4">
+					<div class="col-xl-2 col-md-3">
 						<div class="card flex-fill">
 							<div class="card-body">
-							<div class="d-flex align-items-center justify-content-between">
-							<div class="w-75">
 							<h3 class="mb-1 fs-24">09</h3>
-								<span class="fs-14 ">Resolved Tickets</span>
-									
-							</div>
-							
-									<div class="w-25 text-end">
-										<img src="assets/img/icons/ti-resolved.png" class="img-fluid">
-									</div>
+								<span class="fs-14 fw-medium text-body">Resolved Tickets</span>
+									<p class="fs-12 mb-0">&nbsp; </p>
 							</div>
 						</div>
 					</div>
-					</div>
 
-					<div class="col-xl-6 col-md-6">
+					<div class="col-xl-2 col-md-3">
 						<div class="card flex-fill">
 							<div class="card-body">
-							<div class="d-flex align-items-center justify-content-between">
-							<div class="w-75">
+							<h3 class="mb-1 fs-24">17</h3>
+								<span class="fs-14 fw-medium text-body">Overdue Tickets</span>
+								<p class="fs-12 mb-0">&nbsp; </p>
+								<!-- <p class="fs-12 mb-0">&nbsp; </p> -->
+								<!-- <div class="d-flex justify-content-between mb-0">
+									<div class="shadow-none px-2 py-1 mb-0 bg-light-subtle rounded">
+									<span class="fs-12 fw-medium text-body">24 Hrs</span>
+									<p class="fs-10  mb-0">7 tickets </p>
+									</div>
+									<div class="shadow-none px-2  py-1 mb-0 bg-light-subtle rounded">
+									<span class="fs-12 fw-medium text-body">48 Hrs</span>
+									<p class="fs-10  mb-0">10 tickets </p>
+									</div>
+									<div class="shadow-none px-2 py-1 mb-0 bg-light-subtle rounded">
+									<span class="fs-12 fw-medium text-body">72 Hrs</span>
+									<p class="fs-10  mb-0">15 tickets </p>
+									</div>
+								</div> -->
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xl-2 col-md-3">
+						<div class="card flex-fill">
+							<div class="card-body">
 							<h3 class="mb-1 fs-24">3.67<span class="fs-12 fw-medium text-danger"><i class="fa-solid fa-caret-up me-1"></i>+5.3%</span></h3>
 								<span class="fs-14 fw-medium text-body">Avg. 1st Response Time</span>
 								<p class="fs-12  mb-0">from last month </p>
 								<!-- <p class="fs-12 mb-0">&nbsp; </p> -->
-								</div>
-							
-							<div class="w-25 text-end">
-								<img src="assets/img/icons/ti-resolve.png" class="img-fluid">
 							</div>
-					</div>
 						</div>
 					</div>
-					</div>
 
-					<div class="col-xl-6 col-md-6">
+					<div class="col-xl-2 col-md-3">
 						<div class="card flex-fill">
 							<div class="card-body">
-							<div class="d-flex align-items-center justify-content-between">
-							<div class="w-75">
 							<h3 class="mb-1 fs-24">3.67<span class="fs-12 fw-medium text-danger"><i class="fa-solid fa-caret-up me-1"></i>+5.3%</span></h3>
 								<span class="fs-14 fw-medium text-body">Avg. Resolve Time</span>
 								<p class="fs-12  mb-0">from last month </p>
 								<!-- <p class="fs-12 mb-0">&nbsp; </p> -->
 							</div>
-							
-							<div class="w-25 text-end">
-								<img src="assets/img/icons/ti-response.png" class="img-fluid">
-							</div>
-					</div>
 						</div>
 					</div>
-
-
-						</div>
-						</div>
-
-					</div>
-
-					<div class="col-xl-3 col-lg-9 col-lg-12 col-12">
-
-					
-						<div class="card flex-fill">
-							<div class="card-body">
-							<h3 class="mb-1 fs-24">17</h3>
-								<span class="fs-14 ">Overdue Tickets</span>
-								
-								<!-- <p class="fs-12 mb-0">&nbsp; </p> -->
-								<div class="ov-box">
-									<div class="ov-box-inner">
-									<span class="fs-12 fw-medium text-dark ">24<span class="fs-10">Hrs</span></span>
-									<p class="fs-12  mt-3">7</p>
-									<p class="fs-12  mb-0 mt-3">tickets </p>
-									</div>
-									<div class="ov-box-inner">
-									<span class="fs-12 fw-medium text-dark">48<span class="fs-10">Hrs</span></span>
-									<p class="fs-12  mt-3">10</p>
-									<p class="fs-12  mb-0 mt-3">tickets </p>
-									</div>
-									<div class="ov-box-inner" style="border:0;">
-									<span class="fs-12 fw-medium text-dark ">72<span class="fs-10">Hrs</span></span>
-									<p class="fs-12  mt-3">15</p>
-									<p class="fs-12  mb-0 mt-3">tickets </p>
-									</div>
-								</div>
-							</div>
-						</div>
-					
-					</div>
-					
 
 				</div>
 			
@@ -254,27 +200,28 @@
 												<th scope="col">Ticket Detail</th>
 												<th scope="col">Category</th>
 												<th scope="col">Status</th>
-											
+												<th scope="col">Priority</th>
+												<!-- <th scope="col">Ticket Date</th>
+												<th scope="col">Due Date</th> -->
+												<th scope="col">Location</th>
 												<th scope="col">Action</th>
 											</tr>
 										</thead>
 										<tbody>
 											<tr>
-												<td> 
-													<p class="mb-0 d-block"> 09834</p>
-													<span class="badge bg-soft-primary">Low</span>
+												<td>
+												09834
 												</td>
 												<td class="">
-													<div class="d-flex align-items-start">
+													<div class="d-flex align-items-center">
 														<a href="assets/img/users/user-32.webp" data-fancycard="gallery"
 															data-caption="" class="avatar avatar-lg">
-															<img src="assets/img/users/user-32.webp" class="img-fluid rounded-3 " alt="img">
+															<img src="assets/img/users/user-32.webp" class="img-fluid rounded-circle" alt="img">
 														</a>
 														<div class="ms-2">
 															<p class="text-dark mb-0 fs-12">James MIller </p>
 															<span class="fs-12 d-block mb-0 fs-12">International Sales </span>
 															<span class="fs-12 d-block mb-0 fs-12" >Vice President</span>
-															<p class="mb-0 fs-13">1st Floor / Seat no 22 </p>
 
 														</div>
 													</div>
@@ -308,25 +255,33 @@
 													</p>
 												</td>
 												<td>
-													<a href="#" class="btn btn-primary py-1 btn-sm">Pick</a>
+													<span class="badge bg-soft-primary">Low</span>
+												</td>
+
+											
+												<td>
+												<p class="d-block fs-12 mb-0">1st Floor</p>
+												<p class="d-block fs-12 ">Seat no 22</p>
+												</td>	
+												<td>
+													<a href="#" class="btn btn-secondary py-1 btn-sm">Pick</a>
 												</td>
 											</tr>
 											<tr>
-											<td> 
-													<p class="mb-0 d-block"> 09835</p>
-													<span class="badge bg-soft-primary">Low</span>
+												<td>
+												09836
 												</td>
 												<td>
-													<div class="d-flex align-items-start">
+													<div class="d-flex align-items-center">
 														<a href="assets/img/users/user-32.webp" data-fancycard="gallery"
 															data-caption="" class="avatar avatar-lg">
-															<img src="assets/img/users/user-33.webp" class="img-fluid rounded-3 " alt="img">
+															<img src="assets/img/users/user-33.webp" class="img-fluid rounded-circle" alt="img">
 														</a>
 														<div class="ms-2">
 															<p class="text-dark fs-12 mb-0">Henry Full </p>
 															<span class="fs-12  d-block mb-0">Aministration</span>
 															<span class="fs-12 d-block mb-0">Manager</span>
-															<p class="mb-0 fs-13">1st Floor / Seat no 18 </p>
+
 														</div>
 													</div>
 
@@ -359,25 +314,32 @@
 													</p>
 												</td>
 												<td>
-													<a href="#" class="btn btn-primary py-1 btn-sm">Pick</a>
+													<span class="badge bg-soft-warning">low</span>
+												</td>
+
+											
+												<td>
+												<p class="d-block fs-12 mb-0">1st Floor</p>
+												<p class="d-block fs-12 ">Seat no 20</p>
+												</td>	
+												<td>
+													<a href="#" class="btn btn-secondary py-1 btn-sm">Pick</a>
 												</td>
 											</tr>
 											<tr>
-											<td> 
-													<p class="mb-0 d-block"> 09836</p>
-													<span class="badge bg-soft-primary">Low</span>
+												<td>
+												09836
 												</td>
 												<td>
-													<div class="d-flex align-items-start">
+													<div class="d-flex align-items-center">
 														<a href="assets/img/users/user-32.webp" data-fancycard="gallery"
 															data-caption="" class="avatar avatar-lg">
-															<img src="assets/img/users/user-34.webp" class="img-fluid rounded-3 " alt="img">
+															<img src="assets/img/users/user-34.webp" class="img-fluid rounded-circle" alt="img">
 														</a>
 														<div class="ms-2">
 															<p class="text-dark fs-12 mb-0">Dickson Joe</p>
 															<span class="fs-12 d-block mb-0">Brand</span>
 															<span class="fs-12 d-block mb-0">Content writer</span>
-															<p class="mb-0 fs-13">1st Floor / Seat no 05 </p>
 
 														</div>
 													</div>
@@ -411,25 +373,32 @@
 													</p>
 												</td>
 												<td>
-													<a href="#" class="btn btn-primary py-1 btn-sm">Pick</a>
+													<span class="badge bg-soft-danger">high</span>
+												</td>
+
+												
+												<td>
+												<p class="d-block fs-12 mb-0">1st Floor</p>
+												<p class="d-block fs-12 ">Seat no 19</p>
+												</td>	
+												<td>
+													<a href="#" class="btn btn-secondary btn-sm py-1">Pick</a>
 												</td>
 											</tr>
 											<tr>
-											<td> 
-													<p class="mb-0 d-block"> 09837</p>
-													<span class="badge bg-soft-primary">Low</span>
+												<td>
+												09837
 												</td>
 												<td>
-													<div class="d-flex align-items-start">
+													<div class="d-flex align-items-center">
 														<a href="assets/img/users/user-32.webp" data-fancycard="gallery"
 															data-caption="" class="avatar avatar-lg">
-															<img src="assets/img/users/user-35.webp" class="img-fluid rounded-3 " alt="img">
+															<img src="assets/img/users/user-35.webp" class="img-fluid rounded-circle" alt="img">
 														</a>
 														<div class="ms-2">
 															<p class="text-dark fs-12 mb-0">Sarah Thompson</p>
 															<span class="fs-12 d-block mb-0">Human Resources</span>
 															<span class="fs-12 d-block mb-0">HR Manager</span>
-															<p class="mb-0 fs-13">1st Floor / Seat no 18 </p>
 
 														</div>
 													</div>
@@ -463,25 +432,32 @@
 													</p>
 												</td>
 												<td>
-													<a href="#" class="btn btn-primary py-1 btn-sm">Pick</a>
+													<span class="badge bg-soft-danger">high</span>
+												</td>
+
+												
+												<td>
+												<p class="d-block fs-12 mb-0">1st Floor</p>
+												<p class="d-block fs-12 ">Seat no 22</p>
+												</td>	
+												<td>
+												<a href="#" class="btn btn-secondary btn-sm py-1">Pick</a>
 												</td>
 											</tr>
 											<tr>
-											<td> 
-													<p class="mb-0 d-block"> 09838</p>
-													<span class="badge bg-soft-primary">Low</span>
+												<td>
+												09838
 												</td>
 												<td>
-													<div class="d-flex align-items-start">
+													<div class="d-flex align-items-center">
 														<a href="assets/img/users/user-32.webp" data-fancycard="gallery"
 															data-caption="" class="avatar avatar-lg">
-															<img src="assets/img/users/user-36.webp" class="img-fluid rounded-3 " alt="img">
+															<img src="assets/img/users/user-36.webp" class="img-fluid rounded-circle" alt="img">
 														</a>
 														<div class="ms-2">
 															<p class="text-dark fs-12 mb-0">Emily Rodriguez</p>
 															<span class="fs-12 d-block mb-0">Finance</span>
 															<span class="fs-12 d-block mb-0">Finance Analyst</span>
-															<p class="mb-0 fs-13">1st Floor / Seat no 17 </p>
 
 														</div>
 													</div>
@@ -515,25 +491,32 @@
 													</p>
 												</td>
 												<td>
-													<a href="#" class="btn btn-primary py-1 btn-sm">Pick</a>
+													<span class="badge bg-soft-danger">high</span>
+												</td>
+
+												
+												<td>
+												<p class="d-block fs-12 mb-0">1st Floor</p>
+												<p class="d-block fs-12 ">Seat no 02</p>
+												</td>	
+												<td>
+												<a href="#" class="btn btn-secondary btn-sm py-1">Pick</a>
 												</td>
 											</tr>
 											<tr>
-											<td> 
-													<p class="mb-0 d-block"> 09839</p>
-													<span class="badge bg-soft-primary">Low</span>
+												<td>
+												09838
 												</td>
 												<td>
-													<div class="d-flex align-items-start">
+													<div class="d-flex align-items-center">
 														<a href="assets/img/users/user-28.webp" data-fancycard="gallery"
 															data-caption="" class="avatar avatar-lg">
-															<img src="assets/img/users/user-18.jpg" class="img-fluid rounded-3 " alt="img">
+															<img src="assets/img/users/user-18.jpg" class="img-fluid rounded-circle" alt="img">
 														</a>
 														<div class="ms-2">
 															<p class="text-dark fs-12 mb-0">Sophia Patel </p>
 															<span class="fs-12 d-block mb-0">Human Resources</span>
 															<span class="fs-12 d-block mb-0">Talent Acquisition Specialist</span>
-															<p class="mb-0 fs-13">1st Floor / Seat no 35 </p>
 
 														</div>
 													</div>
@@ -567,25 +550,32 @@
 													</p>
 												</td>
 												<td>
-													<a href="#" class="btn btn-primary py-1 btn-sm">Pick</a>
+													<span class="badge bg-soft-success">medium</span>
+												</td>
+
+												
+												<td>
+												<p class="d-block fs-12 mb-0">1st Floor</p>
+												<p class="d-block fs-12 ">Seat no 06</p>
+												</td>	
+												<td>
+												<a href="#" class="btn btn-secondary btn-sm py-1">Pick</a>
 												</td>
 											</tr>
 											<tr>
-											<td> 
-													<p class="mb-0 d-block"> 09840</p>
-													<span class="badge bg-soft-primary">Low</span>
+												<td>
+												09838
 												</td>
 												<td>
-													<div class="d-flex align-items-start">
+													<div class="d-flex align-items-center">
 														<a href="assets/img/users/user-32.webp" data-fancycard="gallery"
 															data-caption="" class="avatar avatar-lg">
-															<img src="assets/img/users/user-38.webp" class="img-fluid rounded-3 " alt="img">
+															<img src="assets/img/users/user-38.webp" class="img-fluid rounded-circle" alt="img">
 														</a>
 														<div class="ms-2">
 															<p class="text-dark fs-12 mb-0">Isabella Morris</p>
 															<span class="fs-12 d-block mb-0">Operations</span>
 															<span class="fs-12 d-block mb-0">Project Coordinator</span>
-															<p class="mb-0 fs-13">1st Floor / Seat no 42 </p>
 
 														</div>
 													</div>
@@ -619,7 +609,16 @@
 													</p>
 												</td>
 												<td>
-													<a href="#" class="btn btn-primary py-1 btn-sm">Pick</a>
+													<span class="badge bg-soft-danger">high</span>
+												</td>
+
+												
+												<td>
+												<p class="d-block fs-12 mb-0">1st Floor</p>
+												<p class="d-block fs-12 ">Seat no 06</p>
+												</td>	
+												<td>
+												<a href="#" class="btn btn-secondary btn-sm py-1">Pick</a>
 												</td>
 											</tr>
 											
@@ -630,9 +629,7 @@
 						</div>
 				</div>
 
-
-				
-				<div class="row mb-4 d-none">
+				<div class="row mb-4">
 					<div class="col-xl-12 col-md-12">
 						<div class="card flex-fill overflow-hidden">
 							<div class="card-header">
@@ -800,7 +797,7 @@
 														<a href="assets/img/users/user-32.webp" data-fancybox="gallery"
 															data-caption="" class="avatar avatar-lg">
 															<img src="assets/img/users/user-33.webp"
-																class="img-fluid rounded-3 " alt="img">
+																class="img-fluid rounded-circle" alt="img">
 														</a>
 														<div class="ms-2">
 															<p class="text-dark mb-0"><a href="#" data-bs-toggle="modal"
@@ -821,7 +818,7 @@
 														<a href="assets/img/users/user-32.webp" data-fancybox="gallery"
 															data-caption="" class="avatar avatar-lg">
 															<img src="assets/img/users/user-34.webp"
-																class="img-fluid rounded-3 " alt="img">
+																class="img-fluid rounded-circle" alt="img">
 														</a>
 														<div class="ms-2">
 															<p class="text-dark mb-0"><a href="#" data-bs-toggle="modal"
@@ -842,7 +839,7 @@
 														<a href="assets/img/users/user-32.webp" data-fancybox="gallery"
 															data-caption="" class="avatar avatar-lg">
 															<img src="assets/img/users/user-35.webp"
-																class="img-fluid rounded-3 " alt="img">
+																class="img-fluid rounded-circle" alt="img">
 														</a>
 														<div class="ms-2">
 															<p class="text-dark mb-0"><a href="#" data-bs-toggle="modal"
@@ -862,7 +859,7 @@
 														<a href="assets/img/users/user-36.webp" data-fancybox="gallery"
 															data-caption="" class="avatar avatar-lg">
 															<img src="assets/img/users/user-39.webp"
-																class="img-fluid rounded-3 " alt="img">
+																class="img-fluid rounded-circle" alt="img">
 														</a>
 														<div class="ms-2">
 															<p class="text-dark mb-0"><a href="#" data-bs-toggle="modal"
@@ -882,7 +879,7 @@
 														<a href="assets/img/users/user-37.webp" data-fancybox="gallery"
 															data-caption="" class="avatar avatar-lg">
 															<img src="assets/img/users/user-40.webp"
-																class="img-fluid rounded-3 " alt="img">
+																class="img-fluid rounded-circle" alt="img">
 														</a>
 														<div class="ms-2">
 															<p class="text-dark mb-0"><a href="#" data-bs-toggle="modal"
@@ -901,7 +898,7 @@
 														<a href="assets/img/users/user-38.webp" data-fancybox="gallery"
 															data-caption="" class="avatar avatar-lg">
 															<img src="assets/img/users/user-41.webp"
-																class="img-fluid rounded-3 " alt="img">
+																class="img-fluid rounded-circle" alt="img">
 														</a>
 														<div class="ms-2">
 															<p class="text-dark mb-0"><a href="#" data-bs-toggle="modal"
@@ -933,60 +930,70 @@
 							<div class="card-body">
 								<div class="row">
 									<div class="col-6 be-1 bb-1 ">
-										<div class="d-flex align-items-center justify-content-between">
-											<div class="w-75">
-												<p class="text-mute m-0 mb-0">Tickets picked</p>
-												<h3 class="mb-0 fs-32 fw-500 l-h-50">180 tickets</h3>
-											</div>
-											<div class="w-25 mt-3">
-												<img src="assets/img/icons/click.png" class="img-fluid">
+										<div class="card border border-0 shadow-none ps-10 px-2 py-2">
+											<div>
+												<p class="text-mute m-0 mb-3">Tickets picked</p>
+												<h3 class="mb-0 fw-500 l-h-50">180 tickets</h3>
 											</div>
 										</div>
 									</div>
-
-									<div class="col-6 be-1 bb-1 ">
-										<div class="d-flex align-items-center justify-content-between">
-											<div class="w-75">
-											<h3 class="mb-0 fs-32 fw-500 l-h-50">75%</h3>
-												<p class="text-mute m-0 mb-2">Positive</p>
-												<p class="mb-1 fs-12"><span class="fs-12 fw-medium text-primary"><i class="fa-solid fa-caret-up me-1"></i>+2.3% </span>vs last month</p>
-
+									<div class="col-6 bb-1 ">
+										<div class="card shadow-none ps-10">
+										<div class="d-flex align-items-center justify-content-between px-md-4 px-2 py-md-3 py-2">
+											
+											<div class="avatar  me-15 w-25 h-100  text-center align-content-center me-10">
+												<i class="fa fa-thumbs-up text-success"></i>
 											</div>
-											<div class="w-25 mt-3">
-												<img src="assets/img/icons/green-bar.png" class="img-fluid">
+												<div>
+													<p class="text-mute m-0">Positive</p>
+													<h3 class="mb-0 fw-500">75%</h3>
+												</div>
 											</div>
-										</div>
-									</div>
-
-									<div class="col-6 be-1 bb-1 ">
-										<div class="d-flex align-items-center justify-content-between">
-											<div class="w-75">
-											<h3 class="mb-0 fs-32 fw-500 l-h-50">20%</h3>
-												<p class="text-mute m-0 mb-2">Neutral</p>
-												<p class="mb-1 fs-12"><span class="fs-12 fw-medium text-primary"><i class="fa-solid fa-caret-up me-1"></i>+2.3% </span>vs last month</p>
-
-											</div>
-											<div class="w-25 mt-3">
-												<img src="assets/img/icons/yellow-bar.png" class="img-fluid">
+											<div class="progress mt-0 mb-0" role="progressbar"
+												aria-label="Example 1px high" aria-valuenow="75" aria-valuemin="0"
+												aria-valuemax="100" style="height: 5px">
+												<div class="progress-bar bg-success" style="width: 75%"></div>
 											</div>
 										</div>
 									</div>
-
-
-									<div class="col-6 be-1 bb-1 ">
-										<div class="d-flex align-items-center justify-content-between">
-											<div class="w-75">
-											<h3 class="mb-0 fs-32 fw-500 l-h-50">5%</h3>
-												<p class="text-mute m-0 mb-2">Negative</p>
-												<p class="mb-1 fs-12"><span class="fs-12 fw-medium text-primary"><i class="fa-solid fa-caret-up me-1"></i>+2.3% </span>vs last month</p>
-
+									<div class="col-6 be-1 ">
+										<div class="card shadow-none pe-10 mt-20">
+										<div class="d-flex align-items-center justify-content-between px-md-4 px-2 py-md-3 py-2">
+											
+											<div class="avatar  me-15 w-25 h-100  text-center align-content-center me-10">
+												<i class="fa fa-thumbs-up text-warning"></i>
 											</div>
-											<div class="w-25 mt-3">
-												<img src="assets/img/icons/red-bar.png" class="img-fluid">
+											<div>
+												<p class="text-mute m-0">Neutral</p>
+												<h3 class="mb-0 fw-500">20%</h3>
+											</div>
+										</div>
+											<div class="progress mt-0 mb-0" role="progressbar"
+												aria-label="Example 1px high" aria-valuenow="75" aria-valuemin="0"
+												aria-valuemax="100" style="height: 5px">
+												<div class="progress-bar bg-warning" style="width: 20%"></div>
 											</div>
 										</div>
 									</div>
-									
+									<div class="col-6">
+										<div class="card shadow-none ps-10 mt-20">
+										<div class="d-flex align-items-center justify-content-between px-md-4 px-2 py-md-3 py-2">
+											
+											<div class="avatar  me-15 w-25 h-100  text-center align-content-center me-10">
+												<i class="fa fa-thumbs-up text-danger"></i>
+											</div>
+												<div>
+													<p class="text-mute m-0">Negative</p>
+													<h3 class="mb-0 fw-500">5%</h3>
+												</div>
+											</div>
+											<div class="progress mt-0 mb-0" role="progressbar"
+												aria-label="Example 1px high" aria-valuenow="75" aria-valuemin="0"
+												aria-valuemax="100" style="height: 5px">
+												<div class="progress-bar bg-danger" style="width: 5%"></div>
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>

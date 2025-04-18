@@ -541,7 +541,18 @@ counter-reset: item;
     font-size:12px!important;
 }
 /* New Css Start */
-
+.ov-box{
+    background-color: #F4F9FF;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 15px;
+    margin-top: 10px;
+    min-height: 138px;
+}
+.ov-box .ov-box-inner {
+    border-right: 1px dashed #ccc;
+    padding:0 17px ;
+}
 @media(max-width:1399.98px){
 
     .profile-banner-txt .profile-banner-img {
