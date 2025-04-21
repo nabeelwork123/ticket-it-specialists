@@ -174,30 +174,36 @@
 
 					</div>
 
-					<div class="col-xl-3 col-lg-3 col-lg-12 col-12">
+					<div class="col-xl-3 col-lg-12 col-lg-12 col-12">
 
 					
 						<div class="card flex-fill">
 							<div class="card-body">
-							<h3 class="mb-1 fs-24">17</h3>
+								<div class="d-flex justify-content-between mb-3">
+									<div class="w-75">
+								<h3 class="mb-1 fs-24">17</h3>
 								<span class="fs-14 ">Overdue Tickets</span>
-								
+								</div>
+								<div class="w-25 text-end">
+								<img src="assets/img/icons/ti-overdue.png" class="img-fluid">
+							</div>
+								</div>
 								<!-- <p class="fs-12 mb-0">&nbsp; </p> -->
 								<div class="ov-box">
 									<div class="ov-box-inner">
-									<span class="fs-14 fw-medium text-dark ">24<span class="fs-10">Hrs</span></span>
-									<p class="fs-12  mt-3">7</p>
-									<p class="fs-12  mb-0 mt-3">tickets </p>
+									<span class=" ">24<span class="fs-10">Hrs</span></span>
+									<p class="mt-3">7</p>
+									<p class="mb-0 mt-3">tickets </p>
 									</div>
 									<div class="ov-box-inner">
-									<span class="fs-14 fw-medium text-dark">48<span class="fs-10">Hrs</span></span>
-									<p class="fs-12  mt-3">10</p>
-									<p class="fs-12  mb-0 mt-3">tickets </p>
+									<span class="">48<span class="fs-10">Hrs</span></span>
+									<p class="mt-3">7</p>
+									<p class="mb-0 mt-3">tickets </p>
 									</div>
 									<div class="ov-box-inner" style="border:0;">
-									<span class="fs-14 fw-medium text-dark ">72<span class="fs-10">Hrs</span></span>
-									<p class="fs-12  mt-3">15</p>
-									<p class="fs-12  mb-0 mt-3">tickets </p>
+									<span class=" ">72<span class="fs-10">Hrs</span></span>
+									<p class="mt-3">12</p>
+									<p class="mb-0 mt-3">tickets </p>
 									</div>
 								</div>
 							</div>
@@ -936,7 +942,7 @@
 										<div class="d-flex align-items-center justify-content-between mb-4 px-4 py-3">
 											<div class="w-75">
 												<p class="text-mute m-0 mb-0">Tickets picked</p>
-												<h3 class="mb-0 fs-32 fw-500 l-h-50">180 tickets</h3>
+												<h3 class="mb-0 fs-26 fw-500 l-h-50">180 tickets</h3>
 											</div>
 											<div class="w-25 mt-3 text-end">
 												<img src="assets/img/icons/click.png" class="img-fluid">
