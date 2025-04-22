@@ -19,12 +19,8 @@
 
 	<!-- Main Wrapper -->
 	<div class="main-wrapper">
-
-
-
 		<?php include 'includes/header.php'; ?>
 		<?php include 'includes/sidebar.php'; ?>
-
 		<!-- Page Wrapper -->
 		<div class="page-wrapper">
 			<div class="content">
@@ -75,20 +71,19 @@
 
 			
 				<div class="row">
-					<div class="col-xl-9 col-lg-9 col-md-12 col-12">
+					<div class="col-xl-9 col-lg-12 col-md-12 col-12">
 
 						<div class="row">
 
 						<div class="col-xl-4 col-md-4">
-						<div class="card flex-fill">
-							<div class="card-body">
-								<div class="d-flex align-items-center justify-content-between">
-									<div class="w-75">
-									<h3 class="mb-1 fs-24">26 </h3>
-								<span class="fs-14 fw-medium ">New Tickets </span>
-								
+						<div class="card">
+							<div class="card-body ">
+								<div class="tick-dash-card d-flex align-items-center justify-content-between">
+									<div>
+										<h3 class="mb-1 fs-24">26 </h3>
+										<span class="fs-14 fw-medium ">New Tickets </span>								
 									</div>
-									<div class="w-25 text-end">
+									<div class="tick-dash-icon">
 										<img src="assets/img/icons/new-ticket.png" class="img-fluid">
 									</div>
 								</div>
@@ -98,14 +93,14 @@
 					</div>
 
 					<div class="col-xl-4 col-md-4">
-						<div class="card flex-fill">
+						<div class="card">
 							<div class="card-body ">
-							<div class="d-flex align-items-center justify-content-between">
-							<div class="w-75">
+							<div class="tick-dash-card d-flex align-items-center justify-content-between">
+							<div>
 							<h3 class="mb-1 fs-24">13</h3>
 								<span class="fs-14 ">Tickets In Progress</span>
 								</div>
-									<div class="w-25 text-end">
+									<div class="tick-dash-icon">
 										<img src="assets/img/icons/ti-progress.png" class="img-fluid">
 									</div>
 							</div>
@@ -114,16 +109,16 @@
 					</div>
 
 					<div class="col-xl-4 col-md-4">
-						<div class="card flex-fill">
+						<div class="card">
 							<div class="card-body">
-							<div class="d-flex align-items-center justify-content-between">
-							<div class="w-75">
+							<div class="tick-dash-card d-flex align-items-center justify-content-between">
+							<div>
 							<h3 class="mb-1 fs-24">09</h3>
 								<span class="fs-14 ">Resolved Tickets</span>
 									
 							</div>
 							
-									<div class="w-25 text-end">
+									<div class="tick-dash-icon">
 										<img src="assets/img/icons/ti-resolved.png" class="img-fluid">
 									</div>
 							</div>
@@ -132,17 +127,17 @@
 					</div>
 
 					<div class="col-xl-6 col-md-6">
-						<div class="card flex-fill">
+						<div class="card">
 							<div class="card-body">
-							<div class="d-flex align-items-center justify-content-between">
-							<div class="w-75">
+							<div class="tick-dash-card d-flex align-items-center justify-content-between">
+							<div>
 							<h3 class="mb-1 fs-24">3.67<span class="fs-12 fw-medium text-danger"><i class="fa-solid fa-caret-up me-1"></i>+5.3%</span></h3>
 								<span class="fs-14 fw-medium text-body">Avg. 1st Response Time</span>
 								<p class="fs-12  mb-0">from last month </p>
 								<!-- <p class="fs-12 mb-0">&nbsp; </p> -->
 								</div>
 							
-							<div class="w-25 text-end">
+							<div class="tick-dash-icon">
 								<img src="assets/img/icons/ti-resolve.png" class="img-fluid">
 							</div>
 					</div>
@@ -151,17 +146,17 @@
 					</div>
 
 					<div class="col-xl-6 col-md-6">
-						<div class="card flex-fill">
+						<div class="card">
 							<div class="card-body">
-							<div class="d-flex align-items-center justify-content-between">
-							<div class="w-75">
+							<div class="tick-dash-card d-flex align-items-center justify-content-between">
+							<div>
 							<h3 class="mb-1 fs-24">3.67<span class="fs-12 fw-medium text-danger"><i class="fa-solid fa-caret-up me-1"></i>+5.3%</span></h3>
 								<span class="fs-14 fw-medium text-body">Avg. Resolve Time</span>
 								<p class="fs-12  mb-0">from last month </p>
 								<!-- <p class="fs-12 mb-0">&nbsp; </p> -->
 							</div>
 							
-							<div class="w-25 text-end">
+							<div class="tick-dash-icon">
 								<img src="assets/img/icons/ti-response.png" class="img-fluid">
 							</div>
 					</div>
@@ -174,17 +169,17 @@
 
 					</div>
 
-					<div class="col-xl-3 col-lg-12 col-lg-12 col-12">
+					<div class="col-xl-3 col-lg-12 px-md-0 col-12">
 
 					
-						<div class="card flex-fill">
+						<div class="card ">
 							<div class="card-body">
-								<div class="d-flex justify-content-between mb-3">
+								<div class="tick-dash-card d-flex justify-content-between mb-0">
 									<div class="w-75">
 								<h3 class="mb-1 fs-24">17</h3>
 								<span class="fs-14 ">Overdue Tickets</span>
 								</div>
-								<div class="w-25 text-end">
+								<div class="tick-dash-icon">
 								<img src="assets/img/icons/ti-overdue.png" class="img-fluid">
 							</div>
 								</div>
@@ -941,38 +936,38 @@
 									<div class="col-6 be-1 bb-1 ">
 										<div class="d-flex align-items-center justify-content-between mb-4 px-4 py-3">
 											<div class="w-75">
-												<p class="text-mute m-0 mb-0">Tickets picked</p>
-												<h3 class="mb-0 fs-26 fw-500 l-h-50">180 tickets</h3>
+												<p class="text-mute m-0 mb-2">Tickets picked</p>
+												<h3 class="mb-0 fs-24 fw-500 l-h-50">180 tickets</h3>
 											</div>
-											<div class="w-25 mt-3 text-end">
+											<div class="mt-3 text-end">
 												<img src="assets/img/icons/click.png" class="img-fluid">
 											</div>
 										</div>
 									</div>
 
 									<div class="col-6 be-1 bb-1 ">
-										<div class="d-flex align-items-center justify-content-between bg-light p-2 rounded mb-4 px-4 py-3">
+										<div class="d-flex gap-2 align-items-end justify-content-between bg-light p-2 rounded mb-3 px-4 py-2">
 											<div class="w-75">
-											<h3 class="mb-0 fs-32 fw-500 l-h-50">75%</h3>
+											<h3 class="mb-0 fs-24 fw-500 l-h-50">75%</h3>
 												<p class="text-mute m-0 mb-2">Positive</p>
 												<p class="mb-1 fs-12"><span class="fs-12 fw-medium text-primary"><i class="fa-solid fa-caret-up me-1"></i>+2.3% </span>vs last month</p>
 
 											</div>
-											<div class="w-25 mt-3">
+											<div class="mt-3">
 												<img src="assets/img/icons/green-bar.png" class="img-fluid">
 											</div>
 										</div>
 									</div>
 
 									<div class="col-6 be-1 bb-1 ">
-										<div class="d-flex align-items-center justify-content-between bg-light p-2 rounded mb-4 px-4 py-3">
+										<div class="d-flex gap-2 align-items-end justify-content-between bg-light p-2 rounded mb-3 px-4 py-2">
 											<div class="w-75">
-											<h3 class="mb-0 fs-32 fw-500 l-h-50">20%</h3>
+											<h3 class="mb-0 fs-24 fw-500 l-h-50">20%</h3>
 												<p class="text-mute m-0 mb-2">Neutral</p>
 												<p class="mb-1 fs-12"><span class="fs-12 fw-medium text-primary"><i class="fa-solid fa-caret-up me-1"></i>+2.3% </span>vs last month</p>
 
 											</div>
-											<div class="w-25 mt-3">
+											<div class="mt-3">
 												<img src="assets/img/icons/yellow-bar.png" class="img-fluid">
 											</div>
 										</div>
@@ -980,14 +975,14 @@
 
 
 									<div class="col-6 be-1 bb-1 ">
-										<div class="d-flex align-items-center justify-content-between bg-light p-2 rounded mb-4 px-4 py-3">
+										<div class="d-flex gap-2 align-items-end justify-content-between bg-light p-2 rounded mb-3 px-4 py-2">
 											<div class="w-75">
-											<h3 class="mb-0 fs-32 fw-500 l-h-50">5%</h3>
+											<h3 class="mb-0 fs-24 fw-500 l-h-50">5%</h3>
 												<p class="text-mute m-0 mb-2">Negative</p>
 												<p class="mb-1 fs-12"><span class="fs-12 fw-medium text-primary"><i class="fa-solid fa-caret-up me-1"></i>+2.3% </span>vs last month</p>
 
 											</div>
-											<div class="w-25 mt-3">
+											<div class="mt-3">
 												<img src="assets/img/icons/red-bar.png" class="img-fluid">
 											</div>
 										</div>
@@ -1054,6 +1049,19 @@
                                     </div>
                                 </div>
 
+								<div class="d-flex align-items-start">
+                                    <div class="d-flex align-items-center active-time">
+                                        <span>08:40 <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+                                        <span><i class="ti ti-point-filled text-secondary fs-20"></i></span>
+                                    </div>
+                                    <div class="flex-fill ps-3 pb-4 timeline-flow">
+                                        <div class="bg-light p-2 rounded">
+                                            <p class="fw-medium text-gray-9 mb-1">Responded to Ticket ID 2349</p>
+                                            <!-- <span>Review</span> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            
 								<!-- <div class="d-flex align-items-start">
                                     <div class="d-flex align-items-center active-time">
                                         <span>01:15 <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>

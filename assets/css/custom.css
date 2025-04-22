@@ -544,24 +544,36 @@ counter-reset: item;
 .ov-box{
     background-color: #F4F9FF;
     display: flex;
-    justify-content: start;
-    padding: 20px 15px;
+    justify-content: space-between;
+    padding:12px 5px;
     margin-top: 10px;
-    min-height: 138px;
+    min-height: 120px;
     width: 100%;
     overflow: hidden;
     border: 0;
     border-radius: 10px;
 }
 .ov-box .ov-box-inner {
-    border-right: 1px dotted #ccc;
-    padding:0 8%;
+    border-right: 1px dashed #ccc;
+    padding:0 4% 0 4%;
+    flex: 1;
+    /* word-break: break-all;
+    word-wrap: break-word; */
 }
 .ov-box .ov-box-inner span{
     font-weight:600;
     color: #111;
 
 }
+.ov-box .ov-box-inner p{
+    font-size: 14px;
+}
+
+.tick-dash-icon {
+    flex: 1 0 60px;
+    max-width: 60px;
+}
+
 @media(max-width:1399.98px){
 
     .profile-banner-txt .profile-banner-img {

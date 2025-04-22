@@ -94,9 +94,14 @@
 												<option value="offcanvas2">Test</option>
 												<option value="offcanvas3">Test</option>
 								  </select>  -->
+								  <div class="input-icon-end position-relative">
+                            <input type="text" class="form-control date-range bookingrange" placeholder="Today" id="dateRangePicker">
+                            <span class="input-icon-addon">
+                                <i class="ti ti-chevron-down"></i>
+                            </span>
+                        </div>
 
-
-									<div class="dropdown mb-2">
+									<!-- <div class="dropdown mb-2">
 										<a href="javascript:void(0);"
 											class="btn btn-white border btn-sm d-inline-flex align-items-center"
 											data-bs-toggle="dropdown">
@@ -104,18 +109,22 @@
 										</a>
 										<ul class="dropdown-menu  dropdown-menu-end p-3">
 											<li>
-												<a href="javascript:void(0);" class="dropdown-item rounded-1">This
-													Month</a>
-											</li>
-											<li>
-												<a href="javascript:void(0);" class="dropdown-item rounded-1">This
-													Week</a>
-											</li>
-											<li>
 												<a href="javascript:void(0);" class="dropdown-item rounded-1">Today</a>
 											</li>
+											<li>
+												<a href="javascript:void(0);" class="dropdown-item rounded-1">yesterday</a>
+											</li>
+											<li>
+												<a href="javascript:void(0);" class="dropdown-item rounded-1">this week</a>
+											</li>
+											<li>
+												<a href="javascript:void(0);" class="dropdown-item rounded-1">this month</a>
+											</li>
+											<li>
+												<a href="javascript:void(0);" class="dropdown-item rounded-1">last month</a>
+											</li>
 										</ul>
-									</div>
+									</div> -->
 								</div>
 							</div>
 						</div>
