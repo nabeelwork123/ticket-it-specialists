@@ -86,7 +86,7 @@
 								</div>
 								<div class="d-flex justify-content-end me-2">
 
-								<a href="javascript:;" data-bs-toggle="offcanvas"  data-bs-target="#offcanvas1" class="btn btn-primary btn-sm me-sm-4 me-2 h-25">Filters</a>
+								<a href="javascript:;" data-bs-toggle="offcanvas"  data-bs-target="#offcanvas1" class="btn btn-primary btn-sm me-sm-4 py-2 me-2 h-25">Filters</a>
 
 								 <!-- <select class="form-select me-2 py-0 mb-2 " id="offcanvasSelect">
 												<option value="" selected>Filter by </option>
@@ -94,8 +94,11 @@
 												<option value="offcanvas2">Test</option>
 												<option value="offcanvas3">Test</option>
 								  </select>  -->
-								  <div class="input-icon-end position-relative">
-                            <input type="text" class="form-control date-range bookingrange" placeholder="Today" id="dateRangePicker">
+								  <!-- <div id="reportrange">
+    <span></span> <i class="fa fa-caret-down"></i>
+</div>-->
+								  <div class="position-relative"  id=""> 
+                            <input type="text" class="form-control  " placeholder="Today" id="reportrange">
                             <span class="input-icon-addon">
                                 <i class="ti ti-chevron-down"></i>
                             </span>
@@ -129,7 +132,7 @@
 							</div>
 						</div>
 						<div class="card-body p-0">
-							<div class="table-responsive table-responsive-lg">
+							
 							<div class="table-responsive table-responsive-lg">
 									<table class="table ">
 										<thead class="thead-light">
@@ -156,7 +159,7 @@
 													<div class="d-flex align-items-center">
 														<a href="assets/img/users/user-32.webp" data-fancycard="gallery"
 															data-caption="" class="avatar avatar-lg">
-															<img src="assets/img/users/user-32.webp" class="img-fluid rounded-circle" alt="img">
+															<img src="assets/img/users/user-32.webp" class="img-fluid rounded-3" alt="img">
 														</a>
 														<div class="ms-2">
 															<p class="text-dark mb-0 fs-12">James MIller </p>
@@ -215,7 +218,7 @@
 													<div class="d-flex align-items-center">
 														<a href="assets/img/users/user-32.webp" data-fancycard="gallery"
 															data-caption="" class="avatar avatar-lg">
-															<img src="assets/img/users/user-33.webp" class="img-fluid rounded-circle" alt="img">
+															<img src="assets/img/users/user-33.webp" class="img-fluid rounded-3" alt="img">
 														</a>
 														<div class="ms-2">
 															<p class="text-dark fs-12 mb-0">Henry Full </p>
@@ -274,7 +277,7 @@
 													<div class="d-flex align-items-center">
 														<a href="assets/img/users/user-32.webp" data-fancycard="gallery"
 															data-caption="" class="avatar avatar-lg">
-															<img src="assets/img/users/user-34.webp" class="img-fluid rounded-circle" alt="img">
+															<img src="assets/img/users/user-34.webp" class="img-fluid rounded-3" alt="img">
 														</a>
 														<div class="ms-2">
 															<p class="text-dark fs-12 mb-0">Dickson Joe</p>
@@ -333,7 +336,7 @@
 													<div class="d-flex align-items-center">
 														<a href="assets/img/users/user-32.webp" data-fancycard="gallery"
 															data-caption="" class="avatar avatar-lg">
-															<img src="assets/img/users/user-35.webp" class="img-fluid rounded-circle" alt="img">
+															<img src="assets/img/users/user-35.webp" class="img-fluid rounded-3" alt="img">
 														</a>
 														<div class="ms-2">
 															<p class="text-dark fs-12 mb-0">Sarah Thompson</p>
@@ -392,7 +395,7 @@
 													<div class="d-flex align-items-center">
 														<a href="assets/img/users/user-32.webp" data-fancycard="gallery"
 															data-caption="" class="avatar avatar-lg">
-															<img src="assets/img/users/user-36.webp" class="img-fluid rounded-circle" alt="img">
+															<img src="assets/img/users/user-36.webp" class="img-fluid rounded-3" alt="img">
 														</a>
 														<div class="ms-2">
 															<p class="text-dark fs-12 mb-0">Emily Rodriguez</p>
@@ -451,7 +454,7 @@
 													<div class="d-flex align-items-center">
 														<a href="assets/img/users/user-28.webp" data-fancycard="gallery"
 															data-caption="" class="avatar avatar-lg">
-															<img src="assets/img/users/user-18.jpg" class="img-fluid rounded-circle" alt="img">
+															<img src="assets/img/users/user-18.jpg" class="img-fluid rounded-3" alt="img">
 														</a>
 														<div class="ms-2">
 															<p class="text-dark fs-12 mb-0">Sophia Patel </p>
@@ -510,7 +513,7 @@
 													<div class="d-flex align-items-center">
 														<a href="assets/img/users/user-32.webp" data-fancycard="gallery"
 															data-caption="" class="avatar avatar-lg">
-															<img src="assets/img/users/user-38.webp" class="img-fluid rounded-circle" alt="img">
+															<img src="assets/img/users/user-38.webp" class="img-fluid rounded-3" alt="img">
 														</a>
 														<div class="ms-2">
 															<p class="text-dark fs-12 mb-0">Isabella Morris</p>
@@ -565,7 +568,7 @@
 										</tbody>
 									</table>
 							</div>
-						</div>
+					
 					</div>
 				</div>
 
@@ -750,6 +753,64 @@ $(function() {
   });
 </script> -->
 
+</div>
+<script type="text/javascript">
+	$(function() {
+
+var start = moment().startOf('week');
+var end = moment().endOf('week');
+
+function cb(start, end) {
+	$('#reportrange span').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'));
+}
+
+$('#reportrange').daterangepicker({
+	startDate: start,
+	endDate: end,
+	ranges: {
+	   'Today': [moment(), moment()],
+	   'Yesterday': [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
+	   'This Week': [moment().startOf('week'), moment().endOf('week')],
+	   'This Month': [moment().startOf('month'), moment().endOf('month')],
+	   'Last Month': [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')]
+	},
+	alwaysShowCalendars: true,
+	showCustomRangeLabel: true
+}, cb);
+
+// Set initial placeholder text to "Today"
+$('#reportrange span').html('Today');
+
+cb(start, end);
+
+});
+
+// $(function() {
+
+//     var start = moment().startOf('week');
+//     var end = moment().endOf('week');
+
+//     function cb(start, end) {
+//         $('#reportrange span').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'));
+//     }
+
+//     $('#reportrange').daterangepicker({
+//         startDate: start,
+//         endDate: end,
+//         ranges: {
+//            'Yesterday': [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
+//            'This Week': [moment().startOf('week'), moment().endOf('week')],
+//            'This Month': [moment().startOf('month'), moment().endOf('month')],
+//            'Last Month': [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')]
+//         },
+//         alwaysShowCalendars: true, // makes the calendar visible for custom range
+//         showCustomRangeLabel: true
+//     }, cb);
+
+//     cb(start, end);
+
+// });
+</script>
 
 </body>
 
