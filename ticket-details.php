@@ -183,15 +183,29 @@
 
                         <div class="card">
                             <div class="card-body">
-                            <div class="summernote"></div>
+                            <!-- <div class="summernote"></div> -->
+                            <div id="summernote"><p>Click here to reply or press</p></div>
 
                             <div class="row align-items-center mt-2">
                                 <div class="col-xl-6 col-lg-6 col-12 d-flex align-items-center">
-                                    <button type="button" class="btn btn-md btn-success me-2">Send</button>
-                                    <button type="button" class="btn btn-md btn-outline-dark">Send & close</button>
+                                <div class="btn-group mt-2">
+                                <button type="button" class="btn btn-info">Reply</button>
+                                <button type="button"
+                                    class="btn btn-info dropdown-toggle dropdown-toggle-split"
+                                    id="dropdownMenuReference" data-bs-toggle="dropdown"
+                                    aria-expanded="false" data-bs-reference="parent">
+                                    <span class="visually-hidden"></span>
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuReference">
+                                    <li><a class="dropdown-item" href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal1">Reply & close ticket</a></li>
+                                    <li><a class="dropdown-item" href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal2">Reply & change to waiting for customer</a></li>
+                                </ul>
+                            </div>
+                                    <!-- <button type="button" class="btn btn-md btn-success me-2">Send</button>
+                                    <button type="button" class="btn btn-md btn-outline-dark">Send & close</button> -->
                                 </div>
                                 <div class="d-flex justify-content-end col-xl-6 col-lg-6 col-12 text-end">
-                                <p>Press c to close the ticket<i class="ti ti-x ms-2"></i></p>
+                                <!-- <p>Press c to close the ticket<i class="ti ti-x ms-2"></i></p> -->
                                 </div>
                             </div>
                             </div>
@@ -212,8 +226,7 @@
                                                     <span class="avatar avatar-md rounded-3 me-2 flex-shrink-0"><img
                                                             src="assets/img/users/user-01.webp" alt="Img"></span>
                                                     <div>
-                                                        <span class="fs-12"><span class="text-primary">Michael
-                                                                Philips,</span> Product manage </span>
+                                                        <span class="fs-12"><span class="text-primary">Michael Philips,</span> Product manage </span>
                                                         <p class="fs-12">2nd floor. Seat no 14.</p>
                                                     </div>
                                                 </div>
@@ -444,8 +457,12 @@
                                     <div class="col-lg-12">
                                         <div class="sdr-box">
                                             <span class="fs-12">Due date</span>
-                                            <p class="nw-text-cl d-flex align-items-center mb-1">23 Apr 2025 <span
-                                                    class="fst-normal ms-1"> 10:00 AM</span> </p>
+                                            <div class="d-flex align-items-start">
+                                            <p class="nw-text-cl d-flex align-items-center mb-1">23 Apr 2025
+                                               <span class="fst-normal ms-1"> 10:00 AM</span> </p>
+                                               <span class="badge bg-soft-danger d-flex align-items-baseline me-1 ms-2 mb-0">
+                                                <img src="assets/img/icons/red-icon.png" class="img-fluid me-2 mb-0 mt-0"><span class=""> -2h 50m </span> </span>
+                                               </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-12">
@@ -672,12 +689,91 @@
             </div>
             <!-- /Delete Modal -->
 
+            <!-- Modal -->
+<div class="modal fade rate-modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header d-flex align-items-start flex-column px-xl-4 px-md-2 mt-2">
+        <h3 class="d-block fs-20 mb-2">Rate Your Support Experience</h3>
+        <p>Let us know how satisfied you are with the support you received.</p>
+        <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+      </div>
+      <div class="modal-body px-xl-4 px-md-2 py-xl-4 py-lg-4">
+        <div class="row">
+            <div class="col-lg-4 mb-2">
+                <a class="fd-back-box text-center">
+                    <img src="assets/img/icons/emoji1.png" class="img-fluid">
+                    <span>Bad</span>
+                </a>
+            </div>
+            <div class="col-lg-4 mb-2">
+            <a class="fd-back-box text-center">
+                    <img src="assets/img/icons/emoji2.png" class="img-fluid">
+                    <span>Okay</span>
+                </a>
+            </div>
+            <div class="col-lg-4 mb-2">
+            <a class="fd-back-box text-center">
+                    <img src="assets/img/icons/emoji3.png" class="img-fluid">
+                    <span>Good</span>
+                </a>
+            </div>
+            <div class="col-lg-12 mt-3 mb-4">
+                <span class="fs-14 text-dark d-block fw-600 mb-2">Additional Feedback (optional)</span>
+                <textarea class="form-control w-100 h-100"></textarea>
+            </div>
+        </div>
+      </div>
+      <div class="modal-footer d-flex justify-content-center">
+        <button type="button" class="btn btn-primary me-2 mb-2" data-bs-dismiss="modal">Submit</button>
+        <button type="button" class="btn btn-light me-2 mb-2" data-bs-dismiss="modal">Cancel</button>
+      </div>
+    </div>
+  </div>
+</div>
+ <!-- Modal -->
+
+            <!-- Modal -->
+<div class="modal fade rate-modal" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header d-flex align-items-start flex-column px-xl-4 px-md-2 mt-2">
+        <h3 class="d-block fs-20 mb-2">Before you close this ticket, we'd love to hear your thoughts.</h3>
+        <p>Help us improve by sharing what worked well and what didn’t.</p>
+        <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+      </div>
+      <div class="modal-body px-xl-4 px-md-2 py-xl-0 py-lg-2">
+        <div class="row">
+            
+            <div class="col-lg-12 mt-3 mb-4">
+            <div class="summernote"></div>
+               
+            </div>
+        </div>
+      </div>
+      <div class="modal-footer d-flex justify-content-end">
+       
+        <button type="button" class="btn btn-light me-2 mb-2" data-bs-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-primary me-2 mb-2" data-bs-dismiss="modal">Submit & Close Ticket</button>
+      </div>
+    </div>
+  </div>
+</div>
+ <!-- Modal -->
 
 
         </div>
         <?php include 'includes/script.php'; ?>
 
+</div>
 
+
+<script>
+    $(document).ready(function() {
+        $('#summernote').summernote();
+    });
+
+  </script>
 </body>
 
 </html>

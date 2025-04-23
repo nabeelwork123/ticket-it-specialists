@@ -587,6 +587,21 @@ counter-reset: item;
     bottom: 0;
     width: 100%;
 }
+.rate-modal .modal-header{
+    text-align: left!important;
+}
+.rate-modal .fd-back-box{
+    border: 1px solid #D0DEE6;
+    min-height: 100px;
+    border-radius: 6px;
+    text-align: center;
+    padding: 20px;
+    display: grid;
+    justify-content: center;
+}
+.rate-modal .fd-back-box img{
+    margin-bottom:8px;
+}
 @media(max-width:1399.98px){
     .profile-banner-txt .profile-banner-img {
         width: 200px;

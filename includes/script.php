@@ -16,7 +16,8 @@
 <script src="assets/js/jquery.slimscroll.min.js" type="text/javascript"></script>
 
 <!-- Summernote JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.9.1/summernote.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/summernote@0.9.0/dist/summernote.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.9.1/summernote.min.js"></script> -->
 <script src="assets/js/summernote-lite.min.js" type="text/javascript"></script>
 
 <!-- Color Picker JS -->
