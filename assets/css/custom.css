@@ -573,14 +573,25 @@ counter-reset: item;
     flex: 1 0 60px;
     max-width: 60px;
 }
-
+.nw-text-cl{
+    color: #1E4674;
+    font-size: 13px;
+    font-weight: 500;
+}
+.sdr-box{
+    border-bottom: 1px dashed #C4CADA;
+    padding:12px 12px 10px 12px;
+}
+.note-toolbar {
+    position: absolute !important;
+    bottom: 0;
+    width: 100%;
+}
 @media(max-width:1399.98px){
-
     .profile-banner-txt .profile-banner-img {
         width: 200px;
         max-width: 200px;
         height: 200px;
-       
     }
     /*.profile-banner-txt {
         position: relative;
