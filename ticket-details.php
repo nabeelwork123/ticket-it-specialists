@@ -231,7 +231,7 @@
                                                     </div>
                                                 </div>
                                                 <p class="d-flex align-items-start fs-12 justify-content-end text-end mt-sm-0 mt-2">
-                                                    <i class="ti ti-calendar-bolt me-1"></i>12th Apr 2025<br>09:05 AM
+                                                    <i class="ti ti-calendar-bolt me-1"></i>12th April 2025<br>09:05 AM
                                                 </p>
                                             </div>
                                             <div>
@@ -256,7 +256,7 @@
                                                     </div>
                                                 </div>
                                                 <p class="d-flex align-items-start fs-12 justify-content-end text-end mt-sm-0 mt-2">
-                                                    <i class="ti ti-calendar-bolt me-1"></i>12th Apr 2025<br>09:07 AM
+                                                    <i class="ti ti-calendar-bolt me-1"></i>12th April 2025<br>09:07 AM
                                                 </p>
                                             </div>
                                             <div>
@@ -282,7 +282,7 @@
                                                     </div>
                                                 </div>
                                                 <p class="d-flex align-items-start fs-12 justify-content-end text-end mt-sm-0 mt-2">
-                                                    <i class="ti ti-calendar-bolt me-1"></i>12th Apr 2025<br>09:09 AM
+                                                    <i class="ti ti-calendar-bolt me-1"></i>12th April 2025<br>09:09 AM
                                                 </p>
                                             </div>
                                             <div>
@@ -309,7 +309,7 @@
                                                     </div>
                                                 </div>
                                                 <p class="d-flex align-items-start fs-12 justify-content-end text-end mt-sm-0 mt-2">
-                                                    <i class="ti ti-calendar-bolt me-1"></i>12th Apr 2025<br>09:10 AM
+                                                    <i class="ti ti-calendar-bolt me-1"></i>12th April 2025<br>09:10 AM
                                                 </p>
                                             </div>
                                             <div>
@@ -336,7 +336,7 @@
                                                     </div>
                                                 </div>
                                                 <p class="d-flex align-items-start fs-12 justify-content-end text-end mt-sm-0 mt-2">
-                                                    <i class="ti ti-calendar-bolt me-1"></i>12th Apr 2025<br>09:15 AM
+                                                    <i class="ti ti-calendar-bolt me-1"></i>12th April 2025<br>09:15 AM
                                                 </p>
                                             </div>
                                             <div>
@@ -363,7 +363,7 @@
                                                     </div>
                                                 </div>
                                                 <p class="d-flex align-items-start fs-12 justify-content-end text-end mt-sm-0 mt-2">
-                                                    <i class="ti ti-calendar-bolt me-1"></i>12th Apr 2025<br>09:17 AM
+                                                    <i class="ti ti-calendar-bolt me-1"></i>12th April 2025<br>09:17 AM
                                                 </p>
                                             </div>
                                             <div>
@@ -391,7 +391,7 @@
                                                     </div>
                                                 </div>
                                                 <p class="d-flex align-items-start fs-12 justify-content-end text-end mt-sm-0 mt-2">
-                                                    <i class="ti ti-calendar-bolt me-1"></i>12th Apr 2025<br>09:18 AM
+                                                    <i class="ti ti-calendar-bolt me-1"></i>12th April 2025<br>09:18 AM
                                                 </p>
                                             </div>
                                             <div>
@@ -450,7 +450,7 @@
                                     <div class="col-lg-12">
                                         <div class="sdr-box">
                                             <span class="fs-12">Created on</span>
-                                            <p class="nw-text-cl d-flex align-items-center mb-1">12 Apr 2025 <span
+                                            <p class="nw-text-cl d-flex align-items-center mb-1">12th April 2025, <span
                                                     class="fst-normal ms-1"> 10:00 AM</span> </p>
                                         </div>
                                     </div>
@@ -458,7 +458,7 @@
                                         <div class="sdr-box">
                                             <span class="fs-12">Due date</span>
                                             <div class="d-flex align-items-start">
-                                            <p class="nw-text-cl d-flex align-items-center mb-1">23 Apr 2025
+                                            <p class="nw-text-cl d-flex align-items-center mb-1">23rd April 2025,
                                                <span class="fst-normal ms-1"> 10:00 AM</span> </p>
                                                <span class="badge bg-soft-danger d-flex align-items-baseline me-1 ms-2 mb-0">
                                                 <img src="assets/img/icons/red-icon.png" class="img-fluid me-2 mb-0 mt-0"><span class=""> -2h 50m </span> </span>
@@ -738,20 +738,28 @@
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header d-flex align-items-start flex-column px-xl-4 px-md-2 mt-2">
-        <h3 class="d-block fs-20 mb-2">Before you close this ticket, we'd love to hear your thoughts.</h3>
+        <h3 class="d-block fs-18 mb-2">Before you close this ticket, we'd love to hear your thoughts.</h3>
         <p>Help us improve by sharing what worked well and what didn’t.</p>
+       
         <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
       </div>
       <div class="modal-body px-xl-4 px-md-2 py-xl-0 py-lg-2">
         <div class="row">
             
-            <div class="col-lg-12 mt-3 mb-4">
+            <div class="col-lg-12 mt-3 mb-2">
             <div class="summernote"></div>
                
             </div>
+            <div class="col-lg-12 mt-0 mb-0">
+            <div class="d-flex align-items-center ">
+         <p class="me-2 fs-12"><i class="ti ti-x"></i></p>
+        attached-file-name.pdf
+            </div>
+            </div>
         </div>
+        
       </div>
-      <div class="modal-footer d-flex justify-content-end">
+      <div class="d-flex justify-content-end mt-4">
        
         <button type="button" class="btn btn-light me-2 mb-2" data-bs-dismiss="modal">Cancel</button>
         <button type="button" class="btn btn-primary me-2 mb-2" data-bs-dismiss="modal">Submit & Close Ticket</button>
