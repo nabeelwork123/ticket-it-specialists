@@ -320,78 +320,69 @@
 					<div class="col-xl-6">
 					<div class="card b-1 overflow-hidden">
 							<div class="card-header no-border">
-								<h5 class="">Employees satisfaction on tickets</h5>
+								<h5 class="">Current month's ticket satisfaction</h5>
 							</div>
 							<div class="card-body">
 								<div class="row">
 									<div class="col-6 be-1 bb-1 ">
-										<div class="card border border-0 shadow-none ps-10 px-2 py-2">
-											<div>
-												<p class="text-mute m-0 mb-3">Tickets picked</p>
-												<h3 class="mb-0 fw-500 l-h-50">180 tickets</h3>
+										<div class="d-flex align-items-center justify-content-between mb-4 px-4 py-3">
+											<div class="w-75">
+												<p class="text-mute m-0 mb-2">Tickets picked</p>
+												<h3 class="mb-0 fs-24 fw-500 l-h-50">180 tickets</h3>
+											</div>
+											<div class="mt-3 text-end">
+												<img src="assets/img/icons/click.png" class="img-fluid">
 											</div>
 										</div>
 									</div>
-									<div class="col-6 bb-1 ">
-										<div class="card shadow-none ps-10">
-										<div class="d-flex align-items-center justify-content-between px-md-4 px-2 py-md-3 py-2">
-											
-											<div class="avatar  me-15 w-25 h-100  text-center align-content-center me-10">
-												<i class="fa fa-thumbs-up text-success"></i>
+
+									<div class="col-6 be-1 bb-1 ">
+										<div class="d-flex gap-2 align-items-end justify-content-between bg-light p-2 rounded mb-3 px-4 py-2">
+											<div class="w-75">
+											<h3 class="mb-0 fs-24 fw-500 l-h-50">75%</h3>
+												<p class="text-mute m-0 mb-2">Positive</p>
+												<p class="mb-1 fs-12"><span class="fs-12 fw-medium text-primary"><i class="fa-solid fa-caret-up me-1"></i>+2.3% </span>vs last month</p>
+
 											</div>
-												<div>
-													<p class="text-mute m-0">Positive</p>
-													<h3 class="mb-0 fw-500">75%</h3>
-												</div>
-											</div>
-											<div class="progress mt-0 mb-0" role="progressbar"
-												aria-label="Example 1px high" aria-valuenow="75" aria-valuemin="0"
-												aria-valuemax="100" style="height: 5px">
-												<div class="progress-bar bg-success" style="width: 75%"></div>
+											<div class="mt-3">
+												<img src="assets/img/icons/green-bar.png" class="img-fluid">
 											</div>
 										</div>
 									</div>
-									<div class="col-6 be-1 ">
-										<div class="card shadow-none pe-10 mt-20">
-										<div class="d-flex align-items-center justify-content-between px-md-4 px-2 py-md-3 py-2">
-											
-											<div class="avatar  me-15 w-25 h-100  text-center align-content-center me-10">
-												<i class="fa fa-thumbs-up text-warning"></i>
+
+									<div class="col-6 be-1 bb-1 ">
+										<div class="d-flex gap-2 align-items-end justify-content-between bg-light p-2 rounded mb-3 px-4 py-2">
+											<div class="w-75">
+											<h3 class="mb-0 fs-24 fw-500 l-h-50">20%</h3>
+												<p class="text-mute m-0 mb-2">Neutral</p>
+												<p class="mb-1 fs-12"><span class="fs-12 fw-medium text-primary"><i class="fa-solid fa-caret-up me-1"></i>+2.3% </span>vs last month</p>
+
 											</div>
-											<div>
-												<p class="text-mute m-0">Neutral</p>
-												<h3 class="mb-0 fw-500">20%</h3>
-											</div>
-										</div>
-											<div class="progress mt-0 mb-0" role="progressbar"
-												aria-label="Example 1px high" aria-valuenow="75" aria-valuemin="0"
-												aria-valuemax="100" style="height: 5px">
-												<div class="progress-bar bg-warning" style="width: 20%"></div>
+											<div class="mt-3">
+												<img src="assets/img/icons/yellow-bar.png" class="img-fluid">
 											</div>
 										</div>
 									</div>
-									<div class="col-6">
-										<div class="card shadow-none ps-10 mt-20">
-										<div class="d-flex align-items-center justify-content-between px-md-4 px-2 py-md-3 py-2">
-											
-											<div class="avatar  me-15 w-25 h-100  text-center align-content-center me-10">
-												<i class="fa fa-thumbs-up text-danger"></i>
+
+
+									<div class="col-6 be-1 bb-1 ">
+										<div class="d-flex gap-2 align-items-end justify-content-between bg-light p-2 rounded mb-3 px-4 py-2">
+											<div class="w-75">
+											<h3 class="mb-0 fs-24 fw-500 l-h-50">5%</h3>
+												<p class="text-mute m-0 mb-2">Negative</p>
+												<p class="mb-1 fs-12"><span class="fs-12 fw-medium text-primary"><i class="fa-solid fa-caret-up me-1"></i>+2.3% </span>vs last month</p>
+
 											</div>
-												<div>
-													<p class="text-mute m-0">Negative</p>
-													<h3 class="mb-0 fw-500">5%</h3>
-												</div>
-											</div>
-											<div class="progress mt-0 mb-0" role="progressbar"
-												aria-label="Example 1px high" aria-valuenow="75" aria-valuemin="0"
-												aria-valuemax="100" style="height: 5px">
-												<div class="progress-bar bg-danger" style="width: 5%"></div>
+											<div class="mt-3">
+												<img src="assets/img/icons/red-bar.png" class="img-fluid">
 											</div>
 										</div>
 									</div>
+									
 								</div>
 							</div>
 						</div>
+					</div>
 
                 </div>
 
