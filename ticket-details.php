@@ -8,7 +8,7 @@
     <meta name="keywords" content="">
     <meta name="author" content="">
     <meta name="robots" content="">
-    <title>Ticketing System | ticket-details.php</title>
+    <title>Ticketing System | Ticket Details</title>
 
 
     <?php include 'includes/style.php'; ?>
@@ -37,7 +37,7 @@
                                     class="ti ti-arrow-left me-2"></i>Ticket Details</a></h6>
                     </div>
                     <div class="d-flex my-xl-auto right-content align-items-center flex-wrap">
-                        <div class="me-2 mb-2">
+                        <!-- <div class="me-2 mb-2">
                             <div class="dropdown">
                                 <a href="javascript:void(0);"
                                     class="dropdown-toggle btn btn-white d-inline-flex align-items-center"
@@ -55,7 +55,7 @@
                                     </li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> -->
                         <!-- <div class="mb-2">
                         <a href="#" data-bs-toggle="modal" data-bs-target="#add_ticket" class="btn btn-primary d-flex align-items-center"><i class="ti ti-circle-plus me-2"></i>Add Ticket</a>
                     </div> -->
@@ -218,201 +218,157 @@
                             </div>
                             <div class="card-body">
 
-                                <!--Inner Card -->
+                                <!--Inner Card (Most recent first) -->
                                 <div class="card">
                                     <div class="card-body">
-                                           <div class="d-flex align-items-start justify-content-between flex-wrap mb-sm-3 mb-2">
-                                                <div class="d-flex align-items-center">
-                                                    <span class="avatar avatar-md rounded-3 me-2 flex-shrink-0"><img
-                                                            src="assets/img/users/user-01.webp" alt="Img"></span>
-                                                    <div>
-                                                        <span class="fs-12"><span class="text-primary">Michael Philips,</span> Product manage </span>
-                                                        <p class="fs-12">2nd floor. Seat no 14.</p>
-                                                    </div>
-                                                </div>
-                                                <p class="d-flex align-items-start fs-12 justify-content-end text-end mt-sm-0 mt-2">
-                                                    <i class="ti ti-calendar-bolt me-1"></i>12th April 2025<br>09:05 AM
-                                                </p>
-                                            </div>
-                                            <div>
-                                                <div class="mb-sm-0 mb-0">
-                                                    <p class="fs-12">Hi Oliver, my laptop suddenly shut down while I was working, and now it won’t turn back on. Could you help?</p>
+                                        <!-- Michael Philips -->
+                                        <div class="d-flex align-items-start justify-content-between flex-wrap mb-sm-3 mb-2">
+                                            <div class="d-flex align-items-start">
+                                                <span class="avatar avatar-md rounded-3 me-2 flex-shrink-0"><img src="assets/img/users/user-01.webp" alt="Img"></span>
+                                                <div>
+                                                    <span class="fs-12"><span class="text-primary">Michael Philips,</span> Product manager </span>
+                                                    <p class="fs-12">2nd floor. Seat no 14.</p>
                                                 </div>
                                             </div>
+                                            <p class="d-flex align-items-start fs-12 justify-content-end text-end mt-sm-0 mt-2">
+                                                <i class="ti ti-calendar-bolt me-1"></i>15th April 2025<br>11:38 AM
+                                            </p>
+                                        </div>
+                                        <div>
+                                            <p class="fs-12">Yes, I’ll be here. Appreciate the quick help.</p>
+                                        </div>
                                     </div>
                                 </div>
-                                <!--Inner Card -->
 
-                                   <!--Inner Card -->
-                                   <div class="card">
-                                    <div class="card-body">
-                                           <div class="d-flex align-items-start justify-content-between flex-wrap mb-sm-3 mb-2">
-                                                <div class="d-flex align-items-start">
-                                                    <span class="avatar avatar-md rounded-3 me-2 flex-shrink-0"><img
-                                                            src="assets/img/users/user-03.webp" alt="Img"></span>
-                                                    <div>
-                                                        <span class="fs-14"><span class="text-primary">Oliver Smith, </span> IT Specialist </span>
-                                                        <!-- <p class="fs-12">2nd floor. Seat no 14.</p> -->
-                                                    </div>
-                                                </div>
-                                                <p class="d-flex align-items-start fs-12 justify-content-end text-end mt-sm-0 mt-2">
-                                                    <i class="ti ti-calendar-bolt me-1"></i>12th April 2025<br>09:07 AM
-                                                </p>
-                                            </div>
-                                            <div>
-                                                <div class="mb-sm-0 mb-0">
-                                                    <p class="fs-12">Hi Michael, sorry to hear that. When you press the power button, do you see any lights or hear any sounds?</p>
-                                                </div>
-                                            </div>
-                                    </div>
-                                </div>
-                                <!--Inner Card -->
-
-                                 <!--Inner Card -->
-                                 <div class="card">
-                                    <div class="card-body">
-                                           <div class="d-flex align-items-start justify-content-between flex-wrap mb-sm-3 mb-2">
-                                                <div class="d-flex align-items-center">
-                                                    <span class="avatar avatar-md rounded-3 me-2 flex-shrink-0"><img
-                                                            src="assets/img/users/user-01.webp" alt="Img"></span>
-                                                    <div>
-                                                        <span class="fs-14"><span class="text-primary">Michael
-                                                                Philips,</span> Product manage </span>
-                                                        <p class="fs-12">2nd floor. Seat no 14.</p>
-                                                    </div>
-                                                </div>
-                                                <p class="d-flex align-items-start fs-12 justify-content-end text-end mt-sm-0 mt-2">
-                                                    <i class="ti ti-calendar-bolt me-1"></i>12th April 2025<br>09:09 AM
-                                                </p>
-                                            </div>
-                                            <div>
-                                                <div class="mb-sm-0 mb-0">
-                                                    <p class="fs-12">No lights or sounds at all. It’s completely unresponsive.</p>
-                                                </div>
-                                            </div>
-                                    </div>
-                                </div>
-                                <!--Inner Card -->
-
-
-
-                                 <!--Inner Card -->
-                                 <div class="card">
-                                    <div class="card-body">
-                                           <div class="d-flex align-items-start justify-content-between flex-wrap mb-sm-3 mb-2">
-                                                <div class="d-flex align-items-start">
-                                                    <span class="avatar avatar-md rounded-3 me-2 flex-shrink-0"><img
-                                                            src="assets/img/users/user-03.webp" alt="Img"></span>
-                                                    <div>
-                                                        <span class="fs-14"><span class="text-primary">Oliver Smith, </span> IT Specialist </span>
-                                                        <!-- <p class="fs-12">2nd floor. Seat no 14.</p> -->
-                                                    </div>
-                                                </div>
-                                                <p class="d-flex align-items-start fs-12 justify-content-end text-end mt-sm-0 mt-2">
-                                                    <i class="ti ti-calendar-bolt me-1"></i>12th April 2025<br>09:10 AM
-                                                </p>
-                                            </div>
-                                            <div>
-                                                <div class="mb-sm-0 mb-0">
-                                                    <p class="fs-12">Thanks. Let’s try a power reset. Disconnect the charger, remove the battery (if possible), hold the power button for 30 seconds, then plug the charger back in and try turning it on.</p>
-                                                </div>
-                                            </div>
-                                    </div>
-                                </div>
-                                <!--Inner Card -->
-
-
-                                <!--Inner Card -->
+                                <!--Oliver Smith-->
                                 <div class="card">
                                     <div class="card-body">
-                                           <div class="d-flex align-items-start justify-content-between flex-wrap mb-sm-3 mb-2">
-                                                <div class="d-flex align-items-start">
-                                                    <span class="avatar avatar-md rounded-3 me-2 flex-shrink-0"><img
-                                                            src="assets/img/users/user-01.webp" alt="Img"></span>
-                                                    <div>
-                                                        <span class="fs-14"><span class="text-primary">Michael
-                                                                Philips,</span> Product manage </span>
-                                                        <p class="fs-12">2nd floor. Seat no 14.</p>
-                                                    </div>
-                                                </div>
-                                                <p class="d-flex align-items-start fs-12 justify-content-end text-end mt-sm-0 mt-2">
-                                                    <i class="ti ti-calendar-bolt me-1"></i>12th April 2025<br>09:15 AM
-                                                </p>
-                                            </div>
-                                            <div>
-                                                <div class="mb-sm-0 mb-0">
-                                                    <p class="fs-12">Did that, but still nothing. No response from the laptop.</p>
+                                        <div class="d-flex align-items-start justify-content-between flex-wrap mb-sm-3 mb-2">
+                                            <div class="d-flex align-items-start">
+                                                <span class="avatar avatar-md rounded-3 me-2 flex-shrink-0"><img src="assets/img/users/user-03.webp" alt="Img"></span>
+                                                <div>
+                                                    <span class="fs-12"><span class="text-primary">Oliver Smith, </span> IT Specialist </span>
                                                 </div>
                                             </div>
+                                            <p class="d-flex align-items-start fs-12 justify-content-end text-end mt-sm-0 mt-2">
+                                                <i class="ti ti-calendar-bolt me-1"></i>15th April 2025<br>10:44 AM
+                                            </p>
+                                        </div>
+                                        <div>
+                                            <p class="fs-12">Alright, I’ll need to check the power adapter and the charging port next. Are you available at your desk if I swing by in 10 minutes?</p>
+                                        </div>
                                     </div>
                                 </div>
-                                <!--Inner Card -->
 
-
-
-                                  <!--Inner Card -->
-                                  <div class="card">
-                                    <div class="card-body">
-                                           <div class="d-flex align-items-start justify-content-between flex-wrap mb-sm-3 mb-2">
-                                                <div class="d-flex align-items-start">
-                                                    <span class="avatar avatar-md rounded-3 me-2 flex-shrink-0"><img
-                                                            src="assets/img/users/user-03.webp" alt="Img"></span>
-                                                    <div>
-                                                        <span class="fs-14"><span class="text-primary">Oliver Smith, </span> IT Specialist </span>
-                                                        <!-- <p class="fs-12">2nd floor. Seat no 14.</p> -->
-                                                    </div>
-                                                </div>
-                                                <p class="d-flex align-items-start fs-12 justify-content-end text-end mt-sm-0 mt-2">
-                                                    <i class="ti ti-calendar-bolt me-1"></i>12th April 2025<br>09:17 AM
-                                                </p>
-                                            </div>
-                                            <div>
-                                                <div class="mb-sm-0 mb-0">
-                                                    <p class="fs-12">Alright, I’ll need to check the power adapter and the charging port next. Are you available at your desk if I swing by in 10 minutes?</p>
-                                                </div>
-                                            </div>
-                                    </div>
-                                </div>
-                                <!--Inner Card -->
-
-
-                                
-                                <!--Inner Card -->
+                                <!--Michael Philips-->
                                 <div class="card">
                                     <div class="card-body">
-                                           <div class="d-flex align-items-start justify-content-between flex-wrap mb-sm-3 mb-2">
-                                                <div class="d-flex align-items-start">
-                                                    <span class="avatar avatar-md rounded-3 me-2 flex-shrink-0"><img
-                                                            src="assets/img/users/user-01.webp" alt="Img"></span>
-                                                    <div>
-                                                        <span class="fs-14"><span class="text-primary">Michael
-                                                                Philips,</span> Product manage </span>
-                                                        <p class="fs-12">2nd floor. Seat no 14.</p>
-                                                    </div>
-                                                </div>
-                                                <p class="d-flex align-items-start fs-12 justify-content-end text-end mt-sm-0 mt-2">
-                                                    <i class="ti ti-calendar-bolt me-1"></i>12th April 2025<br>09:18 AM
-                                                </p>
-                                            </div>
-                                            <div>
-                                                <div class="mb-sm-0 mb-0">
-                                                    <p class="fs-12">Yes, I’ll be here. Appreciate the quick help.</p>
+                                        <div class="d-flex align-items-start justify-content-between flex-wrap mb-sm-3 mb-2">
+                                            <div class="d-flex align-items-start">
+                                                <span class="avatar avatar-md rounded-3 me-2 flex-shrink-0"><img src="assets/img/users/user-01.webp" alt="Img"></span>
+                                                <div>
+                                                    <span class="fs-12"><span class="text-primary">Michael Philips,</span> Product manager </span>
+                                                    <p class="fs-12">2nd floor. Seat no 14.</p>
                                                 </div>
                                             </div>
+                                            <p class="d-flex align-items-start fs-12 justify-content-end text-end mt-sm-0 mt-2">
+                                                <i class="ti ti-calendar-bolt me-1"></i>14th April 2025<br>04:15 PM
+                                            </p>
+                                        </div>
+                                        <div>
+                                            <p class="fs-12">Did that, but still nothing. No response from the laptop.</p>
+                                        </div>
                                     </div>
                                 </div>
-                                <!--Inner Card -->
+
+                                <!--Oliver Smith-->
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-start justify-content-between flex-wrap mb-sm-3 mb-2">
+                                            <div class="d-flex align-items-start">
+                                                <span class="avatar avatar-md rounded-3 me-2 flex-shrink-0"><img src="assets/img/users/user-03.webp" alt="Img"></span>
+                                                <div>
+                                                    <span class="fs-12"><span class="text-primary">Oliver Smith, </span> IT Specialist </span>
+                                                </div>
+                                            </div>
+                                            <p class="d-flex align-items-start fs-12 justify-content-end text-end mt-sm-0 mt-2">
+                                                <i class="ti ti-calendar-bolt me-1"></i>13th April 2025<br>03:43 PM
+                                            </p>
+                                        </div>
+                                        <div>
+                                            <p class="fs-12">Thanks. Let’s try a power reset. Disconnect the charger, remove the battery (if possible), hold the power button for 30 seconds, then plug the charger back in and try turning it on.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Michael Philips-->
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-start justify-content-between flex-wrap mb-sm-3 mb-2">
+                                            <div class="d-flex align-items-center">
+                                                <span class="avatar avatar-md rounded-3 me-2 flex-shrink-0"><img src="assets/img/users/user-01.webp" alt="Img"></span>
+                                                <div>
+                                                    <span class="fs-12"><span class="text-primary">Michael Philips,</span> Product manager </span>
+                                                    <p class="fs-12">2nd floor. Seat no 14.</p>
+                                                </div>
+                                            </div>
+                                            <p class="d-flex align-items-start fs-12 justify-content-end text-end mt-sm-0 mt-2">
+                                                <i class="ti ti-calendar-bolt me-1"></i>13th April 2025<br>12:09 PM
+                                            </p>
+                                        </div>
+                                        <div>
+                                            <p class="fs-12">No lights or sounds at all. It’s completely unresponsive.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Oliver Smith-->
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-start justify-content-between flex-wrap mb-sm-3 mb-2">
+                                            <div class="d-flex align-items-start">
+                                                <span class="avatar avatar-md rounded-3 me-2 flex-shrink-0"><img src="assets/img/users/user-03.webp" alt="Img"></span>
+                                                <div>
+                                                    <span class="fs-12"><span class="text-primary">Oliver Smith, </span> IT Specialist </span>
+                                                </div>
+                                            </div>
+                                            <p class="d-flex align-items-start fs-12 justify-content-end text-end mt-sm-0 mt-2">
+                                                <i class="ti ti-calendar-bolt me-1"></i>12th April 2025<br>10:22 AM
+                                            </p>
+                                        </div>
+                                        <div>
+                                            <p class="fs-12">Hi Michael, sorry to hear that. When you press the power button, do you see any lights or hear any sounds?</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Michael Philips-->
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-start justify-content-between flex-wrap mb-sm-3 mb-2">
+                                            <div class="d-flex align-items-center">
+                                                <span class="avatar avatar-md rounded-3 me-2 flex-shrink-0"><img src="assets/img/users/user-01.webp" alt="Img"></span>
+                                                <div>
+                                                    <span class="fs-12"><span class="text-primary">Michael Philips,</span> Product manager </span>
+                                                    <p class="fs-12">2nd floor. Seat no 14.</p>
+                                                </div>
+                                            </div>
+                                            <p class="d-flex align-items-start fs-12 justify-content-end text-end mt-sm-0 mt-2">
+                                                <i class="ti ti-calendar-bolt me-1"></i>12th April 2025<br>10:15 AM
+                                            </p>
+                                        </div>
+                                        <div>
+                                            <p class="fs-12">Hi Oliver, my laptop suddenly shut down while I was working, and now it won’t turn back on. Could you help?</p>
+                                        </div>
+                                    </div>
+                                </div>
+
 
                                 <!--History Card Div --->
                             </div>
                         </div>
 
                         <!--History Card Div --->
-
-
-
-
-
 
                     </div>
                     <div class="col-xl-3 col-md-4">
@@ -435,7 +391,7 @@
                                             <p class="nw-text-cl d-flex align-items-center mb-1"><i
                                                     class="ti ti-circle-filled fs-10 me-1 text-success"></i><b
                                                     class="me-2">Open</b> <span
-                                                    class="text-danger text-decoration-underline">Close ticket</span>
+                                                    class="text-danger text-decoration-underline cursorPointer" data-bs-toggle="modal" data-bs-target="#exampleModal">Close ticket</span>
                                             </p>
                                         </div>
                                     </div>
@@ -457,10 +413,10 @@
                                     <div class="col-lg-12">
                                         <div class="sdr-box">
                                             <span class="fs-12">Due date</span>
-                                            <div class="d-flex align-items-start">
+                                            <div>
                                             <p class="nw-text-cl d-flex align-items-center mb-1">23rd April 2025,
                                                <span class="fst-normal ms-1"> 10:00 AM</span> </p>
-                                               <span class="badge bg-soft-danger d-flex align-items-baseline me-1 ms-2 mb-0">
+                                               <span class="badge bg-soft-danger mb-0">
                                                 <img src="assets/img/icons/red-icon.png" class="img-fluid me-2 mb-0 mt-0"><span class=""> -2h 50m </span> </span>
                                                </div>
                                         </div>
@@ -480,7 +436,7 @@
                                     <div class="col-lg-12 mb-4">
                                         <div class="sdr-box" style="border:0;">
                                             <span class="fs-12">Last updated on</span>
-                                            <p class="nw-text-cl d-flex align-items-center mb-1">22nd March 2024</p>
+                                            <p class="nw-text-cl d-flex align-items-center mb-1">15th April 2025</p>
                                         </div>
                                     </div>
 
@@ -537,7 +493,7 @@
                         </div>
 
 
-                        <div class="card">
+                        <!-- <div class="card">
                             <div class="card-header d-flex align-items-center p-3 mb-2">
                                 <img src="assets/img/icons/user.png" class="img-fluid me-2 mb-1">
                                 <h4 class="mb-0">Assigned to</h4>
@@ -581,7 +537,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
 
                 </div>
@@ -692,13 +648,15 @@
             <!-- Modal -->
 <div class="modal fade rate-modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header d-flex align-items-start flex-column px-xl-4 px-md-2 mt-2">
+    <div class="modal-content py-0">
+      <!--<div class="modal-header d-flex align-items-start flex-column px-xl-4 px-md-2 mt-2">
         <h3 class="d-block fs-20 mb-2">Rate Your Support Experience</h3>
         <p>Let us know how satisfied you are with the support you received.</p>
-        <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
-      </div>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
+      </div>-->
       <div class="modal-body px-xl-4 px-md-2 py-xl-4 py-lg-4">
+      <h3 class="d-block fs-20 mb-2">Rate Your Support Experience</h3>
+      <p>Let us know how satisfied you are with the support you received.</p>
         <div class="row">
             <div class="col-lg-4 mb-2">
                 <a class="fd-back-box text-center">
@@ -734,15 +692,15 @@
  <!-- Modal -->
 
             <!-- Modal -->
-<div class="modal fade rate-modal" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header d-flex align-items-start flex-column px-xl-4 px-md-2 mt-2">
-        <h3 class="d-block fs-18 mb-2">Before you close this ticket, we'd love to hear your thoughts.</h3>
-        <p>Help us improve by sharing what worked well and what didn’t.</p>
+        <div class="modal fade rate-modal" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header d-flex align-items-start flex-column px-xl-4 px-md-2 mt-2">
+                        <h3 class="d-block fs-18 mb-2">Before you close this ticket, we'd love to hear your thoughts.</h3>
+                        <p>Help us improve by sharing what worked well and what didn’t.</p>
        
-        <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
-      </div>
+                        <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+                    </div>
       <div class="modal-body px-xl-4 px-md-2 py-xl-0 py-lg-2">
         <div class="row">
             
@@ -764,10 +722,10 @@
         <button type="button" class="btn btn-light me-2 mb-2" data-bs-dismiss="modal">Cancel</button>
         <button type="button" class="btn btn-primary me-2 mb-2" data-bs-dismiss="modal">Submit & Close Ticket</button>
       </div>
-    </div>
-  </div>
-</div>
- <!-- Modal -->
+                </div>
+            </div>
+        </div>
+        <!-- Modal -->
 
 
         </div>

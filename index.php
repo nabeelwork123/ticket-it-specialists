@@ -244,7 +244,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="card-body p-0">
+						<div class="card-body p-0 msh-cardBody">
 							<div class="table-responsive table-responsive-lg">
 								<table class="table ">
 									<thead class="thead-light">
@@ -255,7 +255,7 @@
 											<th scope="col">Ticket Detail</th>
 											<th scope="col">Category</th>
 											<th scope="col">Status</th>
-
+											<!-- <th scope="col" width="100">Prority</th> -->
 											<th scope="col">Action</th>
 										</tr>
 									</thead>
@@ -263,17 +263,17 @@
 										<tr>
 											<td>
 												<p class="mb-0 d-block"> 09834</p>
-												<span class="badge bg-soft-primary">Low</span>
+												<span class="badge bg-soft-primary"><span class="clrr mb-0">Urgent</span></span>
 											</td>
 											<td class="">
 												<div class="d-flex align-items-start">
-													<a href="assets/img/users/user-32.webp" data-fancycard="gallery"
-														data-caption="" class="avatar avatar-lg">
+													<a href="assets/img/users/user-32.webp" data-fancycard="gallery" data-caption="" class="avatar avatar-lg">
 														<img src="assets/img/users/user-32.webp" class="img-fluid rounded-3 " alt="img">
 													</a>
 													<div class="ms-2">
-														<p class="text-dark mb-0 fs-12">James MIller </p>
-														<span class="fs-12 d-block mb-0 fs-12">International Sales </span>
+														<p class="text-dark  mb-0 ">James MIller </p>
+														<span class="fs-12 d-block mb-0 fs-12">International Sales
+														</span>
 														<span class="fs-12 d-block mb-0 fs-12">Vice President</span>
 														<p class="mb-0 fs-13">1st Floor / Seat no 22 </p>
 
@@ -287,20 +287,20 @@
 												<div class="row">
 													<div class="col-lg-6">
 														<span class="fs-12 d-block mb-0 fs-12"><i>Created on:</i></span>
-														<p class="mb-0 fs-12">12 Apr 2025</p>
-														<p class="mb-0 fs-12">10:00 AM</p>
+														<p class="mb-0 fs-12">01-Apr-2025</p>
+														<p class="mb-0 fs-12"> 09:15 AM</p>
 													</div>
 													<div class="col-lg-6">
 														<span class="fs-12 d-block mb-0 fs-12"><i>Due on:</i></span>
-														<p class="mb-0 fs-12">12 Apr 2025</p>
-														<p class="mb-0 fs-12">10:00 AM</p>
+														<p class="mb-0 fs-12">03-Apr-2025 </p>
+														<p class="mb-0 fs-12"> 05:00 PM</p>
 
 													</div>
 												</div>
 											</td>
 											<td>
-												<p class="fs-12 mb-0 text-dark fw-600">Hardware</p>
-												<p class="fs-12 mb-0">Mouse</p>
+												<p class="fs-12 mb-0 text-dark fw-600">Network Issues</p>
+												<p class="fs-12 mb-0">Wi-Fi Connectivity</p>
 
 											</td>
 											<td>
@@ -308,29 +308,28 @@
 													<i class="ti ti-circle-filled fs-10 me-1 clrb"></i>Open
 												</p>
 											</td>
+
 											<td>
 												<a href="#" class="btn btn-primary py-1 btn-sm text-white w-100">Pick</a>
 											</td>
 										</tr>
 										<tr>
 											<td>
-												<p class="mb-0 d-block"> 09835</p>
-												<span class="badge bg-soft-primary">Low</span>
+												<p class="mb-0 d-block">09835</p>
+												<span class="badge bg-soft-primary text-warning">High</span>
 											</td>
 											<td>
 												<div class="d-flex align-items-start">
-													<a href="assets/img/users/user-32.webp" data-fancycard="gallery"
-														data-caption="" class="avatar avatar-lg">
+													<a href="assets/img/users/user-32.webp" data-fancycard="gallery" data-caption="" class="avatar avatar-lg">
 														<img src="assets/img/users/user-33.webp" class="img-fluid rounded-3 " alt="img">
 													</a>
 													<div class="ms-2">
-														<p class="text-dark fs-12 mb-0">Henry Full </p>
+														<p class="text-dark  mb-0 ">Henry Full </p>
 														<span class="fs-12  d-block mb-0">Aministration</span>
 														<span class="fs-12 d-block mb-0">Manager</span>
-														<p class="mb-0 fs-13">1st Floor / Seat no 18 </p>
+														<p class="mb-0 fs-13">3rd Floor / Seat no 18 </p>
 													</div>
 												</div>
-
 											</td>
 
 											<td>
@@ -338,28 +337,28 @@
 												<div class="row">
 													<div class="col-lg-6">
 														<span class="fs-12 d-block mb-0 fs-12"><i>Created on:</i></span>
-														<p class="mb-0 fs-12">12 Apr 2025</p>
-														<p class="mb-0 fs-12">10:00 AM</p>
+														<p class="mb-0 fs-12">05-Apr-2025 </p>
+														<p class="mb-0 fs-12"> 10:45 AM</p>
 													</div>
 													<div class="col-lg-6">
 														<span class="fs-12 d-block mb-0 fs-12"><i>Due on:</i></span>
-														<p class="mb-0 fs-12">12 Apr 2025</p>
-														<p class="mb-0 fs-12">10:00 AM</p>
-
+														<p class="mb-0 fs-12">08-Apr-2025 </p>
+														<p class="mb-0 fs-12">03:30 PM</p>
 													</div>
 												</div>
 											</td>
-											</td>
+
 											<td>
-												<p class="fs-12 mb-0 text-dark fw-600">Hardware</p>
-												<p class="fs-12 mb-0">Mouse</p>
+												<p class="fs-12 mb-0 text-dark fw-600">Network Issues</p>
+												<p class="fs-12 mb-0">Wi-Fi Stability</p>
 
 											</td>
 											<td>
 												<p class="fs-12 d-inline-flex align-items-center mb-1">
-													<i class="fa-solid fa-triangle-exclamation fs-10 me-1 clrr"></i>Overdue
+													<i class="fa-solid fa-triangle-exclamation clrr me-1 fs-10"></i> Overdue
 												</p>
 											</td>
+
 											<td>
 												<a href="#" class="btn btn-primary py-1 btn-sm text-white w-100">Close</a>
 											</td>
@@ -367,20 +366,18 @@
 										<tr>
 											<td>
 												<p class="mb-0 d-block"> 09836</p>
-												<span class="badge bg-soft-primary">Low</span>
+												<span class="badge bg-soft-primary text-success">Low</span>
 											</td>
 											<td>
 												<div class="d-flex align-items-start">
-													<a href="assets/img/users/user-32.webp" data-fancycard="gallery"
-														data-caption="" class="avatar avatar-lg">
+													<a href="assets/img/users/user-32.webp" data-fancycard="gallery" data-caption="" class="avatar avatar-lg">
 														<img src="assets/img/users/user-34.webp" class="img-fluid rounded-3 " alt="img">
 													</a>
 													<div class="ms-2">
-														<p class="text-dark fs-12 mb-0">Dickson Joe</p>
+														<p class="text-dark  mb-0 ">Dickson Joe</p>
 														<span class="fs-12 d-block mb-0">Brand</span>
 														<span class="fs-12 d-block mb-0">Content writer</span>
-														<p class="mb-0 fs-13">1st Floor / Seat no 05 </p>
-
+														<p class="mb-0 fs-13">5th Floor / Seat no 05 </p>
 													</div>
 												</div>
 
@@ -391,28 +388,30 @@
 												<div class="row">
 													<div class="col-lg-6">
 														<span class="fs-12 d-block mb-0 fs-12"><i>Created on:</i></span>
-														<p class="mb-0 fs-12">12 Apr 2025</p>
-														<p class="mb-0 fs-12">10:00 AM</p>
+														<p class="mb-0 fs-12">10-Apr-2025</p>
+														<p class="mb-0 fs-12">02:20 PM</p>
 													</div>
 													<div class="col-lg-6">
 														<span class="fs-12 d-block mb-0 fs-12"><i>Due on:</i></span>
-														<p class="mb-0 fs-12">12 Apr 2025</p>
-														<p class="mb-0 fs-12">10:00 AM</p>
+														<p class="mb-0 fs-12">12-Apr-2025 </p>
+														<p class="mb-0 fs-12">11:00 AM</p>
 
 													</div>
 												</div>
 											</td>
-											</td>
+
 											<td>
-												<p class="fs-12 mb-0 text-dark fw-600">Hardware</p>
-												<p class="fs-12 mb-0">Mouse</p>
+												<p class="fs-12 mb-0 text-dark fw-600">Network Issues</p>
+												<p class="fs-12 mb-0">LAN Connectivity</p>
 
 											</td>
 											<td>
 												<p class="fs-13 d-inline-flex align-items-center mb-1">
-													<i class="ti ti-circle-filled fs-10 me-1 text-secondary"></i>Not picked
+													<i class="ti ti-circle-filled fs-10 me-1 clrg"></i>
+													Resolved
 												</p>
 											</td>
+
 											<td>
 												<a href="#" class="btn btn-primary py-1 btn-sm text-white w-100">Pick</a>
 											</td>
@@ -420,19 +419,18 @@
 										<tr>
 											<td>
 												<p class="mb-0 d-block"> 09837</p>
-												<span class="badge bg-soft-primary">Low</span>
+												<span class="badge bg-soft-primary text-purple"><span class="">Medium</span></span>
 											</td>
 											<td>
 												<div class="d-flex align-items-start">
-													<a href="assets/img/users/user-32.webp" data-fancycard="gallery"
-														data-caption="" class="avatar avatar-lg">
+													<a href="assets/img/users/user-32.webp" data-fancycard="gallery" data-caption="" class="avatar avatar-lg">
 														<img src="assets/img/users/user-35.webp" class="img-fluid rounded-3 " alt="img">
 													</a>
 													<div class="ms-2">
-														<p class="text-dark fs-12 mb-0">Sarah Thompson</p>
+														<p class="text-dark  mb-0 ">Sarah Thompson</p>
 														<span class="fs-12 d-block mb-0">Human Resources</span>
 														<span class="fs-12 d-block mb-0">HR Manager</span>
-														<p class="mb-0 fs-13">1st Floor / Seat no 18 </p>
+														<p class="mb-0 fs-13">4th Floor / Seat no 18 </p>
 
 													</div>
 												</div>
@@ -444,27 +442,29 @@
 												<div class="row">
 													<div class="col-lg-6">
 														<span class="fs-12 d-block mb-0 fs-12"><i>Created on:</i></span>
-														<p class="mb-0 fs-12">12 Apr 2025</p>
-														<p class="mb-0 fs-12">10:00 AM</p>
+														<p class="mb-0 fs-12">14-Apr-2025 </p>
+														<p class="mb-0 fs-12"> 08:30 AM</p>
 													</div>
 													<div class="col-lg-6">
 														<span class="fs-12 d-block mb-0 fs-12"><i>Due on:</i></span>
-														<p class="mb-0 fs-12">12 Apr 2025</p>
-														<p class="mb-0 fs-12">10:00 AM</p>
+														<p class="mb-0 fs-12">18-Apr-2025 </p>
+														<p class="mb-0 fs-12"> 04:45 PM</p>
 
 													</div>
 												</div>
 											</td>
 											<td>
-												<p class="fs-12 mb-0 text-dark fw-600">Hardware</p>
-												<p class="fs-12 mb-0">Mouse</p>
+												<p class="fs-12 mb-0 text-dark fw-600">Network Issues</p>
+												<p class="fs-12 mb-0">IP Configuration</p>
 
 											</td>
 											<td>
 												<p class="fs-13 d-inline-flex align-items-center mb-1">
-													<i class="ti ti-circle-filled fs-10 me-1 clrg"></i>Resolved
+													<i class="ti ti-circle-filled fs-10 me-1 clri"></i>
+													Closed
 												</p>
 											</td>
+
 											<td>
 												<a href="#" class="btn btn-primary py-1 btn-sm text-white w-100">Pick</a>
 											</td>
@@ -472,19 +472,18 @@
 										<tr>
 											<td>
 												<p class="mb-0 d-block"> 09838</p>
-												<span class="badge bg-soft-primary">Low</span>
+												<span class="badge bg-soft-primary text-success">Low</span>
 											</td>
 											<td>
 												<div class="d-flex align-items-start">
-													<a href="assets/img/users/user-32.webp" data-fancycard="gallery"
-														data-caption="" class="avatar avatar-lg">
+													<a href="assets/img/users/user-32.webp" data-fancycard="gallery" data-caption="" class="avatar avatar-lg">
 														<img src="assets/img/users/user-36.webp" class="img-fluid rounded-3 " alt="img">
 													</a>
 													<div class="ms-2">
-														<p class="text-dark fs-12 mb-0">Emily Rodriguez</p>
+														<p class="text-dark  mb-0 ">Emily Rodriguez</p>
 														<span class="fs-12 d-block mb-0">Finance</span>
 														<span class="fs-12 d-block mb-0">Finance Analyst</span>
-														<p class="mb-0 fs-13">1st Floor / Seat no 17 </p>
+														<p class="mb-0 fs-13">6th Floor / Seat no 17 </p>
 
 													</div>
 												</div>
@@ -496,48 +495,49 @@
 												<div class="row">
 													<div class="col-lg-6">
 														<span class="fs-12 d-block mb-0 fs-12"><i>Created on:</i></span>
-														<p class="mb-0 fs-12">12 Apr 2025</p>
-														<p class="mb-0 fs-12">10:00 AM</p>
+														<p class="mb-0 fs-12">20-Apr-2025</p>
+														<p class="mb-0 fs-12">01:10 PM</p>
 													</div>
 													<div class="col-lg-6">
 														<span class="fs-12 d-block mb-0 fs-12"><i>Due on:</i></span>
-														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">22-Apr-2025 </p>
 														<p class="mb-0 fs-12">10:00 AM</p>
 
 													</div>
 												</div>
 											</td>
-											</td>
+
 											<td>
-												<p class="fs-12 mb-0 text-dark fw-600">Hardware</p>
-												<p class="fs-12 mb-0">Mouse</p>
+												<p class="fs-12 mb-0 text-dark fw-600">Hardware Issues</p>
+												<p class="fs-12 mb-0">Printer</p>
 
 											</td>
 											<td>
 												<p class="fs-13 d-inline-flex align-items-center mb-1">
-													<i class="ti ti-circle-filled fs-10 me-1 clri"></i>Closed
+													<i class="ti ti-circle-filled fs-10 me-1 clro"></i>Reopened
 												</p>
 											</td>
+
 											<td>
-												<a href="#" class="btn btn-primary py-1 btn-sm text-white w-100">Close</a>
+												<a href="#" class="btn btn-primary py-1 btn-sm text-white w-100">Pick</a>
 											</td>
 										</tr>
 										<tr>
 											<td>
 												<p class="mb-0 d-block"> 09839</p>
-												<span class="badge bg-soft-primary">Low</span>
+												<span class="badge bg-soft-primary text-danger">Urgent</span>
 											</td>
 											<td>
 												<div class="d-flex align-items-start">
-													<a href="assets/img/users/user-28.webp" data-fancycard="gallery"
-														data-caption="" class="avatar avatar-lg">
-														<img src="assets/img/users/user-18.jpg" class="img-fluid rounded-3 " alt="img">
+													<a href="assets/img/users/user-28.webp" data-fancycard="gallery" data-caption="" class="avatar avatar-lg">
+														<img src="assets/img/users/user-18.webp" class="img-fluid rounded-3 " alt="img">
 													</a>
 													<div class="ms-2">
-														<p class="text-dark fs-12 mb-0">Sophia Patel </p>
+														<p class="text-dark  mb-0 ">Sophia Patel </p>
 														<span class="fs-12 d-block mb-0">Human Resources</span>
-														<span class="fs-12 d-block mb-0">Talent Acquisition Specialist</span>
-														<p class="mb-0 fs-13">1st Floor / Seat no 35 </p>
+														<span class="fs-12 d-block mb-0">Talent Acquisition
+															Specialist</span>
+														<p class="mb-0 fs-13">2nd Floor / Seat no 35 </p>
 
 													</div>
 												</div>
@@ -545,32 +545,34 @@
 											</td>
 
 											<td>
-												<p class="fs-12 text-dark mb-1">Access Denied to Shared Network Drive</p>
+												<p class="fs-12 text-dark mb-1">Access Denied to Shared Network Drive
+												</p>
 												<div class="row">
 													<div class="col-lg-6">
 														<span class="fs-12 d-block mb-0 fs-12"><i>Created on:</i></span>
-														<p class="mb-0 fs-12">12 Apr 2025</p>
-														<p class="mb-0 fs-12">10:00 AM</p>
+														<p class="mb-0 fs-12">24-Apr-2025 </p>
+														<p class="mb-0 fs-12">11:55 AM</p>
 													</div>
 													<div class="col-lg-6">
 														<span class="fs-12 d-block mb-0 fs-12"><i>Due on:</i></span>
-														<p class="mb-0 fs-12">12 Apr 2025</p>
-														<p class="mb-0 fs-12">10:00 AM</p>
+														<p class="mb-0 fs-12">29-Apr-2025 </p>
+														<p class="mb-0 fs-12">06:15 PM</p>
 
 													</div>
 												</div>
 											</td>
-											</td>
+
 											<td>
-												<p class="fs-12 mb-0 text-dark fw-600">Hardware</p>
-												<p class="fs-12 mb-0">Mouse</p>
+												<p class="fs-12 mb-0 text-dark fw-600">Access Issues</p>
+												<p class="fs-12 mb-0">Network Drive Permissions</p>
 
 											</td>
 											<td>
 												<p class="fs-12 d-inline-flex align-items-center mb-1">
-													<i class="ti ti-circle-filled fs-10 me-1 clro"></i>Reopened
+													<i class="fa-solid fa-triangle-exclamation clrr me-1 fs-10"></i>Overdue
 												</p>
 											</td>
+
 											<td>
 												<a href="#" class="btn btn-primary py-1 btn-sm text-white w-100">Pick</a>
 											</td>
@@ -578,16 +580,15 @@
 										<tr>
 											<td>
 												<p class="mb-0 d-block"> 09840</p>
-												<span class="badge bg-soft-primary">Low</span>
+												<span class="badge bg-soft-primary text-warning">High</span>
 											</td>
 											<td>
 												<div class="d-flex align-items-start">
-													<a href="assets/img/users/user-32.webp" data-fancycard="gallery"
-														data-caption="" class="avatar avatar-lg">
+													<a href="assets/img/users/user-32.webp" data-fancycard="gallery" data-caption="" class="avatar avatar-lg">
 														<img src="assets/img/users/user-38.webp" class="img-fluid rounded-3 " alt="img">
 													</a>
 													<div class="ms-2">
-														<p class="text-dark fs-12 mb-0">Isabella Morris</p>
+														<p class="text-dark  mb-0 ">Isabella Morris</p>
 														<span class="fs-12 d-block mb-0">Operations</span>
 														<span class="fs-12 d-block mb-0">Project Coordinator</span>
 														<p class="mb-0 fs-13">1st Floor / Seat no 42 </p>
@@ -602,29 +603,30 @@
 												<div class="row">
 													<div class="col-lg-6">
 														<span class="fs-12 d-block mb-0 fs-12"><i>Created on:</i></span>
-														<p class="mb-0 fs-12">12 Apr 2025</p>
-														<p class="mb-0 fs-12">10:00 AM</p>
+														<p class="mb-0 fs-12">30-Apr-2025</p>
+														<p class="mb-0 fs-12"> 09:00 AM</p>
 													</div>
 													<div class="col-lg-6">
 														<span class="fs-12 d-block mb-0 fs-12"><i>Due on:</i></span>
-														<p class="mb-0 fs-12">12 Apr 2025</p>
-														<p class="mb-0 fs-12">10:00 AM</p>
+														<p class="mb-0 fs-12">02-May-2025</p>
+														<p class="mb-0 fs-12">12:00 PM</p>
 
 													</div>
 												</div>
 											</td>
 											<td>
-												<p class="fs-12 mb-0 text-dark fw-600">Hardware</p>
-												<p class="fs-12 mb-0">Mouse</p>
+												<p class="fs-12 mb-0 text-dark fw-600">Server Issues</p>
+												<p class="fs-12 mb-0">Network Reachability</p>
 
 											</td>
 											<td>
-												<p class="fs-13 d-inline-flex align-items-center mb-1">
-													<i class="ti ti-circle-filled fs-10 me-1 clry"></i>Not Picked
+												<p class="fs-12 d-inline-flex align-items-center mb-1">
+													<i class="ti ti-circle-filled fs-10 me-1 clry"></i>Not picked
 												</p>
 											</td>
+
 											<td>
-												<a href="#" class="btn btn-primary py-1 btn-sm text-white w-100">Close</a>
+												<a href="#" class="btn btn-primary py-1 btn-sm text-white w-100">Pick</a>
 											</td>
 										</tr>
 
@@ -1004,7 +1006,7 @@
 								<div class="d-flex align-items-center justify-content-between flex-wrap row-gap-2">
 									<h5>Your recent activity </h5>
 
-									<button type="button" class="btn btn-secondary btn-sm">View all</button>
+									<!-- <button type="button" class="btn btn-secondary btn-sm">View all</button> -->
 
 								</div>
 							</div>

@@ -602,6 +602,53 @@ counter-reset: item;
 .rate-modal .fd-back-box img{
     margin-bottom:8px;
 }
+
+
+/* -------------------- Custom Colors ------------ */
+
+.clrb{
+    color: #007BFF;
+}
+.clrr{
+    color: #DC3545;
+}
+.clrg{
+   color: #28A745;
+}
+.clrgr{
+   color: #6C757D;
+}
+.clro{
+ color: #FD7E14;
+}
+.clrp{
+    color: #6F42C1;
+}
+.clri{
+    color:#6610f2;
+}
+.clry{
+    color:#ffc107;
+}
+
+/* -------------------- Custom Colors ------------ */
+
+/* ------------ Samit Css ----------- */
+
+.cursorPointer {
+    cursor: pointer;
+}
+
+.msh-cardBody p {
+    color: rgb(107, 114, 128);
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+/* ------------ Samit Css ----------- */
+
+
 @media(max-width:1399.98px){
     .profile-banner-txt .profile-banner-img {
         width: 200px;
