@@ -8,7 +8,7 @@
 	<meta name="keywords" content="">
 	<meta name="author" content="">
 	<meta name="robots" content="">
-	<title>Ticketing System</title>
+	<title>My Reports | IT Ticketing</title>
 
 
 	<?php include 'includes/style.php'; ?>

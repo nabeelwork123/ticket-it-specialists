@@ -8,7 +8,7 @@
 	<meta name="keywords" content="">
 	<meta name="author" content="">
 	<meta name="robots" content="">
-	<title>Ticketing System</title>
+	<title>Dashboard | IT Ticketing</title>
 
 
 	<?php include 'includes/style.php'; ?>
@@ -187,17 +187,17 @@
 								<div class="ov-box">
 									<div class="ov-box-inner">
 										<span class=" ">24<span class="fs-10">Hrs</span></span>
-										<p class="mt-3">7</p>
+										<p class="mt-3">5</p>
 										<p class="mb-0 mt-3">tickets </p>
 									</div>
 									<div class="ov-box-inner">
 										<span class="">48<span class="fs-10">Hrs</span></span>
-										<p class="mt-3">7</p>
+										<p class="mt-3">5</p>
 										<p class="mb-0 mt-3">tickets </p>
 									</div>
 									<div class="ov-box-inner" style="border:0;">
 										<span class=" ">72<span class="fs-10">Hrs</span></span>
-										<p class="mt-3">12</p>
+										<p class="mt-3">7</p>
 										<p class="mb-0 mt-3">tickets </p>
 									</div>
 								</div>
@@ -249,7 +249,6 @@
 								<table class="table ">
 									<thead class="thead-light">
 										<tr>
-
 											<th scope="col">Ticket ID</th>
 											<th scope="col">Employee Name</th>
 											<th scope="col">Ticket Detail</th>
@@ -1106,7 +1105,7 @@
 
 
 			<!-- Offcanvas 1 -->
-			<div class="offcanvas  offcanvas-end" tabindex="-1" id="offcanvas1" aria-labelledby="label1">
+			<div class="offcanvas  offcanvas-end msh-offcanvas" tabindex="-1" id="offcanvas1" aria-labelledby="label1">
 				<!-- <div class="offcanvas-header">
 						<h5 class="offcanvas-title" id="label1">Offcanvas 1</h5>
 						<button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
@@ -1131,13 +1130,16 @@
 								</div> -->
 							<div class="mb-0">
 								<label class="form-label  mb-1"></label>
-								<input type="text" class="form-control" placeholder="Employee name ">
-								<!-- <select class="form-select">
-										<option></option>
-										<option></option>
-										<option></option>
-										<option></option>
-									</select> -->
+								<select class="js-example-placeholder-multiple select2 js-states" multiple="multiple">
+                                <option value="fr-1">Michael Anderson</option>
+                                <option value="fr-2">Emily Thompson</option>
+                                <option value="fr-3">Daniel Brooks</option>
+                                <option value="fr-4">Sophia Carter</option>
+                                <option value="fr-5">James Preston</option>
+								<option value="fr-6">Olivia Bennett</option>
+                            </select>
+								<!-- <input type="text" class="form-control" placeholder="Employee name "> -->
+								
 							</div>
 							<div class="mb-0">
 								<label class="form-label  mb-1"></label>
@@ -1246,6 +1248,15 @@
 				console.log("A new date selection was made: " + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD'));
 			});
 		});
+	</script>
+
+	<script>
+		        $(document).ready(function() {
+        $('.js-example-placeholder-multiple').select2({
+            placeholder: "Employee name",
+            allowClear: true
+        });
+    });
 	</script>
 
 </body>

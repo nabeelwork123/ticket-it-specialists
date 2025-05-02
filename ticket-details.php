@@ -8,7 +8,7 @@
     <meta name="keywords" content="">
     <meta name="author" content="">
     <meta name="robots" content="">
-    <title>Ticketing System | Ticket Details</title>
+    <title>Ticket Details | IT Ticketing</title>
 
 
     <?php include 'includes/style.php'; ?>
@@ -188,9 +188,11 @@
 
                             <div class="row align-items-center mt-2">
                                 <div class="col-xl-6 col-lg-6 col-12 d-flex align-items-center">
-                                <div class="btn-group mt-2">
-                                <button type="button" class="btn btn-info">Reply</button>
-                                <button type="button"
+                                <div class="mt-2">
+                                <button type="button" class="btn btn-info me-2">Reply</button>
+
+                                <button type="button" class="btn btn-info">Reply & Mark Ticket as Resolves</button>
+                                <!-- <button type="button"
                                     class="btn btn-info dropdown-toggle dropdown-toggle-split"
                                     id="dropdownMenuReference" data-bs-toggle="dropdown"
                                     aria-expanded="false" data-bs-reference="parent">
@@ -199,7 +201,7 @@
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuReference">
                                     <li><a class="dropdown-item" href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal1">Reply & close ticket</a></li>
                                     <li><a class="dropdown-item" href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal2">Reply & change to waiting for customer</a></li>
-                                </ul>
+                                </ul> -->
                             </div>
                                     <!-- <button type="button" class="btn btn-md btn-success me-2">Send</button>
                                     <button type="button" class="btn btn-md btn-outline-dark">Send & close</button> -->
@@ -391,7 +393,7 @@
                                             <p class="nw-text-cl d-flex align-items-center mb-1"><i
                                                     class="ti ti-circle-filled fs-10 me-1 text-success"></i><b
                                                     class="me-2">Open</b> <span
-                                                    class="text-danger text-decoration-underline cursorPointer" data-bs-toggle="modal" data-bs-target="#exampleModal">Close ticket</span>
+                                                    class="text-success text-decoration-underline">Resolve ticket</span>
                                             </p>
                                         </div>
                                     </div>

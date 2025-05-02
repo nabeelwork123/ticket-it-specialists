@@ -8,7 +8,7 @@
 	<meta name="keywords" content="">
 	<meta name="author" content="">
 	<meta name="robots" content="">
-	<title>Ticketing System</title>
+	<title>My Tickets | IT Ticketing</title>
 
 
 	<?php include 'includes/style.php'; ?>
@@ -84,9 +84,9 @@
 									<h5 class=" mb-1">Your assigned tickets </h5>
 									<!-- <p class="text-body fs-12">List of ticket open by Customers</p> -->
 								</div>
-								<div class="d-flex justify-content-end me-2">
+								<div class="d-flex justify-content-end">
 
-									<a href="javascript:;" data-bs-toggle="offcanvas" data-bs-target="#offcanvas1" class="btn btn-primary btn-sm me-sm-4 py-2 me-2 h-25">Filters</a>
+									<a href="javascript:;" data-bs-toggle="offcanvas" data-bs-target="#offcanvas1" class="btn btn-primary btn-sm py-2 h-25">Filters</a>
 
 									<!-- <select class="form-select me-2 py-0 mb-2 " id="offcanvasSelect">
 												<option value="" selected>Filter by </option>
@@ -97,12 +97,12 @@
 									<!-- <div id="reportrange">
     									<span></span> <i class="fa fa-caret-down"></i>
 									</div>-->
-									<div class="position-relative" id="">
+									<!-- <div class="position-relative" id="">
 										<input type="text" class="form-control fs-14" placeholder="Today" id="reportrange">
 										<span class="input-icon-addon">
 											<i class="ti ti-chevron-down"></i>
 										</span>
-									</div>
+									</div> -->
 
 									<!-- <div class="dropdown mb-2">
 										<a href="javascript:void(0);"
@@ -534,7 +534,7 @@
 
 
 				<!-- Offcanvas 1 -->
-				<div class="offcanvas  offcanvas-end" tabindex="-1" id="offcanvas1" aria-labelledby="label1">
+				<div class="offcanvas  offcanvas-end msh-offcanvas" tabindex="-1" id="offcanvas1" aria-labelledby="label1">
 					<!-- <div class="offcanvas-header">
 						<h5 class="offcanvas-title" id="label1">Offcanvas 1</h5>
 						<button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
@@ -559,7 +559,15 @@
 								</div> -->
 								<div class="mb-0">
 									<label class="form-label  mb-1"></label>
-									<input type="text" class="form-control" placeholder="Employee name ">
+									<select class="js-example-placeholder-multiple select2 js-states" multiple="multiple">
+										<option value="fr-1">Michael Anderson</option>
+										<option value="fr-2">Emily Thompson</option>
+										<option value="fr-3">Daniel Brooks</option>
+										<option value="fr-4">Sophia Carter</option>
+										<option value="fr-5">James Preston</option>
+										<option value="fr-6">Olivia Bennett</option>
+									</select>
+									<!-- <input type="text" class="form-control" placeholder="Employee name "> -->
 									<!-- <select class="form-select">
 										<option></option>
 										<option></option>
@@ -765,6 +773,15 @@
 		//     cb(start, end);
 
 		// });
+	</script>
+
+<script>
+		        $(document).ready(function() {
+        $('.js-example-placeholder-multiple').select2({
+            placeholder: "Employee name",
+            allowClear: true
+        });
+    });
 	</script>
 
 </body>

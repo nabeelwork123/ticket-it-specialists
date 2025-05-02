@@ -646,6 +646,36 @@ counter-reset: item;
     font-weight: 500;
 }
 
+.msh-offcanvas textarea.select2-search__field {
+    margin: 0;
+    font-size: 12px;
+    line-height: 20px;
+    padding-left: 0px;
+}
+
+.msh-offcanvas .select2-container .select2-search--inline .select2-search__field {
+    font-size: 12px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.msh-offcanvas textarea.select2-search__field::placeholder {
+    color: #9fa7b4;
+    font-family: "poppins";
+}
+
+.msh-offcanvas .select2-container--default .select2-selection--multiple {
+    padding-left: 12px;
+}
+
+.msh-offcanvas span#select2-x78r-container-choice-vp1j-fr-2 {
+    font-size: 12px;
+}
+
+.select2-results__options li{
+    font-size: 12px;
+}
+
 /* ------------ Samit Css ----------- */
 
 
